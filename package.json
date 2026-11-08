@@ -1,0 +1,9 @@
+{
+  "name": "search-api-hillclimb",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "bench": "bun bench.ts",
+    "summary": "bun summarize.ts"
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "provider": "exa",
+    "general": "146/146",
+    "coding": "36/36",
+    "total": "182/182",
+    "pct": 100,
+    "codingP50Ms": 1184
+  },
+  {
+    "provider": "exa-deep",
+    "general": "86/86",
+    "coding": "36/36",
+    "total": "122/122",
+    "pct": 100,
+    "codingP50Ms": 3286
+  },
+  {
+    "provider": "context",
+    "general": "145/146",
+    "coding": "36/36",
+    "total": "181/182",
+    "pct": 99.5,
+    "codingP50Ms": 6335
+  },
+  {
+    "provider": "parallel-advanced",
+    "general": "85/86",
+    "coding": "36/36",
+    "total": "121/122",
+    "pct": 99.2,
+    "codingP50Ms": 2350
+  },
+  {
+    "provider": "parallel",
+    "general": "144/146",
+    "coding": "36/36",
+    "total": "180/182",
+    "pct": 98.9,
+    "codingP50Ms": 1531
+  },
+  {
+    "provider": "tavily",
+    "general": "146/146",
+    "coding": "34/36",
+    "total": "180/182",
+    "pct": 98.9,
+    "codingP50Ms": 2539
+  },
+  {
+    "provider": "valyu",
+    "general": "144/146",
+    "coding": "35/36",
+    "total": "179/182",
+    "pct": 98.4,
+    "codingP50Ms": 4298
+  },
+  {
+    "provider": "you",
+    "general": "58/60",
+    "coding": "36/36",
+    "total": "94/96",
+    "pct": 97.9,
+    "codingP50Ms": 982
+  },
+  {
+    "provider": "linkup",
+    "general": "57/60",
+    "coding": "35/36",
+    "total": "92/96",
+    "pct": 95.8,
+    "codingP50Ms": 1545
+  },
+  {
+    "provider": "firecrawl",
+    "general": "56/60",
+    "coding": "34/36",
+    "total": "90/96",
+    "pct": 93.8,
+    "codingP50Ms": 949
+  },
+  {
+    "provider": "tinyfish",
+    "general": "21/24",
+    "coding": "34/36",
+    "total": "55/60",
+    "pct": 91.7,
+    "codingP50Ms": 2274
+  },
+  {
+    "provider": "jina",
+    "general": "16/24",
+    "coding": "33/36",
+    "total": "49/60",
+    "pct": 81.7,
+    "codingP50Ms": 17529
+  }
+]

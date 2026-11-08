@@ -1,0 +1,5247 @@
+{
+  "roundName": "round3",
+  "mode": "single",
+  "runs": 2,
+  "reader": "gpt-5.6-sol",
+  "grader": "gpt-6.1-sol",
+  "rows": [
+    {
+      "provider": "exa",
+      "task": "d-node26",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "May 5, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1280.298708
+      ],
+      "errors": [],
+      "why": "Exact date matches gold and cited official release announcement."
+    },
+    {
+      "provider": "exa",
+      "task": "d-bun14",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "August 20, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1378.91575
+      ],
+      "errors": [],
+      "why": "Exact gold date; cited GitHub release confirms August 20, 2026."
+    },
+    {
+      "provider": "exa",
+      "task": "d-next16",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 22, 2025",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1513.333959
+      ],
+      "errors": [],
+      "why": "Matches gold date and explicitly supported by cited results."
+    },
+    {
+      "provider": "exa",
+      "task": "d-next164",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 6, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2163.7349169999998
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly supported by cited results."
+    },
+    {
+      "provider": "exa",
+      "task": "d-ts7",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "July 8, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1430.5974580000002
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly supported by cited announcement."
+    },
+    {
+      "provider": "exa",
+      "task": "d-expo58",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 15, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        543.2300830000004
+      ],
+      "errors": [],
+      "why": "regraded: gold corrected to 2026-10-15"
+    },
+    {
+      "provider": "exa",
+      "task": "x-expr-depth",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1000",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1531.2244580000006
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated default in cited sources."
+    },
+    {
+      "provider": "exa",
+      "task": "x-map-count",
+      "kind": "docs",
+      "run": 0,
+      "answer": "65530",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1195.0349170000009
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated default in cited documentation."
+    },
+    {
+      "provider": "exa",
+      "task": "x-h2-window",
+      "kind": "docs",
+      "run": 0,
+      "answer": "65,535 octets (2^16 - 1).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1713.5684999999994
+      ],
+      "errors": [],
+      "why": "Matches gold; cited specifications explicitly state this initial value."
+    },
+    {
+      "provider": "exa",
+      "task": "x-tcp-mss",
+      "kind": "docs",
+      "run": 0,
+      "answer": "536 bytes (576-byte IPv4 datagram minus 20-byte IPv4 and 20-byte TCP headers).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1306.3448749999989
+      ],
+      "errors": [],
+      "why": "Matches gold; cited RFCs explicitly support 536-byte default and calculation."
+    },
+    {
+      "provider": "exa",
+      "task": "x-lambda-env",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4 KB in aggregate for all environment variables associated with a single AWS Lambda function. This quota cannot be increased.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1817.9805420000012
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources confirm aggregate, nonadjustable 4 KB quota."
+    },
+    {
+      "provider": "exa",
+      "task": "x-aws-tags",
+      "kind": "docs",
+      "run": 0,
+      "answer": "50 user-created tags per AWS resource.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1172.7951670000002
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS documentation explicitly confirms 50 user-created tags."
+    },
+    {
+      "provider": "exa",
+      "task": "x-pg-autovac",
+      "kind": "docs",
+      "run": 0,
+      "answer": "0.2 (20% of the table size)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1127.893
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm 0.2 (20%)."
+    },
+    {
+      "provider": "exa",
+      "task": "x-nginx-body",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1m (1 MiB)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1604.538958000001
+      ],
+      "errors": [],
+      "why": "Same default value; cited results explicitly state 1 MiB."
+    },
+    {
+      "provider": "exa",
+      "task": "p-lempar",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "lempar.c",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        564.8205830000006
+      ],
+      "errors": [],
+      "why": "Exact match; cited SQLite documentation identifies lempar.c as template."
+    },
+    {
+      "provider": "exa",
+      "task": "p-raft",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "The 2014 USENIX Annual Technical Conference (USENIX ATC ’14).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        568.388167000001
+      ],
+      "errors": [],
+      "why": "Both conference and year match and are explicitly cited."
+    },
+    {
+      "provider": "exa",
+      "task": "p-dragon",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Alfred Vaino Aho and Jeffrey David Ullman, for the 2020 ACM A.M. Turing Award.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1724.625333
+      ],
+      "errors": [],
+      "why": "Both authors and award year match gold and cited sources."
+    },
+    {
+      "provider": "exa",
+      "task": "p-eevdf",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "EEVDF (Earliest Eligible Virtual Deadline First)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1378.8209580000002
+      ],
+      "errors": [],
+      "why": "Exact gold match, explicitly supported by cited sources."
+    },
+    {
+      "provider": "exa",
+      "task": "p-freethread",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Python 3.14",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        515.7722500000018
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm Python 3.14."
+    },
+    {
+      "provider": "exa",
+      "task": "p-static-hermes",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Static Hermes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        563.291707999997
+      ],
+      "errors": [],
+      "why": "Exact match; cited results explicitly identify Static Hermes."
+    },
+    {
+      "provider": "exa",
+      "task": "p-vdpp",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDPP",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        563.5630000000019
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify ICAO code VDPP."
+    },
+    {
+      "provider": "exa",
+      "task": "p-lox",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "The Java tree-walk implementation is jlox, and the C bytecode VM implementation is clox.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        536.1043750000026
+      ],
+      "errors": [],
+      "why": "Both implementation names match and are explicitly supported by citations."
+    },
+    {
+      "provider": "exa",
+      "task": "p-cranelift",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Cranelift",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1323.6258329999982
+      ],
+      "errors": [],
+      "why": "Matches gold; sources identify Cranelift for both roles."
+    },
+    {
+      "provider": "exa",
+      "task": "d-node26",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "May 5, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        220.57883299999958
+      ],
+      "errors": [],
+      "why": "Exact date matches gold and cited official release records."
+    },
+    {
+      "provider": "exa",
+      "task": "d-bun14",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "August 20, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        214.85437500000262
+      ],
+      "errors": [],
+      "why": "Matches gold date and explicit GitHub release publication date."
+    },
+    {
+      "provider": "exa",
+      "task": "d-next16",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 22, 2025",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        219.92787500000122
+      ],
+      "errors": [],
+      "why": "Matches gold date and explicitly supported by cited results."
+    },
+    {
+      "provider": "exa",
+      "task": "d-next164",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 6, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        242.8014170000024
+      ],
+      "errors": [],
+      "why": "Exact gold date; cited sources explicitly confirm October 6, 2026."
+    },
+    {
+      "provider": "exa",
+      "task": "d-ts7",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "July 8, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        213.28670899999997
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly supported by cited release announcement."
+    },
+    {
+      "provider": "exa",
+      "task": "d-expo58",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 15, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        220.65550000000076
+      ],
+      "errors": [],
+      "why": "regraded: gold corrected to 2026-10-15"
+    },
+    {
+      "provider": "exa",
+      "task": "x-expr-depth",
+      "kind": "docs",
+      "run": 1,
+      "answer": "1000",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        214.9500840000037
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated default in cited sources."
+    },
+    {
+      "provider": "exa",
+      "task": "x-map-count",
+      "kind": "docs",
+      "run": 1,
+      "answer": "65530",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        227.95029200000135
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated in cited kernel documentation."
+    },
+    {
+      "provider": "exa",
+      "task": "x-h2-window",
+      "kind": "docs",
+      "run": 1,
+      "answer": "65,535 octets (2^16 - 1).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        209.9903340000019
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly stated in cited specifications."
+    },
+    {
+      "provider": "exa",
+      "task": "x-tcp-mss",
+      "kind": "docs",
+      "run": 1,
+      "answer": "536 bytes (576-byte IPv4 datagram minus 20-byte IPv4 and 20-byte TCP headers).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        213.44645799999853
+      ],
+      "errors": [],
+      "why": "Matches gold; cited RFCs explicitly specify 536-byte default MSS."
+    },
+    {
+      "provider": "exa",
+      "task": "x-lambda-env",
+      "kind": "docs",
+      "run": 1,
+      "answer": "4 KB total, in aggregate, for all environment variables associated with a single AWS Lambda function. This quota cannot be increased.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        225.36387500000274
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS documentation confirms aggregate, nonadjustable quota."
+    },
+    {
+      "provider": "exa",
+      "task": "x-aws-tags",
+      "kind": "docs",
+      "run": 1,
+      "answer": "50 user-created tags per AWS resource.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        221.78895799999736
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS documentation explicitly states 50 user-created tags."
+    },
+    {
+      "provider": "exa",
+      "task": "x-pg-autovac",
+      "kind": "docs",
+      "run": 1,
+      "answer": "0.2 (20% of the table size)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        218.4221250000046
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly supported by cited sources."
+    },
+    {
+      "provider": "exa",
+      "task": "x-nginx-body",
+      "kind": "docs",
+      "run": 1,
+      "answer": "1m (1 MiB)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        227.95816699999705
+      ],
+      "errors": [],
+      "why": "Both specify 1m; cited result explicitly states 1 MiB."
+    },
+    {
+      "provider": "exa",
+      "task": "p-lempar",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "lempar.c",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        218.3721249999944
+      ],
+      "errors": [],
+      "why": "Exact match; cited SQLite documentation identifies lempar.c as the template."
+    },
+    {
+      "provider": "exa",
+      "task": "p-raft",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "The 2014 USENIX Annual Technical Conference (USENIX ATC ’14).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        209.32570800000394
+      ],
+      "errors": [],
+      "why": "Both conference and year match gold and cited sources."
+    },
+    {
+      "provider": "exa",
+      "task": "p-dragon",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Alfred Vaino Aho and Jeffrey David Ullman, for the 2020 ACM A.M. Turing Award.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        239.70354200000293
+      ],
+      "errors": [],
+      "why": "Both names and award year match gold and cited sources."
+    },
+    {
+      "provider": "exa",
+      "task": "p-eevdf",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "EEVDF (Earliest Eligible Virtual Deadline First)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        221.17845799999486
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources confirm EEVDF replaced CFS."
+    },
+    {
+      "provider": "exa",
+      "task": "p-freethread",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Python 3.14",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        217.94641600000614
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm Python 3.14."
+    },
+    {
+      "provider": "exa",
+      "task": "p-static-hermes",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Static Hermes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        264.3885830000072
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources explicitly name Static Hermes."
+    },
+    {
+      "provider": "exa",
+      "task": "p-vdpp",
+      "kind": "fact",
+      "run": 1,
+      "answer": "VDPP",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        222.08237499999814
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly list ICAO code VDPP."
+    },
+    {
+      "provider": "exa",
+      "task": "p-lox",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "The Java tree-walk implementation is jlox, and the C bytecode VM implementation is clox.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        220.42670799999905
+      ],
+      "errors": [],
+      "why": "Both names match gold and are explicitly supported by citations."
+    },
+    {
+      "provider": "exa",
+      "task": "p-cranelift",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Cranelift",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        232.10695800000394
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources confirm both roles for Cranelift."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "d-node26",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "May 5, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3598.97525
+      ],
+      "errors": [],
+      "why": "Exact date matches gold and cited official release announcement."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "d-bun14",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "August 20, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3471.375917
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated official release date."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "d-next16",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 22, 2025",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4056.036792
+      ],
+      "errors": [],
+      "why": "Matches accepted date and explicitly supported by cited results."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "d-next164",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 6, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2798.2538749999994
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly supported by cited results."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "d-ts7",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "July 8, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2616.6752079999987
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly supported by cited release announcements."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "d-expo58",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 15, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5532.384708
+      ],
+      "errors": [],
+      "why": "regraded: gold corrected to 2026-10-15"
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-expr-depth",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1000 levels",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3161.2748329999995
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 1000 levels."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-map-count",
+      "kind": "docs",
+      "run": 0,
+      "answer": "65530",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3712.820625000002
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated default in cited documentation."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-h2-window",
+      "kind": "docs",
+      "run": 0,
+      "answer": "65,535 octets (2^16 − 1).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2778.962083999999
+      ],
+      "errors": [],
+      "why": "Matches gold exactly and is explicitly supported by cited specifications."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-tcp-mss",
+      "kind": "docs",
+      "run": 0,
+      "answer": "536 bytes (576-byte IPv4 datagram minus 20-byte IPv4 and 20-byte TCP headers).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3106.2860419999997
+      ],
+      "errors": [],
+      "why": "Matches gold; cited RFCs explicitly specify 536 bytes."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-lambda-env",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4 KB total, aggregated across all environment variables for the function. This quota cannot be increased.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3124.470458
+      ],
+      "errors": [],
+      "why": "Matches gold; citations confirm aggregate limit and nonadjustable quota."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-aws-tags",
+      "kind": "docs",
+      "run": 0,
+      "answer": "50 user-created tags per AWS resource.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2705.7117910000015
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS documentation explicitly states 50 user-created tags."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-pg-autovac",
+      "kind": "docs",
+      "run": 0,
+      "answer": "0.2 (20% of the table size)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2310.055375
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm 0.2 (20%)."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-nginx-body",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1m (1 MiB)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2336.3020829999987
+      ],
+      "errors": [],
+      "why": "Same default; cited results explicitly state 1m and 1 MiB."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-lempar",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "lempar.c",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2542.177708000003
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources explicitly identify lempar.c as template."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-raft",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "The 2014 USENIX Annual Technical Conference (USENIX ATC ’14).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2691.4723749999976
+      ],
+      "errors": [],
+      "why": "Conference and year match gold and cited sources."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-dragon",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Alfred Vaino Aho and Jeffrey David Ullman — the 2020 ACM A.M. Turing Award.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3002.2342080000017
+      ],
+      "errors": [],
+      "why": "Both names and award year match gold and cited sources."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-eevdf",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "EEVDF (Earliest Eligible Virtual Deadline First)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2945.0342909999963
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly confirm EEVDF replaced CFS."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-freethread",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Python 3.14",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3392.721375000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm Python 3.14."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-static-hermes",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Static Hermes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4791.9906670000055
+      ],
+      "errors": [],
+      "why": "Exact match; citations explicitly identify Static Hermes."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-vdpp",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDPP",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3409.2806249999994
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly list ICAO code VDPP."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-lox",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "The Java tree-walk implementation is `jlox`, and the C bytecode VM implementation is `clox`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3732.469250000002
+      ],
+      "errors": [],
+      "why": "Both names match gold and are explicitly supported by citations."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-cranelift",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Cranelift",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3765.1117500000037
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources confirm both uses of Cranelift."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "d-node26",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "May 5, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7156.636917000003
+      ],
+      "errors": [],
+      "why": "Exact date matches gold and cited official release sources."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "d-bun14",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "August 20, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1269.4229169999962
+      ],
+      "errors": [],
+      "why": "Matches gold date and is explicitly supported by sources."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "d-next16",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 22, 2025",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2967.360832999999
+      ],
+      "errors": [],
+      "why": "Matches gold date and is explicitly supported by citations."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "d-next164",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 6, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1393.142875000005
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly confirm release date."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "d-ts7",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "July 8, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2213.4294999999984
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly supported by cited release announcements."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "d-expo58",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 15, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3473.301416999995
+      ],
+      "errors": [],
+      "why": "regraded: gold corrected to 2026-10-15"
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-expr-depth",
+      "kind": "docs",
+      "run": 1,
+      "answer": "1000 levels",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1529.3254159999924
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 1000 levels."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-map-count",
+      "kind": "docs",
+      "run": 1,
+      "answer": "65530",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1748.105917000008
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated default in cited sources."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-h2-window",
+      "kind": "docs",
+      "run": 1,
+      "answer": "65,535 octets (2^16 − 1).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1532.3818339999998
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly supported by cited specifications."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-tcp-mss",
+      "kind": "docs",
+      "run": 1,
+      "answer": "536 bytes.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3288.8878750000003
+      ],
+      "errors": [],
+      "why": "Matches gold; cited RFCs explicitly specify 536 bytes."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-lambda-env",
+      "kind": "docs",
+      "run": 1,
+      "answer": "4 KB in aggregate across all environment variables for a single AWS Lambda function. This quota cannot be increased.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1261.9466249999969
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS sources confirm nonadjustable aggregate quota."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-aws-tags",
+      "kind": "docs",
+      "run": 1,
+      "answer": "50 user-created tags per AWS resource. AWS-generated tags do not count toward this limit.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1419.1396669999958
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation confirms limit and AWS-generated exemption."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-pg-autovac",
+      "kind": "docs",
+      "run": 1,
+      "answer": "0.2 (20% of the table size)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1430.823332999993
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated in cited sources."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "x-nginx-body",
+      "kind": "docs",
+      "run": 1,
+      "answer": "1 MiB (`client_max_body_size 1m;`)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1185.502582999994
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation confirms default client_max_body_size 1m."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-lempar",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "lempar.c",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1929.55750000001
+      ],
+      "errors": [],
+      "why": "Exact match; cited SQLite documentation identifies lempar.c as template."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-raft",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "The 2014 USENIX Annual Technical Conference (USENIX ATC ’14).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1913.4287089999998
+      ],
+      "errors": [],
+      "why": "Both conference and year match gold and cited sources."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-dragon",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Alfred Vaino Aho and Jeffrey David Ullman, for the 2020 ACM A.M. Turing Award.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1695.6315829999949
+      ],
+      "errors": [],
+      "why": "Both authors and award year match gold and cited sources."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-eevdf",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "EEVDF (Earliest Eligible Virtual Deadline First)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1267.937082999997
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly confirm EEVDF replaced CFS."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-freethread",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Python 3.14",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5007.124708999996
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm Python 3.14."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-static-hermes",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Static Hermes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4138.406208
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources explicitly identify Static Hermes."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-vdpp",
+      "kind": "fact",
+      "run": 1,
+      "answer": "VDPP",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2386.519207999998
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state ICAO code VDPP."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-lox",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "The Java tree-walk implementation is `jlox`, and the C bytecode VM implementation is `clox`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1831.2308750000084
+      ],
+      "errors": [],
+      "why": "Both names match gold and are explicitly supported by citations."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "p-cranelift",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Cranelift",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1506.9645420000015
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources confirm both uses of Cranelift."
+    },
+    {
+      "provider": "parallel",
+      "task": "d-node26",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "May 5, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1584.8560830000001
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly supported by cited results."
+    },
+    {
+      "provider": "parallel",
+      "task": "d-bun14",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "August 20, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2502.3603749999997
+      ],
+      "errors": [],
+      "why": "Exact gold date match, explicitly supported by cited releases."
+    },
+    {
+      "provider": "parallel",
+      "task": "d-next16",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 22, 2025",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1648.36675
+      ],
+      "errors": [],
+      "why": "Matches gold date and explicitly cited release date."
+    },
+    {
+      "provider": "parallel",
+      "task": "d-next164",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 6, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1366.9127500000004
+      ],
+      "errors": [],
+      "why": "Exact gold date match, explicitly supported by cited results."
+    },
+    {
+      "provider": "parallel",
+      "task": "d-ts7",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "July 8, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1769.8041250000006
+      ],
+      "errors": [],
+      "why": "Exact gold date match, explicitly supported by cited results."
+    },
+    {
+      "provider": "parallel",
+      "task": "d-expo58",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 15, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1361.4475000000002
+      ],
+      "errors": [],
+      "why": "regraded: gold corrected to 2026-10-15"
+    },
+    {
+      "provider": "parallel",
+      "task": "x-expr-depth",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1000",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1438.2247499999994
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation explicitly states default is 1000."
+    },
+    {
+      "provider": "parallel",
+      "task": "x-map-count",
+      "kind": "docs",
+      "run": 0,
+      "answer": "65530",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1994.84375
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated default in cited documentation."
+    },
+    {
+      "provider": "parallel",
+      "task": "x-h2-window",
+      "kind": "docs",
+      "run": 0,
+      "answer": "65,535 octets (2^16 − 1).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1762.7268750000003
+      ],
+      "errors": [],
+      "why": "Matches gold exactly and is explicitly supported by sources."
+    },
+    {
+      "provider": "parallel",
+      "task": "x-tcp-mss",
+      "kind": "docs",
+      "run": 0,
+      "answer": "536 bytes (576 − 40).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1531.0536250000005
+      ],
+      "errors": [],
+      "why": "Matches gold; cited RFC text explicitly specifies 536 (576−40)."
+    },
+    {
+      "provider": "parallel",
+      "task": "x-lambda-env",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4 KB total, in aggregate, for all environment variables associated with the function.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1450.575667000001
+      ],
+      "errors": [],
+      "why": "Matches gold; AWS documentation explicitly states 4 KB aggregate."
+    },
+    {
+      "provider": "parallel",
+      "task": "x-aws-tags",
+      "kind": "docs",
+      "run": 0,
+      "answer": "50 user-created tags per AWS resource. AWS-generated tags do not count toward this limit.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1357.2956250000025
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS documentation explicitly supports both statements."
+    },
+    {
+      "provider": "parallel",
+      "task": "x-pg-autovac",
+      "kind": "docs",
+      "run": 0,
+      "answer": "0.2 (20% of table size)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1551.4442909999998
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited PostgreSQL documentation explicitly confirms default."
+    },
+    {
+      "provider": "parallel",
+      "task": "x-nginx-body",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1 MiB (configured as `client_max_body_size 1m;`).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1486.2908330000027
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly confirm 1 MiB and 1m."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-lempar",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "lempar.c",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1493.4206669999985
+      ],
+      "errors": [],
+      "why": "Exact match; cited documentation identifies lempar.c as Lemon's template."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-raft",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "The paper was published at the 2014 USENIX Annual Technical Conference (USENIX ATC ’14).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1575.5822079999998
+      ],
+      "errors": [],
+      "why": "Both conference and year match gold and cited sources."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-dragon",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Alfred Aho and Jeffrey Ullman, for the 2020 ACM A.M. Turing Award.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1630.2271669999973
+      ],
+      "errors": [],
+      "why": "Both authors and award year match gold and cited sources."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-eevdf",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Earliest Eligible Virtual Deadline First (EEVDF)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1717.3894999999975
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources explicitly identify EEVDF as CFS replacement."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-freethread",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Python 3.14",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1873.6160840000011
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation explicitly confirms Python 3.14."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-static-hermes",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        1542.335957999996
+      ],
+      "errors": [],
+      "why": "UNKNOWN does not match Static Hermes; no sources cited."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-vdpp",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDPP",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1771.6389159999962
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly list ICAO code VDPP."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-lox",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "The Java tree-walk implementation is jlox, and the C bytecode VM implementation is clox.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2027.1687909999964
+      ],
+      "errors": [],
+      "why": "Both names match gold and are explicitly supported by citations."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-cranelift",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Cranelift",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1626.2453749999986
+      ],
+      "errors": [],
+      "why": "Matches gold; sources confirm both Wasmtime and rustc usage."
+    },
+    {
+      "provider": "parallel",
+      "task": "d-node26",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "May 5, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1126.667082999993
+      ],
+      "errors": [],
+      "why": "Exact date matches gold and official Node.js release announcement."
+    },
+    {
+      "provider": "parallel",
+      "task": "d-bun14",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "August 20, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        967.6474999999991
+      ],
+      "errors": [],
+      "why": "Exact gold date match, explicitly supported by cited release results."
+    },
+    {
+      "provider": "parallel",
+      "task": "d-next16",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 22, 2025",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1207.739791
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated release date in citations."
+    },
+    {
+      "provider": "parallel",
+      "task": "d-next164",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 6, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1666.9921659999964
+      ],
+      "errors": [],
+      "why": "Exact gold date match, explicitly supported by cited results."
+    },
+    {
+      "provider": "parallel",
+      "task": "d-ts7",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "July 8, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        938.9402499999997
+      ],
+      "errors": [],
+      "why": "Exact gold date; cited results explicitly confirm stable release."
+    },
+    {
+      "provider": "parallel",
+      "task": "d-expo58",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 15, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1461.6443330000038
+      ],
+      "errors": [],
+      "why": "regraded: gold corrected to 2026-10-15"
+    },
+    {
+      "provider": "parallel",
+      "task": "x-expr-depth",
+      "kind": "docs",
+      "run": 1,
+      "answer": "1000",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1001.0739580000009
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation explicitly states default is 1000."
+    },
+    {
+      "provider": "parallel",
+      "task": "x-map-count",
+      "kind": "docs",
+      "run": 1,
+      "answer": "65530",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1153.3369999999995
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated default in cited documentation."
+    },
+    {
+      "provider": "parallel",
+      "task": "x-h2-window",
+      "kind": "docs",
+      "run": 1,
+      "answer": "65,535 octets (2^16 − 1).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1118.6258329999982
+      ],
+      "errors": [],
+      "why": "Matches gold exactly and is explicitly supported by cited specifications."
+    },
+    {
+      "provider": "parallel",
+      "task": "x-tcp-mss",
+      "kind": "docs",
+      "run": 1,
+      "answer": "536 bytes (576 minus 20-byte IPv4 and 20-byte TCP headers).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1308.2386250000127
+      ],
+      "errors": [],
+      "why": "Matches gold; cited RFC text explicitly confirms default MSS."
+    },
+    {
+      "provider": "parallel",
+      "task": "x-lambda-env",
+      "kind": "docs",
+      "run": 1,
+      "answer": "4 KB in aggregate for all environment variables associated with the function.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1390.2033749999973
+      ],
+      "errors": [],
+      "why": "Matches gold; AWS documentation explicitly confirms the aggregate limit."
+    },
+    {
+      "provider": "parallel",
+      "task": "x-aws-tags",
+      "kind": "docs",
+      "run": 1,
+      "answer": "50 user-created tags per AWS resource.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1116.8001670000085
+      ],
+      "errors": [],
+      "why": "Matches gold; AWS documentation explicitly states 50 user-created tags."
+    },
+    {
+      "provider": "parallel",
+      "task": "x-pg-autovac",
+      "kind": "docs",
+      "run": 1,
+      "answer": "0.2 (20% of the table size)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1113.6734589999978
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly stated in cited documentation."
+    },
+    {
+      "provider": "parallel",
+      "task": "x-nginx-body",
+      "kind": "docs",
+      "run": 1,
+      "answer": "1 MiB (configured as `client_max_body_size 1m;`).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1152.4380000000092
+      ],
+      "errors": [],
+      "why": "Matches default 1m; cited results explicitly confirm 1 MiB."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-lempar",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "lempar.c",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1120.294167
+      ],
+      "errors": [],
+      "why": "Exact match; cited documentation explicitly identifies lempar.c as the template."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-raft",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "The 2014 USENIX Annual Technical Conference (USENIX ATC ’14), in 2014.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1098.4295830000046
+      ],
+      "errors": [],
+      "why": "Both conference and year match gold and cited sources."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-dragon",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Alfred Aho and Jeffrey Ullman, for the 2020 ACM A.M. Turing Award.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1005.4447499999951
+      ],
+      "errors": [],
+      "why": "Both names and award year match gold and cited sources."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-eevdf",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Earliest Eligible Virtual Deadline First (EEVDF)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1128.6600000000035
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly confirm EEVDF replaced CFS."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-freethread",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Python 3.14",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1086.3903750000027
+      ],
+      "errors": [],
+      "why": "Matches gold; cited official documentation confirms Python 3.14."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-static-hermes",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        1394.564624999999
+      ],
+      "errors": [],
+      "why": "UNKNOWN is incorrect; no cited results support it."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-vdpp",
+      "kind": "fact",
+      "run": 1,
+      "answer": "VDPP",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1184.5882500000007
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly list ICAO code VDPP."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-lox",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "The Java tree-walk implementation is `jlox`, and the C bytecode VM implementation is `clox`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1180.703874999992
+      ],
+      "errors": [],
+      "why": "Both required names match and are explicitly supported by citations."
+    },
+    {
+      "provider": "parallel",
+      "task": "p-cranelift",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Cranelift",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1281.4531669999997
+      ],
+      "errors": [],
+      "why": "Exact match; sources confirm both Wasmtime and rustc usage."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "d-node26",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "May 5, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2696.839583
+      ],
+      "errors": [],
+      "why": "Exact date matches gold and cited release sources."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "d-bun14",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "August 20, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2763.598166
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly supported by cited release sources."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "d-next16",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 22, 2025",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2187.806875
+      ],
+      "errors": [],
+      "why": "Matches gold date and cited GitHub release publication date."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "d-next164",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 6, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1998.2557500000012
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly supported by cited sources."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "d-ts7",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "July 8, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2609.0451669999993
+      ],
+      "errors": [],
+      "why": "Exact gold date match, explicitly supported by cited results."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "d-expo58",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 15, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2146.571291
+      ],
+      "errors": [],
+      "why": "regraded: gold corrected to 2026-10-15"
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-expr-depth",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1000",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3584.2038329999996
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated default in cited documentation."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-map-count",
+      "kind": "docs",
+      "run": 0,
+      "answer": "65530 in the Linux kernel, though some documentation reports 65536 and distributions may override it (for example, Arch Linux uses 1048576).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2702.904834000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results support default and both caveats."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-h2-window",
+      "kind": "docs",
+      "run": 0,
+      "answer": "2^16 - 1 (65,535) octets",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2276.1860830000005
+      ],
+      "errors": [],
+      "why": "Matches gold; cited specifications explicitly state this initial value."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-tcp-mss",
+      "kind": "docs",
+      "run": 0,
+      "answer": "536 octets (576-byte IPv4 datagram minus 20-byte IPv4 and 20-byte TCP headers).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3073.9043749999983
+      ],
+      "errors": [],
+      "why": "Matches gold; cited RFC explicitly specifies 536 (576−40)."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-lambda-env",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4 KB (4096 bytes) in aggregate for all environment variables associated with a single AWS Lambda function.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2593.5387499999997
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS documentation confirms the aggregate limit."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-aws-tags",
+      "kind": "docs",
+      "run": 0,
+      "answer": "50 user-created tags per AWS resource.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3122.6672919999983
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly supported by AWS documentation."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-pg-autovac",
+      "kind": "docs",
+      "run": 0,
+      "answer": "0.2 (20% of the table size)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2105.623166999998
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated PostgreSQL documentation default."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-nginx-body",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1m (1 MiB)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2238.9179159999985
+      ],
+      "errors": [],
+      "why": "Matches gold's 1m default; citations explicitly confirm 1 MiB."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-lempar",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "lempar.c",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3475.078666999998
+      ],
+      "errors": [],
+      "why": "Exact match; cited documentation explicitly identifies lempar.c as template."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-raft",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "2014 USENIX Annual Technical Conference (USENIX ATC 14), in 2014.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2380.248083999999
+      ],
+      "errors": [],
+      "why": "Both conference and year match gold and cited sources."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-dragon",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Alfred Aho and Jeffrey Ullman, for the 2020 ACM A.M. Turing Award.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2594.8395420000015
+      ],
+      "errors": [],
+      "why": "Both authors and award year match gold and cited sources."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-eevdf",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "EEVDF (Earliest Eligible Virtual Deadline First)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3251.762625000003
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly confirm EEVDF replaced CFS."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-freethread",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Python 3.14",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2217.4165830000056
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly supported by official documentation."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-static-hermes",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Static Hermes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3591.5027919999993
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly name Static Hermes."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-vdpp",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDPP",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2269.2024999999994
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly list ICAO VDPP."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-lox",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "The Java tree-walk implementation is `jlox`, and the C bytecode VM implementation is `clox`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4166.108458000002
+      ],
+      "errors": [],
+      "why": "Both required names match gold and are explicitly cited."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-cranelift",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Cranelift",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4102.691957999996
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly supported by cited sources."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "d-node26",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "May 5, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1041.1097500000033
+      ],
+      "errors": [],
+      "why": "Exact date matches gold and cited release sources."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "d-bun14",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "August 20, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1226.0515000000014
+      ],
+      "errors": [],
+      "why": "Exact date matches gold and cited release publication timestamp."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "d-next16",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 22, 2025",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        986.1645839999983
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly cited GitHub release publication date."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "d-next164",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 6, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1615.4111249999987
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly confirm the release date."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "d-ts7",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "July 8, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1162.847167
+      ],
+      "errors": [],
+      "why": "Exact gold date; cited results explicitly confirm July 8, 2026."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "d-expo58",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 15, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1015.4624580000091
+      ],
+      "errors": [],
+      "why": "regraded: gold corrected to 2026-10-15"
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-expr-depth",
+      "kind": "docs",
+      "run": 1,
+      "answer": "1000",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1282.135957999999
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated default in cited sources."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-map-count",
+      "kind": "docs",
+      "run": 1,
+      "answer": "65530 in the Linux kernel; some documentation incorrectly lists 65536, and distributions may override it (for example, Arch Linux uses 1048576).",
+      "correct": true,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        1020.3761669999949
+      ],
+      "errors": [],
+      "why": "Correct default; claim about incorrect documentation is unsupported."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-h2-window",
+      "kind": "docs",
+      "run": 1,
+      "answer": "65,535 octets (2^16 - 1)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1041.7658750000119
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly stated in cited specifications."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-tcp-mss",
+      "kind": "docs",
+      "run": 1,
+      "answer": "536 bytes (576 − 40).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        974.2229999999981
+      ],
+      "errors": [],
+      "why": "Matches gold; cited RFC explicitly specifies 536 (576−40)."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-lambda-env",
+      "kind": "docs",
+      "run": 1,
+      "answer": "4 KB total for all environment variables associated with a single AWS Lambda function.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1015.1874580000003
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly supported by cited AWS documentation."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-aws-tags",
+      "kind": "docs",
+      "run": 1,
+      "answer": "50 user-created tags per AWS resource.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1040.9742079999996
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated in both cited sources."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-pg-autovac",
+      "kind": "docs",
+      "run": 1,
+      "answer": "0.2 (20% of the table size)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1013.3617079999967
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated PostgreSQL documentation default."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "x-nginx-body",
+      "kind": "docs",
+      "run": 1,
+      "answer": "1m (1 MiB)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        945.3789580000011
+      ],
+      "errors": [],
+      "why": "Both specify 1m; cited results explicitly confirm 1 MiB."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-lempar",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "lempar.c",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1035.4153749999969
+      ],
+      "errors": [],
+      "why": "Exact match; cited documentation identifies lempar.c as the template."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-raft",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "The 2014 USENIX Annual Technical Conference (USENIX ATC ’14), in 2014.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2709.8285830000095
+      ],
+      "errors": [],
+      "why": "Conference and year match gold and cited proceedings."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-dragon",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Alfred Aho and Jeffrey Ullman, for the 2020 ACM A.M. Turing Award.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1904.672458000001
+      ],
+      "errors": [],
+      "why": "Both names and award year match and are explicitly supported."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-eevdf",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "EEVDF (Earliest Eligible Virtual Deadline First)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1133.281999999992
+      ],
+      "errors": [],
+      "why": "Exact gold match, explicitly supported by cited sources."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-freethread",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Python 3.14",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1622.9860830000107
+      ],
+      "errors": [],
+      "why": "Matches gold; official Python documentation explicitly confirms version 3.14."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-static-hermes",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Static Hermes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1133.9905419999996
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited results explicitly identify Static Hermes."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-vdpp",
+      "kind": "fact",
+      "run": 1,
+      "answer": "VDPP",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2108.3667910000077
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify ICAO code VDPP."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-lox",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "The Java tree-walk implementation is `jlox`, and the C bytecode VM implementation is `clox`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1627.0668329999899
+      ],
+      "errors": [],
+      "why": "Both names match gold and are explicitly supported by citations."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "p-cranelift",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Cranelift",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1047.3430839999928
+      ],
+      "errors": [],
+      "why": "Exact match; sources confirm both Wasmtime and rustc use Cranelift."
+    },
+    {
+      "provider": "tavily",
+      "task": "d-node26",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "May 5, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3372.250625
+      ],
+      "errors": [],
+      "why": "Exact date matches gold and cited official release announcement."
+    },
+    {
+      "provider": "tavily",
+      "task": "d-bun14",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "August 20, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3534.042958
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited release announcement confirms August 20, 2026."
+    },
+    {
+      "provider": "tavily",
+      "task": "d-next16",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 22, 2025",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3083.7319589999997
+      ],
+      "errors": [],
+      "why": "Matches gold date and cited release table."
+    },
+    {
+      "provider": "tavily",
+      "task": "d-next164",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 6, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2608.924209
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly supported by cited results."
+    },
+    {
+      "provider": "tavily",
+      "task": "d-ts7",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "July 8, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3905.0358749999996
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly supported by cited Microsoft announcement."
+    },
+    {
+      "provider": "tavily",
+      "task": "d-expo58",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 16, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1975.9792910000006
+      ],
+      "errors": [],
+      "why": "regraded: gold corrected to 2026-10-15"
+    },
+    {
+      "provider": "tavily",
+      "task": "x-expr-depth",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1000",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2684.337374999999
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated default in SQLite documentation."
+    },
+    {
+      "provider": "tavily",
+      "task": "x-map-count",
+      "kind": "docs",
+      "run": 0,
+      "answer": "65530 (the standard Linux default; Arch Linux changed its configured default to 1048576 in April 2024).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3219.6610409999994
+      ],
+      "errors": [],
+      "why": "Matches gold; both default and Arch change are explicitly supported."
+    },
+    {
+      "provider": "tavily",
+      "task": "x-h2-window",
+      "kind": "docs",
+      "run": 0,
+      "answer": "2^16 - 1 (65,535) octets.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2436.184083
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly stated in cited specifications."
+    },
+    {
+      "provider": "tavily",
+      "task": "x-tcp-mss",
+      "kind": "docs",
+      "run": 0,
+      "answer": "536 bytes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2105.2518750000017
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 536 bytes."
+    },
+    {
+      "provider": "tavily",
+      "task": "x-lambda-env",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4 KB (4096 bytes) total across all environment variables associated with a single function, in aggregate.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3903.9091249999983
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS documentation confirms aggregate 4 KB limit."
+    },
+    {
+      "provider": "tavily",
+      "task": "x-aws-tags",
+      "kind": "docs",
+      "run": 0,
+      "answer": "50 user-created tags per AWS resource.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2464.4738749999997
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS documentation explicitly states 50 user-created tags."
+    },
+    {
+      "provider": "tavily",
+      "task": "x-pg-autovac",
+      "kind": "docs",
+      "run": 0,
+      "answer": "0.2 (20% of the table size)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2732.5930000000008
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly stated in cited documentation."
+    },
+    {
+      "provider": "tavily",
+      "task": "x-nginx-body",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1 megabyte (1M).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3953.7517910000024
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly state 1 megabyte (1M)."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-lempar",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "lempar.c",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2777.4369579999984
+      ],
+      "errors": [],
+      "why": "Exact match; cited text identifies lempar.c as the template."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-raft",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "The 2014 USENIX Annual Technical Conference (USENIX ATC ’14).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4274.033958
+      ],
+      "errors": [],
+      "why": "Both conference and year match gold and cited sources."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-dragon",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Alfred Vaino Aho and Jeffrey David Ullman, for the 2020 award year.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2863.951374999997
+      ],
+      "errors": [],
+      "why": "Both names and award year match gold and cited sources."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-eevdf",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "EEVDF (Earliest Eligible Virtual Deadline First)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2759.1818330000024
+      ],
+      "errors": [],
+      "why": "Exact gold match, explicitly supported by cited sources."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-freethread",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Python 3.14",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2140.565499999997
+      ],
+      "errors": [],
+      "why": "Matches gold; official Python documentation confirms version 3.14."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-static-hermes",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Static Hermes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2934.4325839999947
+      ],
+      "errors": [],
+      "why": "Exact match; cited results describe Static Hermes and its features."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-vdpp",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDPP",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2297.243542000004
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify ICAO code VDPP."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-lox",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "The Java tree-walk implementation is jlox, and the C bytecode VM implementation is clox.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2839.3783750000002
+      ],
+      "errors": [],
+      "why": "Both names match gold and are explicitly supported by citations."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-cranelift",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Cranelift",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2295.1099170000016
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Cranelift."
+    },
+    {
+      "provider": "tavily",
+      "task": "d-node26",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "May 5, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        270.51612499999464
+      ],
+      "errors": [],
+      "why": "Exact date matches gold and cited official release announcement."
+    },
+    {
+      "provider": "tavily",
+      "task": "d-bun14",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "August 20, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        277.9769589999996
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited release announcement confirms August 20, 2026."
+    },
+    {
+      "provider": "tavily",
+      "task": "d-next16",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 22, 2025",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        269.0966249999983
+      ],
+      "errors": [],
+      "why": "Matches gold date and cited release date."
+    },
+    {
+      "provider": "tavily",
+      "task": "d-next164",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 6, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        271.96366699999635
+      ],
+      "errors": [],
+      "why": "Exact date matches gold and is explicitly supported by citations."
+    },
+    {
+      "provider": "tavily",
+      "task": "d-ts7",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "July 8, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        267.356458000002
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly supported by the official announcement."
+    },
+    {
+      "provider": "tavily",
+      "task": "d-expo58",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 16, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        263.1689169999954
+      ],
+      "errors": [],
+      "why": "regraded: gold corrected to 2026-10-15"
+    },
+    {
+      "provider": "tavily",
+      "task": "x-expr-depth",
+      "kind": "docs",
+      "run": 1,
+      "answer": "1000",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        274.9037090000056
+      ],
+      "errors": [],
+      "why": "Matches gold; SQLite documentation explicitly states default is 1000."
+    },
+    {
+      "provider": "tavily",
+      "task": "x-map-count",
+      "kind": "docs",
+      "run": 1,
+      "answer": "65530 (the standard Linux default; Arch Linux increased its distribution default to 1048576 in April 2024).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        275.10320800000045
+      ],
+      "errors": [],
+      "why": "Matches gold; both default and Arch exception are cited."
+    },
+    {
+      "provider": "tavily",
+      "task": "x-h2-window",
+      "kind": "docs",
+      "run": 1,
+      "answer": "2^16 - 1 (65,535) octets.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        283.5544169999921
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly stated in cited specifications."
+    },
+    {
+      "provider": "tavily",
+      "task": "x-tcp-mss",
+      "kind": "docs",
+      "run": 1,
+      "answer": "536 bytes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        273.8854169999977
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 536 bytes."
+    },
+    {
+      "provider": "tavily",
+      "task": "x-lambda-env",
+      "kind": "docs",
+      "run": 1,
+      "answer": "4 KB (4096 bytes) total across all environment variables associated with a single function, in aggregate.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        281.99237500000163
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly supported by cited AWS documentation."
+    },
+    {
+      "provider": "tavily",
+      "task": "x-aws-tags",
+      "kind": "docs",
+      "run": 1,
+      "answer": "50 user-created tags per AWS resource.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        272.07450000000244
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly supported by both cited sources."
+    },
+    {
+      "provider": "tavily",
+      "task": "x-pg-autovac",
+      "kind": "docs",
+      "run": 1,
+      "answer": "0.2 (20% of the table size)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        272.3369160000002
+      ],
+      "errors": [],
+      "why": "Matches gold; cited PostgreSQL documentation explicitly confirms default."
+    },
+    {
+      "provider": "tavily",
+      "task": "x-nginx-body",
+      "kind": "docs",
+      "run": 1,
+      "answer": "1 megabyte (1M).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        278.37162499999977
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 1 megabyte (1M)."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-lempar",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "lempar.c",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        270.89487499999814
+      ],
+      "errors": [],
+      "why": "Matches gold; cited text identifies lempar.c as the template."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-raft",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "The 2014 USENIX Annual Technical Conference (USENIX ATC '14).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        268.1178749999963
+      ],
+      "errors": [],
+      "why": "Conference and year match gold and cited sources."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-dragon",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Alfred Vaino Aho and Jeffrey David Ullman, for the 2020 ACM A.M. Turing Award.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        270.7940830000007
+      ],
+      "errors": [],
+      "why": "Both authors and award year match gold and sources."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-eevdf",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "EEVDF (Earliest Eligible Virtual Deadline First)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        273.9365839999955
+      ],
+      "errors": [],
+      "why": "Exact gold match, explicitly supported by cited sources."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-freethread",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Python 3.14",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        272.580833
+      ],
+      "errors": [],
+      "why": "Matches gold; official Python documentation confirms version 3.14."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-static-hermes",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Static Hermes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        270.7823750000098
+      ],
+      "errors": [],
+      "why": "Exact match; citations identify Static Hermes and its compilation goals."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-vdpp",
+      "kind": "fact",
+      "run": 1,
+      "answer": "VDPP",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        271.65499999999884
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state ICAO code VDPP."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-lox",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "The Java tree-walk implementation is jlox, and the C bytecode VM implementation is clox.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        269.8661249999859
+      ],
+      "errors": [],
+      "why": "Both names match gold and are explicitly supported by citations."
+    },
+    {
+      "provider": "tavily",
+      "task": "p-cranelift",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Cranelift",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        268.4829169999866
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources confirm both roles for Cranelift."
+    },
+    {
+      "provider": "valyu",
+      "task": "d-node26",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "May 5, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6559.384541
+      ],
+      "errors": [],
+      "why": "Exact date match, explicitly supported by official release sources."
+    },
+    {
+      "provider": "valyu",
+      "task": "d-bun14",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "August 20, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5518.223833
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly supported by cited release notes."
+    },
+    {
+      "provider": "valyu",
+      "task": "d-next16",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 21, 2025",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6914.136417
+      ],
+      "errors": [],
+      "why": "Matches accepted date and official Next.js release announcement."
+    },
+    {
+      "provider": "valyu",
+      "task": "d-next164",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 6, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5788.811250000001
+      ],
+      "errors": [],
+      "why": "Exact gold date match, explicitly stated in cited results."
+    },
+    {
+      "provider": "valyu",
+      "task": "d-ts7",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "July 8, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5078.190209
+      ],
+      "errors": [],
+      "why": "Exact gold date match, explicitly stated in cited results."
+    },
+    {
+      "provider": "valyu",
+      "task": "d-expo58",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 15, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6031.795417000001
+      ],
+      "errors": [],
+      "why": "regraded: gold corrected to 2026-10-15"
+    },
+    {
+      "provider": "valyu",
+      "task": "x-expr-depth",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1000 levels",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7025.00275
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 1000 levels."
+    },
+    {
+      "provider": "valyu",
+      "task": "x-map-count",
+      "kind": "docs",
+      "run": 0,
+      "answer": "65530 (though some distributions override it, such as Arch Linux and Fedora setting 1048576).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5499.6685
+      ],
+      "errors": [],
+      "why": "Default and distribution overrides are explicitly supported by citations."
+    },
+    {
+      "provider": "valyu",
+      "task": "x-h2-window",
+      "kind": "docs",
+      "run": 0,
+      "answer": "65,535 octets (2^16 - 1)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5173.183832999999
+      ],
+      "errors": [],
+      "why": "Matches gold; cited settings show initial window size 65535."
+    },
+    {
+      "provider": "valyu",
+      "task": "x-tcp-mss",
+      "kind": "docs",
+      "run": 0,
+      "answer": "536 bytes (576-byte IPv4 datagram minus 40 bytes for the IPv4 and TCP headers).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3188.501709
+      ],
+      "errors": [],
+      "why": "Matches gold; cited RFC explicitly specifies 536 (576−40)."
+    },
+    {
+      "provider": "valyu",
+      "task": "x-lambda-env",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4 KB combined across all environment variables for a single function.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5600.354583000004
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly state the combined 4 KB limit."
+    },
+    {
+      "provider": "valyu",
+      "task": "x-aws-tags",
+      "kind": "docs",
+      "run": 0,
+      "answer": "50 user-created tags per AWS resource.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6494.990041999998
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS documentation explicitly confirms 50 user-created tags."
+    },
+    {
+      "provider": "valyu",
+      "task": "x-pg-autovac",
+      "kind": "docs",
+      "run": 0,
+      "answer": "0.2 (20% of the table size)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2128.133708000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly confirm the default."
+    },
+    {
+      "provider": "valyu",
+      "task": "x-nginx-body",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1m (1 MiB)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6494.373542000001
+      ],
+      "errors": [],
+      "why": "Same default value; cited results explicitly specify 1 MiB."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-lempar",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "lempar.c",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3082.0305420000004
+      ],
+      "errors": [],
+      "why": "Exact match; cited text identifies lempar.c as the template."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-raft",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "The 2014 USENIX Annual Technical Conference (USENIX ATC ’14), in 2014.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3921.2315000000017
+      ],
+      "errors": [],
+      "why": "Both conference and year match gold and cited sources."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-dragon",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Alfred V. Aho and Jeffrey D. Ullman, for the 2020 ACM A.M. Turing Award.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6462.195792000006
+      ],
+      "errors": [],
+      "why": "Both authors and award year match gold and cited sources."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-eevdf",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "EEVDF (Earliest Eligible Virtual Deadline First)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6697.097542000003
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited results explicitly identify EEVDF and expansion."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-freethread",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Python 3.14",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6494.788790999999
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly confirm Python 3.14."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-static-hermes",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Static Hermes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7678.6107919999995
+      ],
+      "errors": [],
+      "why": "Exact match; cited text explicitly identifies Static Hermes."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-vdpp",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDPP",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6513.00029199999
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify ICAO code VDPP."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-lox",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "The Java tree-walk implementation is jlox, and the C bytecode VM implementation is clox.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3302.535167000009
+      ],
+      "errors": [],
+      "why": "Both names match gold and are explicitly supported by citations."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-cranelift",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Cranelift",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6695.433874999988
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm Cranelift."
+    },
+    {
+      "provider": "valyu",
+      "task": "d-node26",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "May 5, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        376.07466700000805
+      ],
+      "errors": [],
+      "why": "Exact date matches gold and official release sources."
+    },
+    {
+      "provider": "valyu",
+      "task": "d-bun14",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "August 20, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        370.34504100000777
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly stated in cited release notes."
+    },
+    {
+      "provider": "valyu",
+      "task": "d-next16",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 22, 2025",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        361.75450000001
+      ],
+      "errors": [],
+      "why": "Matches gold date and explicitly supported by cited results."
+    },
+    {
+      "provider": "valyu",
+      "task": "d-next164",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 6, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        625.9812499999971
+      ],
+      "errors": [],
+      "why": "Exact gold date; cited sources explicitly confirm October 6, 2026."
+    },
+    {
+      "provider": "valyu",
+      "task": "d-ts7",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "July 8, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        372.5745420000021
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly stated in cited results."
+    },
+    {
+      "provider": "valyu",
+      "task": "d-expo58",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 15, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        381.4792920000036
+      ],
+      "errors": [],
+      "why": "regraded: gold corrected to 2026-10-15"
+    },
+    {
+      "provider": "valyu",
+      "task": "x-expr-depth",
+      "kind": "docs",
+      "run": 1,
+      "answer": "1000 levels",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        379.82695799999055
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 1000 levels."
+    },
+    {
+      "provider": "valyu",
+      "task": "x-map-count",
+      "kind": "docs",
+      "run": 1,
+      "answer": "65530",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        347.58208300000115
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state default is 65530."
+    },
+    {
+      "provider": "valyu",
+      "task": "x-h2-window",
+      "kind": "docs",
+      "run": 1,
+      "answer": "65,535 octets (2^16 - 1)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        376.8752499999973
+      ],
+      "errors": [],
+      "why": "Matches gold; cited examples explicitly show initial value 65535."
+    },
+    {
+      "provider": "valyu",
+      "task": "x-tcp-mss",
+      "kind": "docs",
+      "run": 1,
+      "answer": "536 bytes (576-byte IPv4 datagram minus 40 bytes for the standard IPv4 and TCP headers).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        385.6434169999993
+      ],
+      "errors": [],
+      "why": "Matches gold; cited RFC explicitly specifies 536 (576-40)."
+    },
+    {
+      "provider": "valyu",
+      "task": "x-lambda-env",
+      "kind": "docs",
+      "run": 1,
+      "answer": "4 KB combined across all environment variables for a single function.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        386.28029100000276
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results confirm the combined 4 KB limit."
+    },
+    {
+      "provider": "valyu",
+      "task": "x-aws-tags",
+      "kind": "docs",
+      "run": 1,
+      "answer": "50 user-created tags per AWS resource.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        377.49337500000547
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS documentation confirms 50 user-created tags."
+    },
+    {
+      "provider": "valyu",
+      "task": "x-pg-autovac",
+      "kind": "docs",
+      "run": 1,
+      "answer": "0.2 (20% of the table size)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        370.5643330000021
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly state 0.2 (20%)."
+    },
+    {
+      "provider": "valyu",
+      "task": "x-nginx-body",
+      "kind": "docs",
+      "run": 1,
+      "answer": "1m (1 MiB)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        368.6683340000018
+      ],
+      "errors": [],
+      "why": "Same default value; cited results explicitly confirm 1 MiB."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-lempar",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "lempar.c",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        370.59175000000687
+      ],
+      "errors": [],
+      "why": "Exact match; cited text explicitly identifies lempar.c as template."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-raft",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "The 2014 USENIX Annual Technical Conference (USENIX ATC ’14), in 2014.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        362.14879200000723
+      ],
+      "errors": [],
+      "why": "Both conference and year match gold and cited sources."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-dragon",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Alfred V. Aho and Jeffrey D. Ullman, for the 2020 ACM A.M. Turing Award.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        411.1950419999921
+      ],
+      "errors": [],
+      "why": "Both authors and award year match gold and cited sources."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-eevdf",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "EEVDF (Earliest Eligible Virtual Deadline First)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        358.88220799999544
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly confirm EEVDF replaced CFS."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-freethread",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Python 3.14",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        365.330833
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly confirm Python 3.14."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-static-hermes",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Static Hermes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        365.1957079999993
+      ],
+      "errors": [],
+      "why": "Exact gold match; citation explicitly names Static Hermes."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-vdpp",
+      "kind": "fact",
+      "run": 1,
+      "answer": "VDPP",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        367.435249999995
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify ICAO code VDPP."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-lox",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "The Java tree-walk implementation is jlox, and the C bytecode VM implementation is clox.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        355.4392919999955
+      ],
+      "errors": [],
+      "why": "Both implementation names match and are explicitly supported by citations."
+    },
+    {
+      "provider": "valyu",
+      "task": "p-cranelift",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Cranelift",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        363.6586670000106
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources confirm both uses of Cranelift."
+    },
+    {
+      "provider": "context",
+      "task": "d-node26",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "May 5, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7109.003833
+      ],
+      "errors": [],
+      "why": "Exact date matches gold and official release citation."
+    },
+    {
+      "provider": "context",
+      "task": "d-bun14",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "August 20, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4965.898625
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated release date in cited sources."
+    },
+    {
+      "provider": "context",
+      "task": "d-next16",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 22, 2025",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5286.554040999999
+      ],
+      "errors": [],
+      "why": "Matches gold date and explicitly supported by cited results."
+    },
+    {
+      "provider": "context",
+      "task": "d-next164",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 6, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5564.795000000002
+      ],
+      "errors": [],
+      "why": "Matches gold date and is explicitly supported by citations."
+    },
+    {
+      "provider": "context",
+      "task": "d-ts7",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "July 8, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6624.692166000001
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly supported by cited sources."
+    },
+    {
+      "provider": "context",
+      "task": "d-expo58",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "October 15, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6399.273791
+      ],
+      "errors": [],
+      "why": "regraded: gold corrected to 2026-10-15"
+    },
+    {
+      "provider": "context",
+      "task": "x-expr-depth",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The default value of SQLITE_MAX_EXPR_DEPTH is 1000.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6393.367292000003
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly supported by cited sources."
+    },
+    {
+      "provider": "context",
+      "task": "x-map-count",
+      "kind": "docs",
+      "run": 0,
+      "answer": "65530",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5982.1030420000025
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated in both cited sources."
+    },
+    {
+      "provider": "context",
+      "task": "x-h2-window",
+      "kind": "docs",
+      "run": 0,
+      "answer": "65,535 octets (2^16 − 1).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6586.009084000005
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly stated in both specifications."
+    },
+    {
+      "provider": "context",
+      "task": "x-tcp-mss",
+      "kind": "docs",
+      "run": 0,
+      "answer": "536 bytes (576-byte IPv4 datagram minus 20-byte IPv4 and 20-byte TCP headers).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6263.265541999994
+      ],
+      "errors": [],
+      "why": "Matches gold; cited RFC text explicitly confirms 536 bytes."
+    },
+    {
+      "provider": "context",
+      "task": "x-lambda-env",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4 KB (4096 bytes) total, aggregated across all environment variables for the function.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6989.452582999991
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm the aggregate limit."
+    },
+    {
+      "provider": "context",
+      "task": "x-aws-tags",
+      "kind": "docs",
+      "run": 0,
+      "answer": "50 user-created tags per AWS resource.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6302.143666999997
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS documentation explicitly states 50 user-created tags."
+    },
+    {
+      "provider": "context",
+      "task": "x-pg-autovac",
+      "kind": "docs",
+      "run": 0,
+      "answer": "0.2 (20% of the table size)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3438.6958749999903
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation explicitly states 0.2 (20%)."
+    },
+    {
+      "provider": "context",
+      "task": "x-nginx-body",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1m (1 megabyte)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6155.051875000005
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated default in cited documentation."
+    },
+    {
+      "provider": "context",
+      "task": "p-lempar",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "lempar.c",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6950.053375000018
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources identify lempar.c as the template."
+    },
+    {
+      "provider": "context",
+      "task": "p-raft",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "The 2014 USENIX Annual Technical Conference (USENIX ATC ’14), in 2014.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7620.456957999995
+      ],
+      "errors": [],
+      "why": "Both conference and year match and are explicitly supported."
+    },
+    {
+      "provider": "context",
+      "task": "p-dragon",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Alfred Aho and Jeffrey Ullman, for the 2020 ACM A.M. Turing Award.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6596.736457999999
+      ],
+      "errors": [],
+      "why": "Both names and award year match and are explicitly supported."
+    },
+    {
+      "provider": "context",
+      "task": "p-eevdf",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "EEVDF (Earliest Eligible Virtual Deadline First)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7124.686667000002
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly confirm EEVDF."
+    },
+    {
+      "provider": "context",
+      "task": "p-freethread",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Python 3.14",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6150.823166999995
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly confirm Python 3.14."
+    },
+    {
+      "provider": "context",
+      "task": "p-static-hermes",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Static Hermes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6188.8646250000165
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly identify Static Hermes."
+    },
+    {
+      "provider": "context",
+      "task": "p-vdpp",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDPP",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6402.959208000015
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify ICAO code VDPP."
+    },
+    {
+      "provider": "context",
+      "task": "p-lox",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "The Java tree-walk implementation is `jlox`, and the C bytecode VM implementation is `clox`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6287.610708000022
+      ],
+      "errors": [],
+      "why": "Both names match gold and are explicitly supported by citations."
+    },
+    {
+      "provider": "context",
+      "task": "p-cranelift",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Cranelift",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6184.337874999997
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly support Cranelift."
+    },
+    {
+      "provider": "context",
+      "task": "d-node26",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "May 5, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6174.505166999996
+      ],
+      "errors": [],
+      "why": "Exact gold date, explicitly confirmed by official release post."
+    },
+    {
+      "provider": "context",
+      "task": "d-bun14",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "August 20, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4497.437416000001
+      ],
+      "errors": [],
+      "why": "Exact date matches gold and cited release notes."
+    },
+    {
+      "provider": "context",
+      "task": "d-next16",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 22, 2025",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3870.8376670000143
+      ],
+      "errors": [],
+      "why": "Matches gold and cited 16.0.0 release date."
+    },
+    {
+      "provider": "context",
+      "task": "d-next164",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 6, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5121.404249999963
+      ],
+      "errors": [],
+      "why": "Exact gold date match, explicitly supported by cited results."
+    },
+    {
+      "provider": "context",
+      "task": "d-ts7",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "July 8, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6630.183874999988
+      ],
+      "errors": [],
+      "why": "Exact gold date match, explicitly supported by cited results."
+    },
+    {
+      "provider": "context",
+      "task": "d-expo58",
+      "kind": "fresh",
+      "run": 1,
+      "answer": "October 15, 2026",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6084.505292000016
+      ],
+      "errors": [],
+      "why": "regraded: gold corrected to 2026-10-15"
+    },
+    {
+      "provider": "context",
+      "task": "x-expr-depth",
+      "kind": "docs",
+      "run": 1,
+      "answer": "1000",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2821.2494999999763
+      ],
+      "errors": [],
+      "why": "Matches gold and SQLite documentation explicitly states 1000."
+    },
+    {
+      "provider": "context",
+      "task": "x-map-count",
+      "kind": "docs",
+      "run": 1,
+      "answer": "65530",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3975.987291999976
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly stated in both sources."
+    },
+    {
+      "provider": "context",
+      "task": "x-h2-window",
+      "kind": "docs",
+      "run": 1,
+      "answer": "2^16 - 1 (65,535) octets.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3877.4605410000077
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated initial value in cited specifications."
+    },
+    {
+      "provider": "context",
+      "task": "x-tcp-mss",
+      "kind": "docs",
+      "run": 1,
+      "answer": "536 octets (576-byte IPv4 datagram minus 40 bytes for the IPv4 and TCP headers).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2913.371999999974
+      ],
+      "errors": [],
+      "why": "Matches gold; cited RFC explicitly states 536 (576−40)."
+    },
+    {
+      "provider": "context",
+      "task": "x-lambda-env",
+      "kind": "docs",
+      "run": 1,
+      "answer": "4 KB (4096 bytes) total across all environment variables associated with the function.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5566.254917000013
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm the aggregate limit."
+    },
+    {
+      "provider": "context",
+      "task": "x-aws-tags",
+      "kind": "docs",
+      "run": 1,
+      "answer": "50 user-created tags per AWS resource.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6475.062333000009
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS documentation confirms 50 user-created tags."
+    },
+    {
+      "provider": "context",
+      "task": "x-pg-autovac",
+      "kind": "docs",
+      "run": 1,
+      "answer": "0.2 (20% of the table size)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2124.0715830000117
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation explicitly confirms the default."
+    },
+    {
+      "provider": "context",
+      "task": "x-nginx-body",
+      "kind": "docs",
+      "run": 1,
+      "answer": "1m (1 megabyte).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5724.597165999992
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated default in nginx documentation."
+    },
+    {
+      "provider": "context",
+      "task": "p-lempar",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "lempar.c",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5959.720125000051
+      ],
+      "errors": [],
+      "why": "Exact match; cited SQLite documentation explicitly identifies lempar.c."
+    },
+    {
+      "provider": "context",
+      "task": "p-raft",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "2014 USENIX Annual Technical Conference (USENIX ATC ’14), in 2014.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5484.656292000029
+      ],
+      "errors": [],
+      "why": "Both conference and year match gold and cited sources."
+    },
+    {
+      "provider": "context",
+      "task": "p-dragon",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Alfred Aho and Jeffrey Ullman, for the 2020 ACM A.M. Turing Award.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6151.069709000003
+      ],
+      "errors": [],
+      "why": "Both names and award year match and are explicitly supported."
+    },
+    {
+      "provider": "context",
+      "task": "p-eevdf",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "EEVDF (Earliest Eligible Virtual Deadline First)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5974.86725000001
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly confirm EEVDF."
+    },
+    {
+      "provider": "context",
+      "task": "p-freethread",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Python 3.14",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5935.791167000018
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly confirm Python 3.14."
+    },
+    {
+      "provider": "context",
+      "task": "p-static-hermes",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Static Hermes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2727.2173329999787
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited results explicitly describe Static Hermes."
+    },
+    {
+      "provider": "context",
+      "task": "p-vdpp",
+      "kind": "fact",
+      "run": 1,
+      "answer": "VDPP",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7370.74770800001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify ICAO code VDPP."
+    },
+    {
+      "provider": "context",
+      "task": "p-lox",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "The Java tree-walk implementation is called jlox, and the C bytecode VM implementation is called clox.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7254.18524999998
+      ],
+      "errors": [],
+      "why": "Both implementation names match gold and are explicitly supported."
+    },
+    {
+      "provider": "context",
+      "task": "p-cranelift",
+      "kind": "multihop",
+      "run": 1,
+      "answer": "Cranelift",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5399.489750000008
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Cranelift."
+    }
+  ],
+  "summary": [
+    {
+      "provider": "exa",
+      "score": 95.7,
+      "correct": 95.7,
+      "p50ms": 516,
+      "searches": 46,
+      "errors": 0,
+      "fresh": "10/12",
+      "docs": "16/16",
+      "multihop": "16/16",
+      "fact": "2/2"
+    },
+    {
+      "provider": "tavily",
+      "score": 95.7,
+      "correct": 95.7,
+      "p50ms": 1976,
+      "searches": 46,
+      "errors": 0,
+      "fresh": "10/12",
+      "docs": "16/16",
+      "multihop": "16/16",
+      "fact": "2/2"
+    },
+    {
+      "provider": "valyu",
+      "score": 95.7,
+      "correct": 95.7,
+      "p50ms": 2128,
+      "searches": 46,
+      "errors": 0,
+      "fresh": "10/12",
+      "docs": "16/16",
+      "multihop": "16/16",
+      "fact": "2/2"
+    },
+    {
+      "provider": "exa-deep",
+      "score": 95.7,
+      "correct": 95.7,
+      "p50ms": 2779,
+      "searches": 46,
+      "errors": 0,
+      "fresh": "10/12",
+      "docs": "16/16",
+      "multihop": "16/16",
+      "fact": "2/2"
+    },
+    {
+      "provider": "context",
+      "score": 95.7,
+      "correct": 95.7,
+      "p50ms": 6151,
+      "searches": 46,
+      "errors": 0,
+      "fresh": "10/12",
+      "docs": "16/16",
+      "multihop": "16/16",
+      "fact": "2/2"
+    },
+    {
+      "provider": "parallel-advanced",
+      "score": 93.5,
+      "correct": 95.7,
+      "p50ms": 2108,
+      "searches": 46,
+      "errors": 0,
+      "fresh": "10/12",
+      "docs": "15/16",
+      "multihop": "16/16",
+      "fact": "2/2"
+    },
+    {
+      "provider": "parallel",
+      "score": 91.3,
+      "correct": 91.3,
+      "p50ms": 1395,
+      "searches": 46,
+      "errors": 0,
+      "fresh": "10/12",
+      "docs": "16/16",
+      "multihop": "14/16",
+      "fact": "2/2"
+    }
+  ]
+}

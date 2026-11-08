@@ -1,0 +1,2411 @@
+{
+  "roundName": "round2",
+  "mode": "single",
+  "runs": 1,
+  "reader": "gpt-5.6-sol",
+  "grader": "gpt-6.1-sol",
+  "rows": [
+    {
+      "provider": "exa",
+      "task": "fresh-bun",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Bun v1.4.4, released October 22, 2026.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        858.685583
+      ],
+      "errors": [],
+      "why": "Version and release date match gold and cited sources."
+    },
+    {
+      "provider": "exa",
+      "task": "fresh-next",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "16.4.5",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        798.78025
+      ],
+      "errors": [],
+      "why": "Version matches gold and is explicitly supported by npm."
+    },
+    {
+      "provider": "exa",
+      "task": "fresh-ts",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "TypeScript 7.0.2",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        818.2279580000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly identify 7.0.2 as stable."
+    },
+    {
+      "provider": "exa",
+      "task": "fresh-expo",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Expo SDK 58",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1406.8322090000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources identify SDK 58 as latest."
+    },
+    {
+      "provider": "exa",
+      "task": "fresh-react",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "19.3.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        563.458208
+      ],
+      "errors": [],
+      "why": "Matches gold; npm explicitly lists version 19.3.1."
+    },
+    {
+      "provider": "exa",
+      "task": "fresh-node",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Lithium (Node.js 26)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1119.2803329999997
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources identify Node.js 26 as Lithium."
+    },
+    {
+      "provider": "exa",
+      "task": "fresh-python",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Python 3.15.2, released October 25, 2026.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        571.5580000000009
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Python release page confirms version and date."
+    },
+    {
+      "provider": "exa",
+      "task": "elixir-rails",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Ruby on Rails",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        608.9696669999994
+      ],
+      "errors": [],
+      "why": "Matches gold; sources identify Valim as Rails core member."
+    },
+    {
+      "provider": "exa",
+      "task": "rolldown",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Rolldown",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1619.9959580000013
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Rolldown."
+    },
+    {
+      "provider": "exa",
+      "task": "deno-jsr",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "JSR (the JavaScript Registry)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1147.4407919999994
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Deno announcement explicitly names JSR."
+    },
+    {
+      "provider": "exa",
+      "task": "quic-rfc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "QUIC is standardized in RFC 9000, and HTTP/3 is defined in RFC 9114.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1548.1392090000008
+      ],
+      "errors": [],
+      "why": "Both RFC numbers match gold and are explicitly supported."
+    },
+    {
+      "provider": "exa",
+      "task": "tauri-wry",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "WRY",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1753.6245419999977
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Tauri documentation explicitly identifies WRY."
+    },
+    {
+      "provider": "exa",
+      "task": "ddb-tx",
+      "kind": "docs",
+      "run": 0,
+      "answer": "100 actions",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1413.6385410000003
+      ],
+      "errors": [],
+      "why": "Matches gold; AWS documentation explicitly allows up to 100 actions."
+    },
+    {
+      "provider": "exa",
+      "task": "pg-wal",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1 GB (1024 MB)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1597.9509169999983
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm 1GB equals 1024MB."
+    },
+    {
+      "provider": "exa",
+      "task": "bags-emoji",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Unicode 16.0 and Emoji 16.0, introduced in 2024.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1267.0770000000011
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources confirm both versions and 2024."
+    },
+    {
+      "provider": "exa",
+      "task": "turing-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Andrew G. Barto and Richard S. Sutton",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        529.960833000001
+      ],
+      "errors": [],
+      "why": "Both recipients match gold and are explicitly named in sources."
+    },
+    {
+      "provider": "exa",
+      "task": "mojo-ceo",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Modular (also called Modular AI or Modular Inc.) created Mojo, and its CEO is Chris Lattner.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1632.133082999997
+      ],
+      "errors": [],
+      "why": "Both required facts match gold and cited sources."
+    },
+    {
+      "provider": "exa",
+      "task": "lambda-stream",
+      "kind": "docs",
+      "run": 0,
+      "answer": "200 MB maximum response payload size for AWS Lambda response streaming.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1348.8898749999971
+      ],
+      "errors": [],
+      "why": "Matches gold; AWS documentation explicitly states 200 MB maximum."
+    },
+    {
+      "provider": "parallel",
+      "task": "fresh-bun",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Bun v1.4.4",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1570.043625
+      ],
+      "errors": [],
+      "why": "Version matches gold and is explicitly supported by sources."
+    },
+    {
+      "provider": "parallel",
+      "task": "fresh-next",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "16.4.5",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1674.901375
+      ],
+      "errors": [],
+      "why": "Matches gold and cited latest stable release."
+    },
+    {
+      "provider": "parallel",
+      "task": "fresh-ts",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "TypeScript 7.0.2",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1619.653292
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources identify 7.0.2 as latest stable."
+    },
+    {
+      "provider": "parallel",
+      "task": "fresh-expo",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Expo SDK 58",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1659.7288749999998
+      ],
+      "errors": [],
+      "why": "Matches gold; cited changelog confirms SDK 58 release."
+    },
+    {
+      "provider": "parallel",
+      "task": "fresh-react",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "React 19.3.1 is the latest stable version on npm as of November 2026.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2026.8019169999998
+      ],
+      "errors": [],
+      "why": "Matches gold; npm lists 19.3.1 under latest."
+    },
+    {
+      "provider": "parallel",
+      "task": "fresh-node",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Lithium (Node.js 26)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1546.2420000000002
+      ],
+      "errors": [],
+      "why": "Exact gold match; official release citations confirm Lithium, Node.js 26."
+    },
+    {
+      "provider": "parallel",
+      "task": "fresh-python",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Python 3.15.2, released October 25, 2026.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1732.9042090000003
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources confirm version and release date."
+    },
+    {
+      "provider": "parallel",
+      "task": "elixir-rails",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Ruby on Rails",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1724.1631670000006
+      ],
+      "errors": [],
+      "why": "Exact gold match; sources confirm Rails Core Team membership."
+    },
+    {
+      "provider": "parallel",
+      "task": "rolldown",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Rolldown",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1689.9573340000006
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources identify Rolldown as Rust-based bundler."
+    },
+    {
+      "provider": "parallel",
+      "task": "deno-jsr",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "JSR (JavaScript Registry)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1452.3240839999999
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Deno announcement explicitly names JSR."
+    },
+    {
+      "provider": "parallel",
+      "task": "quic-rfc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "RFC 9000 standardizes the QUIC transport protocol, and RFC 9114 defines HTTP/3.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1873.2123749999992
+      ],
+      "errors": [],
+      "why": "Both RFC numbers match gold and are supported by citations."
+    },
+    {
+      "provider": "parallel",
+      "task": "tauri-wry",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "WRY",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1776.3767079999998
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources explicitly identify WRY."
+    },
+    {
+      "provider": "parallel",
+      "task": "ddb-tx",
+      "kind": "docs",
+      "run": 0,
+      "answer": "100 actions",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1526.702707999997
+      ],
+      "errors": [],
+      "why": "Matches gold; AWS documentation explicitly allows up to 100 actions."
+    },
+    {
+      "provider": "parallel",
+      "task": "pg-wal",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1 GB (1024 MB)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1517.04925
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation confirms 1 GB equals 1024 MB."
+    },
+    {
+      "provider": "parallel",
+      "task": "bags-emoji",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Unicode 16.0 and Emoji 16.0 (2024).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1649.5578749999986
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources confirm both versions and year."
+    },
+    {
+      "provider": "parallel",
+      "task": "turing-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Andrew G. Barto and Richard S. Sutton",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1402.4403340000026
+      ],
+      "errors": [],
+      "why": "Both recipients match gold and are explicitly named in sources."
+    },
+    {
+      "provider": "parallel",
+      "task": "mojo-ceo",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Modular Inc. created the Mojo programming language, and its CEO is Chris Lattner.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1521.586542000001
+      ],
+      "errors": [],
+      "why": "Both required facts match gold and are explicitly supported."
+    },
+    {
+      "provider": "parallel",
+      "task": "lambda-stream",
+      "kind": "docs",
+      "run": 0,
+      "answer": "200 MB per streamed response.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1916.024499999996
+      ],
+      "errors": [],
+      "why": "Matches gold; AWS documentation confirms 200 MB per streamed response."
+    },
+    {
+      "provider": "tavily",
+      "task": "fresh-bun",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Bun v1.4.4, released October 22, 2026.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2725.670959
+      ],
+      "errors": [],
+      "why": "Version and release date match gold and cited results."
+    },
+    {
+      "provider": "tavily",
+      "task": "fresh-next",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "16.4.5",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3163.159958
+      ],
+      "errors": [],
+      "why": "Version matches gold and npm explicitly lists 16.4.5 as latest."
+    },
+    {
+      "provider": "tavily",
+      "task": "fresh-ts",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "TypeScript 7.0.2",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2459.752041
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources identify 7.0.2 as latest stable."
+    },
+    {
+      "provider": "tavily",
+      "task": "fresh-expo",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Expo SDK 58",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2586.5806250000005
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results confirm Expo SDK 58 release."
+    },
+    {
+      "provider": "tavily",
+      "task": "fresh-react",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "19.3.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2427.506958
+      ],
+      "errors": [],
+      "why": "Matches gold; npm lists 19.3.1 under the latest tag."
+    },
+    {
+      "provider": "tavily",
+      "task": "fresh-node",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Lithium (Node.js 26)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2334.233583
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources confirm Node.js 26 codename Lithium."
+    },
+    {
+      "provider": "tavily",
+      "task": "fresh-python",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Python 3.15.2, released October 25, 2026.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2449.185458
+      ],
+      "errors": [],
+      "why": "Matches gold; cited release page confirms version and date."
+    },
+    {
+      "provider": "tavily",
+      "task": "elixir-rails",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Ruby on Rails",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2532.896625000001
+      ],
+      "errors": [],
+      "why": "Exact match; sources confirm Rails Core Team membership."
+    },
+    {
+      "provider": "tavily",
+      "task": "rolldown",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Rolldown",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2910.419917000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources identify Rolldown as Vite’s Rust bundler."
+    },
+    {
+      "provider": "tavily",
+      "task": "deno-jsr",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "JSR (JavaScript Registry)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2696.624208000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly identify JSR as JavaScript Registry."
+    },
+    {
+      "provider": "tavily",
+      "task": "quic-rfc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "QUIC is standardized in RFC 9000, and HTTP/3 is defined in RFC 9114.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2601.6250409999993
+      ],
+      "errors": [],
+      "why": "Both RFC numbers match gold and cited sources."
+    },
+    {
+      "provider": "tavily",
+      "task": "tauri-wry",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "WRY",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2437.1716659999984
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Tauri documentation explicitly identifies WRY."
+    },
+    {
+      "provider": "tavily",
+      "task": "ddb-tx",
+      "kind": "docs",
+      "run": 0,
+      "answer": "100 actions.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2873.524333000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS documentation explicitly states 100 actions."
+    },
+    {
+      "provider": "tavily",
+      "task": "pg-wal",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1 GB",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2299.1906249999993
+      ],
+      "errors": [],
+      "why": "Equivalent value; cited documentation explicitly states 1 GB."
+    },
+    {
+      "provider": "tavily",
+      "task": "bags-emoji",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Unicode 16.0 and Emoji 16.0 (2024)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5409.363207999995
+      ],
+      "errors": [],
+      "why": "Matches gold; Emojipedia explicitly confirms both versions and year."
+    },
+    {
+      "provider": "tavily",
+      "task": "turing-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Andrew G. Barto and Richard S. Sutton",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2683.2809170000037
+      ],
+      "errors": [],
+      "why": "Both recipients match gold and are explicitly named in citations."
+    },
+    {
+      "provider": "tavily",
+      "task": "mojo-ceo",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Modular Inc. created the Mojo programming language, and its CEO is Chris Lattner.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5708.540084
+      ],
+      "errors": [],
+      "why": "Both required facts match gold and cited sources."
+    },
+    {
+      "provider": "tavily",
+      "task": "lambda-stream",
+      "kind": "docs",
+      "run": 0,
+      "answer": "200 MB (the default maximum for a streamed response).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2204.063790999993
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS sources confirm 200 MB default maximum."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "fresh-bun",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Bun 1.4.4, released October 22, 2026.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1620.19275
+      ],
+      "errors": [],
+      "why": "Version and release date match gold and cited sources."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "fresh-next",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "16.4.5",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1731.9030420000001
+      ],
+      "errors": [],
+      "why": "Matches gold version and is explicitly supported by cited results."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "fresh-ts",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "TypeScript 7.0.2",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        999.7442080000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources identify version 7.0.2."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "fresh-expo",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Expo SDK 58",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2324.8887080000004
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Expo documentation lists SDK 58 latest."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "fresh-react",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "19.3.0",
+      "correct": false,
+      "grounded": true,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        2602.5371250000007
+      ],
+      "errors": [],
+      "why": "Citations support 19.3.0, but gold specifies 19.3.1."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "fresh-node",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Lithium",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        807.1777500000007
+      ],
+      "errors": [],
+      "why": "Lithium matches gold and is explicitly stated in citations."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "fresh-python",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Python 3.15.2",
+      "correct": true,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        836.8537910000014
+      ],
+      "errors": [],
+      "why": "Version matches gold, but citation does not establish patch release."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "elixir-rails",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Ruby on Rails",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        779.5597500000003
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly identify Ruby on Rails."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "rolldown",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Rolldown",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        957.5661670000009
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results identify Rolldown as the Rust bundler."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "deno-jsr",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "JSR (JavaScript Registry)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        922.5086249999986
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify JSR as JavaScript Registry."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "quic-rfc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "QUIC is standardized in RFC 9000, and HTTP/3 is defined in RFC 9114.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        49709.435792000004
+      ],
+      "errors": [],
+      "why": "Both RFC numbers match gold and are supported by citations."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "tauri-wry",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "WRY",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        48612.627459
+      ],
+      "errors": [],
+      "why": "WRY matches gold and is explicitly identified in citations."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "ddb-tx",
+      "kind": "docs",
+      "run": 0,
+      "answer": "100 actions",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        814.7633329999953
+      ],
+      "errors": [],
+      "why": "Matches gold; AWS documentation explicitly permits up to 100 actions."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "pg-wal",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1 GB (1024 MB)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        951.0740420000075
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm 1GB equals 1024MB."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "bags-emoji",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Unicode 16.0 and Emoji 16.0 (2024).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        659.9185419999994
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results confirm both versions and year."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "turing-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Andrew G. Barto and Richard S. Sutton.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        863.0107080000016
+      ],
+      "errors": [],
+      "why": "Both recipients match gold and are explicitly named in citations."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "mojo-ceo",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Modular Inc. created Mojo, and its CEO is Chris Lattner.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1166.8878750000003
+      ],
+      "errors": [],
+      "why": "Both required facts match gold and cited sources."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "lambda-stream",
+      "kind": "docs",
+      "run": 0,
+      "answer": "200 MB (default maximum per streamed response).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        743.4661669999914
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly supported by cited AWS documentation."
+    },
+    {
+      "provider": "linkup",
+      "task": "fresh-bun",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Bun 1.3.14",
+      "correct": false,
+      "grounded": true,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        1815.58475
+      ],
+      "errors": [],
+      "why": "Wrong version; cited FAQ explicitly states 1.3.14."
+    },
+    {
+      "provider": "linkup",
+      "task": "fresh-next",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "16.4.5",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2801.852417
+      ],
+      "errors": [],
+      "why": "Matches gold version and is explicitly supported by cited results."
+    },
+    {
+      "provider": "linkup",
+      "task": "fresh-ts",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "TypeScript 7.0.2",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1876.9909169999999
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly supported by cited text."
+    },
+    {
+      "provider": "linkup",
+      "task": "fresh-expo",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Expo SDK 58",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1438.518916
+      ],
+      "errors": [],
+      "why": "Matches gold; cited release and npm results confirm SDK 58."
+    },
+    {
+      "provider": "linkup",
+      "task": "fresh-react",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "19.3.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1534.8087919999998
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited npm result states version 19.3.1."
+    },
+    {
+      "provider": "linkup",
+      "task": "fresh-node",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Lithium",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2544.159917000001
+      ],
+      "errors": [],
+      "why": "Codename matches gold and is explicitly stated in citations."
+    },
+    {
+      "provider": "linkup",
+      "task": "fresh-python",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Python 3.15.2",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1484.0732909999988
+      ],
+      "errors": [],
+      "why": "Matches gold version and is explicitly supported by citations."
+    },
+    {
+      "provider": "linkup",
+      "task": "elixir-rails",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Ruby on Rails",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1500.427791
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly identify Ruby on Rails."
+    },
+    {
+      "provider": "linkup",
+      "task": "rolldown",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Rolldown",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1580.0208750000002
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources identify Rolldown as the bundler."
+    },
+    {
+      "provider": "linkup",
+      "task": "deno-jsr",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "JSR (the JavaScript Registry)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1572.8672499999993
+      ],
+      "errors": [],
+      "why": "JSR matches gold and is explicitly named in cited results."
+    },
+    {
+      "provider": "linkup",
+      "task": "quic-rfc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "QUIC is standardized by RFC 9000, and HTTP/3 is defined by RFC 9114.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3275.5259579999984
+      ],
+      "errors": [],
+      "why": "Both RFC numbers match and are supported by citations."
+    },
+    {
+      "provider": "linkup",
+      "task": "tauri-wry",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "WRY",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1429.2652909999997
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly identify WRY."
+    },
+    {
+      "provider": "linkup",
+      "task": "ddb-tx",
+      "kind": "docs",
+      "run": 0,
+      "answer": "100 actions",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1481.2097089999988
+      ],
+      "errors": [],
+      "why": "Matches gold; AWS documentation explicitly states 100 action requests."
+    },
+    {
+      "provider": "linkup",
+      "task": "pg-wal",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1 GB (1024 MB)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2384.868209
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly state 1GB equals 1024MB."
+    },
+    {
+      "provider": "linkup",
+      "task": "bags-emoji",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Unicode 16.0 and Emoji 16.0, introduced in 2024.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1455.7017909999995
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results confirm both versions and 2024."
+    },
+    {
+      "provider": "linkup",
+      "task": "turing-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Andrew G. Barto and Richard S. Sutton.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1455.8480420000014
+      ],
+      "errors": [],
+      "why": "Both recipients match gold and are explicitly named in citations."
+    },
+    {
+      "provider": "linkup",
+      "task": "mojo-ceo",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Modular Inc. created the Mojo programming language, and its CEO is Chris Lattner.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1537.8705829999963
+      ],
+      "errors": [],
+      "why": "Both required facts match gold and cited sources."
+    },
+    {
+      "provider": "linkup",
+      "task": "lambda-stream",
+      "kind": "docs",
+      "run": 0,
+      "answer": "200 MB (default maximum response payload size).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1670.5954580000034
+      ],
+      "errors": [],
+      "why": "Matches gold; AWS explicitly states 200 MB default maximum."
+    },
+    {
+      "provider": "you",
+      "task": "fresh-bun",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Bun v1.4.4 is the latest stable release as of November 2026.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1345.897084
+      ],
+      "errors": [],
+      "why": "Matches gold version; official releases identify v1.4.4 as latest."
+    },
+    {
+      "provider": "you",
+      "task": "fresh-next",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "16.4.5, published on November 3, 2026.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1338.296916
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources confirm version and publication date."
+    },
+    {
+      "provider": "you",
+      "task": "fresh-ts",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "TypeScript 7.0.2",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1368.2807500000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources identify 7.0.2 as latest stable."
+    },
+    {
+      "provider": "you",
+      "task": "fresh-expo",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Expo SDK 58",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        973.0882499999998
+      ],
+      "errors": [],
+      "why": "Matches gold; cited npm latest tag confirms SDK 58."
+    },
+    {
+      "provider": "you",
+      "task": "fresh-react",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "19.3.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1275.4292919999998
+      ],
+      "errors": [],
+      "why": "Matches gold; npm explicitly lists 19.3.1 as latest."
+    },
+    {
+      "provider": "you",
+      "task": "fresh-node",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Lithium (Node.js 26)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1271.772833
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly identify Node.js 26 as Lithium."
+    },
+    {
+      "provider": "you",
+      "task": "fresh-python",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Python 3.15.2, released October 25, 2026.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1610.6567080000004
+      ],
+      "errors": [],
+      "why": "Version and release date match gold and cited sources."
+    },
+    {
+      "provider": "you",
+      "task": "elixir-rails",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Ruby on Rails",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        935.4307499999995
+      ],
+      "errors": [],
+      "why": "Exact match; sources identify Valim as Rails core team member."
+    },
+    {
+      "provider": "you",
+      "task": "rolldown",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Rolldown",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1190.8094579999997
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources identify Rolldown explicitly."
+    },
+    {
+      "provider": "you",
+      "task": "deno-jsr",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "JSR (JavaScript Registry)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1262.362000000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify JSR as JavaScript Registry."
+    },
+    {
+      "provider": "you",
+      "task": "quic-rfc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "QUIC is standardized in RFC 9000, and HTTP/3 is defined in RFC 9114.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        970.0992079999996
+      ],
+      "errors": [],
+      "why": "Both RFC numbers match gold and cited sources."
+    },
+    {
+      "provider": "you",
+      "task": "tauri-wry",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "WRY (Wry)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1173.6095419999983
+      ],
+      "errors": [],
+      "why": "Matches gold; cited repository explicitly names WRY."
+    },
+    {
+      "provider": "you",
+      "task": "ddb-tx",
+      "kind": "docs",
+      "run": 0,
+      "answer": "100 actions",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1100.1272080000017
+      ],
+      "errors": [],
+      "why": "Matches gold; AWS documentation explicitly allows up to 100 actions."
+    },
+    {
+      "provider": "you",
+      "task": "pg-wal",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1 GB (1024 MB)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1242.0339999999997
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm 1GB equals 1024MB."
+    },
+    {
+      "provider": "you",
+      "task": "bags-emoji",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Unicode 16.0 and Emoji 16.0 (2024).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        810.4494999999988
+      ],
+      "errors": [],
+      "why": "Both versions and year match the cited results."
+    },
+    {
+      "provider": "you",
+      "task": "turing-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Andrew G. Barto and Richard S. Sutton",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        900.5161670000016
+      ],
+      "errors": [],
+      "why": "Both recipients match gold and are explicitly named by ACM."
+    },
+    {
+      "provider": "you",
+      "task": "mojo-ceo",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Modular Inc.; CEO: UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        951.4705839999988
+      ],
+      "errors": [],
+      "why": "Company supported, but required CEO missing; UNKNOWN is unsupported."
+    },
+    {
+      "provider": "you",
+      "task": "lambda-stream",
+      "kind": "docs",
+      "run": 0,
+      "answer": "200 MB (the default maximum response payload size for AWS Lambda response streaming).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        883.3294580000002
+      ],
+      "errors": [],
+      "why": "Matches gold; cited AWS sources explicitly confirm 200 MB."
+    },
+    {
+      "provider": "valyu",
+      "task": "fresh-bun",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Bun v1.4.4 is the latest stable release as of November 2026.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        9403.158667
+      ],
+      "errors": [],
+      "why": "Version matches gold and cited official release listings."
+    },
+    {
+      "provider": "valyu",
+      "task": "fresh-next",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "16.4.5",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        9700.832667
+      ],
+      "errors": [],
+      "why": "Version matches gold and is explicitly supported by citations."
+    },
+    {
+      "provider": "valyu",
+      "task": "fresh-ts",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "TypeScript 7.0.2",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4721.351584
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly identify version 7.0.2."
+    },
+    {
+      "provider": "valyu",
+      "task": "fresh-expo",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Expo SDK 58",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6894.736708
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Expo changelog confirms SDK 58 release."
+    },
+    {
+      "provider": "valyu",
+      "task": "fresh-react",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "19.3.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3852.503042000002
+      ],
+      "errors": [],
+      "why": "Matches gold; cited npm results show version 19.3.1."
+    },
+    {
+      "provider": "valyu",
+      "task": "fresh-node",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Lithium",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3355.1467919999977
+      ],
+      "errors": [],
+      "why": "Lithium matches gold and is explicitly supported by cited results."
+    },
+    {
+      "provider": "valyu",
+      "task": "fresh-python",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Python 3.15.2, released October 25, 2026.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3437.730749999999
+      ],
+      "errors": [],
+      "why": "Matches gold; official cited results confirm version and release date."
+    },
+    {
+      "provider": "valyu",
+      "task": "elixir-rails",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Ruby on Rails",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5625.471540999999
+      ],
+      "errors": [],
+      "why": "Matches gold; sources identify Ruby on Rails core membership."
+    },
+    {
+      "provider": "valyu",
+      "task": "rolldown",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Rolldown",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2697.0282499999994
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources identify Rolldown explicitly."
+    },
+    {
+      "provider": "valyu",
+      "task": "deno-jsr",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "JSR (JavaScript Registry)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7383.007166000003
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly identify JSR as JavaScript Registry."
+    },
+    {
+      "provider": "valyu",
+      "task": "quic-rfc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "RFC 9000 standardizes the QUIC transport protocol, and RFC 9114 defines HTTP/3.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6861.834167000001
+      ],
+      "errors": [],
+      "why": "Both RFC numbers match gold and are explicitly supported."
+    },
+    {
+      "provider": "valyu",
+      "task": "tauri-wry",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Wry",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2635.47725
+      ],
+      "errors": [],
+      "why": "Capitalization differs only; cited repository identifies Wry."
+    },
+    {
+      "provider": "valyu",
+      "task": "ddb-tx",
+      "kind": "docs",
+      "run": 0,
+      "answer": "100 actions",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2251.509834000004
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation explicitly allows up to 100 actions."
+    },
+    {
+      "provider": "valyu",
+      "task": "pg-wal",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1 GB (1024 MB)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2025.9852919999976
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly confirm 1GB equals 1024MB."
+    },
+    {
+      "provider": "valyu",
+      "task": "bags-emoji",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Unicode 16.0 and Emoji 16.0, introduced in 2024.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4888.180874999998
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources confirm both versions and 2024."
+    },
+    {
+      "provider": "valyu",
+      "task": "turing-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Andrew G. Barto and Richard S. Sutton.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6789.126958999994
+      ],
+      "errors": [],
+      "why": "Both recipients match gold and are explicitly named in sources."
+    },
+    {
+      "provider": "valyu",
+      "task": "mojo-ceo",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Modular Inc. created Mojo, and its CEO is Chris Lattner.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3198.4305410000015
+      ],
+      "errors": [],
+      "why": "Both facts supported; CEO’s surname is mistranslated in one source."
+    },
+    {
+      "provider": "valyu",
+      "task": "lambda-stream",
+      "kind": "docs",
+      "run": 0,
+      "answer": "200 MB (the default maximum for response streaming).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7083.6919169999965
+      ],
+      "errors": [],
+      "why": "Matches gold; AWS sources explicitly confirm 200 MB default maximum."
+    },
+    {
+      "provider": "context",
+      "task": "fresh-bun",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Bun v1.4.4",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5454.394499999999
+      ],
+      "errors": [],
+      "why": "Version matches gold and is explicitly supported by citations."
+    },
+    {
+      "provider": "context",
+      "task": "fresh-next",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "16.4.5",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6854.857375000001
+      ],
+      "errors": [],
+      "why": "Matches gold version and is explicitly supported by npm."
+    },
+    {
+      "provider": "context",
+      "task": "fresh-ts",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "TypeScript 7.0.2 is the latest stable release as of November 8, 2026.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6895.029291999999
+      ],
+      "errors": [],
+      "why": "Version matches gold and cited sources identify it as latest."
+    },
+    {
+      "provider": "context",
+      "task": "fresh-expo",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Expo SDK 58",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5685.832999999999
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results identify SDK 58 as latest."
+    },
+    {
+      "provider": "context",
+      "task": "fresh-react",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "React 19.3.1 is the latest stable version on npm as of November 2026.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6758.554709000004
+      ],
+      "errors": [],
+      "why": "Matches gold; npm and other cited sources confirm 19.3.1."
+    },
+    {
+      "provider": "context",
+      "task": "fresh-node",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Lithium (Node.js 26.x)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5967.0975000000035
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly identify Lithium as Node.js 26.x."
+    },
+    {
+      "provider": "context",
+      "task": "fresh-python",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "Python 3.15.2",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7518.480875000001
+      ],
+      "errors": [],
+      "why": "Version matches gold and is explicitly listed in cited results."
+    },
+    {
+      "provider": "context",
+      "task": "elixir-rails",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Ruby on Rails",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4704.9092500000115
+      ],
+      "errors": [],
+      "why": "Matches gold; sources confirm Rails Core Team membership."
+    },
+    {
+      "provider": "context",
+      "task": "rolldown",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Rolldown",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5639.473832999996
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources identify Rolldown as VoidZero’s Rust bundler."
+    },
+    {
+      "provider": "context",
+      "task": "deno-jsr",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "JSR (JavaScript Registry)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6762.634333000009
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify JSR as JavaScript Registry."
+    },
+    {
+      "provider": "context",
+      "task": "quic-rfc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "RFC 9000 standardizes the QUIC transport protocol, and RFC 9114 defines HTTP/3.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7648.673125000001
+      ],
+      "errors": [],
+      "why": "Both RFC numbers match gold and cited sources."
+    },
+    {
+      "provider": "context",
+      "task": "tauri-wry",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "WRY",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6496.205667000002
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify WRY."
+    },
+    {
+      "provider": "context",
+      "task": "ddb-tx",
+      "kind": "docs",
+      "run": 0,
+      "answer": "100 actions",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5916.825958000016
+      ],
+      "errors": [],
+      "why": "Matches gold; AWS documentation explicitly allows up to 100 actions."
+    },
+    {
+      "provider": "context",
+      "task": "pg-wal",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1 GB (1024 MB)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6634.861250000016
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly give 1024 MB (1GB)."
+    },
+    {
+      "provider": "context",
+      "task": "bags-emoji",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Unicode 16.0 and Emoji 16.0, introduced in 2024.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6217.458583
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources confirm both versions and 2024."
+    },
+    {
+      "provider": "context",
+      "task": "turing-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Andrew G. Barto and Richard S. Sutton",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3802.2124579999945
+      ],
+      "errors": [],
+      "why": "Both required recipients match gold and cited ACM announcement."
+    },
+    {
+      "provider": "context",
+      "task": "mojo-ceo",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Modular Inc. created Mojo, and its CEO is Chris Lattner.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5281.167917000013
+      ],
+      "errors": [],
+      "why": "Both required facts match gold and cited sources."
+    },
+    {
+      "provider": "context",
+      "task": "lambda-stream",
+      "kind": "docs",
+      "run": 0,
+      "answer": "200 MB per streamed response (synchronous).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6144.376124999981
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly cited synchronous streamed response quota."
+    }
+  ],
+  "summary": [
+    {
+      "provider": "exa",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 1267,
+      "searches": 18,
+      "errors": 0,
+      "fresh": "7/7",
+      "multihop": "5/5",
+      "docs": "4/4",
+      "fact": "2/2"
+    },
+    {
+      "provider": "parallel",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 1660,
+      "searches": 18,
+      "errors": 0,
+      "fresh": "7/7",
+      "multihop": "5/5",
+      "docs": "4/4",
+      "fact": "2/2"
+    },
+    {
+      "provider": "tavily",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 2602,
+      "searches": 18,
+      "errors": 0,
+      "fresh": "7/7",
+      "multihop": "5/5",
+      "docs": "4/4",
+      "fact": "2/2"
+    },
+    {
+      "provider": "valyu",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 4888,
+      "searches": 18,
+      "errors": 0,
+      "fresh": "7/7",
+      "multihop": "5/5",
+      "docs": "4/4",
+      "fact": "2/2"
+    },
+    {
+      "provider": "context",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 6217,
+      "searches": 18,
+      "errors": 0,
+      "fresh": "7/7",
+      "multihop": "5/5",
+      "docs": "4/4",
+      "fact": "2/2"
+    },
+    {
+      "provider": "you",
+      "score": 94.4,
+      "correct": 94.4,
+      "p50ms": 1191,
+      "searches": 18,
+      "errors": 0,
+      "fresh": "7/7",
+      "multihop": "4/5",
+      "docs": "4/4",
+      "fact": "2/2"
+    },
+    {
+      "provider": "linkup",
+      "score": 94.4,
+      "correct": 94.4,
+      "p50ms": 1573,
+      "searches": 18,
+      "errors": 0,
+      "fresh": "6/7",
+      "multihop": "5/5",
+      "docs": "4/4",
+      "fact": "2/2"
+    },
+    {
+      "provider": "firecrawl",
+      "score": 88.9,
+      "correct": 94.4,
+      "p50ms": 958,
+      "searches": 18,
+      "errors": 0,
+      "fresh": "5/7",
+      "multihop": "5/5",
+      "docs": "4/4",
+      "fact": "2/2"
+    }
+  ]
+}

@@ -1,0 +1,1992 @@
+{
+  "roundName": "round4",
+  "mode": "single",
+  "runs": 1,
+  "reader": "deepseek-v4.1",
+  "grader": "deepseek-v4.1",
+  "rows": [
+    {
+      "provider": "exa",
+      "task": "s-next-fetch",
+      "kind": "docs",
+      "run": 0,
+      "answer": "No. Starting with Next.js 15, fetch requests are not cached by default; the default behavior is uncached (described as 'auto no cache'). You can opt into caching with cache: 'force-cache'. Note that N",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        320.57108300000004
+      ],
+      "errors": [],
+      "why": "Matches cited docs on uncached default and opt-in caching."
+    },
+    {
+      "provider": "exa",
+      "task": "s-next16-proxy",
+      "kind": "docs",
+      "run": 0,
+      "answer": "proxy.ts",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        313.611917
+      ],
+      "errors": [],
+      "why": "Sources state middleware.ts renamed to proxy.ts in Next.js 16"
+    },
+    {
+      "provider": "exa",
+      "task": "s-expo-api",
+      "kind": "docs",
+      "run": 0,
+      "answer": "+api.ts",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        320.753666
+      ],
+      "errors": [],
+      "why": "Docs state +api.ts suffix; candidate matches."
+    },
+    {
+      "provider": "exa",
+      "task": "s-bun-pw",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Argon2id",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        285.231667
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources confirm Argon2id default."
+    },
+    {
+      "provider": "exa",
+      "task": "s-bun-lock",
+      "kind": "docs",
+      "run": 0,
+      "answer": "bun.lock",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        211.27224999999999
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs confirm."
+    },
+    {
+      "provider": "exa",
+      "task": "s-rn-newarch",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.76",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        216.87704200000007
+      ],
+      "errors": [],
+      "why": "Sources state React Native 0.76 enabled New Architecture by default."
+    },
+    {
+      "provider": "exa",
+      "task": "s-rn-legacy",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.82",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        218.34270800000013
+      ],
+      "errors": [],
+      "why": "Cited results confirm 0.82 is New Architecture only."
+    },
+    {
+      "provider": "exa",
+      "task": "s-tq-gctime",
+      "kind": "docs",
+      "run": 0,
+      "answer": "gcTime",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        229.1403339999997
+      ],
+      "errors": [],
+      "why": "Sources explicitly state cacheTime renamed to gcTime."
+    },
+    {
+      "provider": "exa",
+      "task": "s-zustand5",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React 18 (>=18.0.0)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        218.13404100000025
+      ],
+      "errors": [],
+      "why": "Both state React 18 minimum; cited results confirm >=18.0.0"
+    },
+    {
+      "provider": "exa",
+      "task": "s-tw4-theme",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@theme",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        216.36749999999938
+      ],
+      "errors": [],
+      "why": "Sources confirm @theme defines design tokens."
+    },
+    {
+      "provider": "exa",
+      "task": "s-rq-default-stale",
+      "kind": "docs",
+      "run": 0,
+      "answer": "0 (data is considered stale immediately)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        713.6664999999994
+      ],
+      "errors": [],
+      "why": "Matches default staleTime of 0 and immediate staleness."
+    },
+    {
+      "provider": "exa",
+      "task": "s-expo-sdk-rn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.88",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        218.97491699999955
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results confirm it."
+    },
+    {
+      "provider": "exa",
+      "task": "k-kti",
+      "kind": "fact",
+      "run": 0,
+      "answer": "KTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        239.10491700000057
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited results state KTI."
+    },
+    {
+      "provider": "exa",
+      "task": "k-sai",
+      "kind": "fact",
+      "run": 0,
+      "answer": "SAI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        215.47087499999907
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results confirm SAI."
+    },
+    {
+      "provider": "exa",
+      "task": "k-sai-builder",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Yunnan Investment Holdings Ltd.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        549.4630419999994
+      ],
+      "errors": [],
+      "why": "Candidate matches gold via entity name alias in cited sources."
+    },
+    {
+      "provider": "exa",
+      "task": "k-funan",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Approximately 180 km (about 110 miles)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        228.52279200000157
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited sources."
+    },
+    {
+      "provider": "exa",
+      "task": "k-airline",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Air Cambodia",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        223.45483299999978
+      ],
+      "errors": [],
+      "why": "Sources state rebranded to Air Cambodia"
+    },
+    {
+      "provider": "exa-deep",
+      "task": "s-next-fetch",
+      "kind": "docs",
+      "run": 0,
+      "answer": "No. Starting with Next.js 15, fetch requests are not cached by default; the default is uncached/no-store behavior unless you opt in with cache: 'force-cache' (or use fetchCache = 'default-cache'). Not",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6472.34325
+      ],
+      "errors": [],
+      "why": "Matches uncached default; cited docs confirm opt-in and prerender note."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "s-next16-proxy",
+      "kind": "docs",
+      "run": 0,
+      "answer": "proxy.ts",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7140.061917
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; docs state middleware renamed to proxy."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "s-expo-api",
+      "kind": "docs",
+      "run": 0,
+      "answer": "+api.ts (or +api.js)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5089.904542
+      ],
+      "errors": [],
+      "why": "Matches +api marker; sources cite +api.ts/+api.js."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "s-bun-pw",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Argon2id (the default Argon2 variant)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3966.7394160000003
+      ],
+      "errors": [],
+      "why": "Candidate matches default Argon2id stated in sources."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "s-bun-lock",
+      "kind": "docs",
+      "run": 0,
+      "answer": "`bun.lock`",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3604.325917
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "s-rn-newarch",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.76",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3205.0385420000002
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited sources confirm 0.76 default."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "s-rn-legacy",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.82",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3309.233875
+      ],
+      "errors": [],
+      "why": "Sources state 0.82 is New Architecture only."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "s-tq-gctime",
+      "kind": "docs",
+      "run": 0,
+      "answer": "gcTime",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2158.6460829999996
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited docs state cacheTime renamed to gcTime."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "s-zustand5",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React 18",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3163.2626249999994
+      ],
+      "errors": [],
+      "why": "Cited sources state React 18 minimum."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "s-tw4-theme",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@theme",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3634.3177909999977
+      ],
+      "errors": [],
+      "why": "Sources confirm @theme defines design tokens in v4."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "s-rq-default-stale",
+      "kind": "docs",
+      "run": 0,
+      "answer": "0 (immediately stale)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2850.0310409999984
+      ],
+      "errors": [],
+      "why": "Both state default staleTime is 0, immediately stale."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "s-expo-sdk-rn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.88",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3609.269791999999
+      ],
+      "errors": [],
+      "why": "Cited results explicitly state SDK 58 includes React Native 0.88."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "k-kti",
+      "kind": "fact",
+      "run": 0,
+      "answer": "KTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3336.1479160000017
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources explicitly list KTI."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "k-sai",
+      "kind": "fact",
+      "run": 0,
+      "answer": "SAI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4767.684249999998
+      ],
+      "errors": [],
+      "why": "Sources state IATA code is SAI."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "k-sai-builder",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Yunnan Investment Holdings Ltd.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3893.580417000001
+      ],
+      "errors": [],
+      "why": "Matches cited company alias of gold."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "k-funan",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Approximately 180 km (some sources cite about 172.6 km).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3278.302291
+      ],
+      "errors": [],
+      "why": "Candidate states 180 km; sources support both figures."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "k-airline",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Air Cambodia",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3630.0404169999965
+      ],
+      "errors": [],
+      "why": "Sources state rebranded as Air Cambodia."
+    },
+    {
+      "provider": "parallel",
+      "task": "s-next-fetch",
+      "kind": "docs",
+      "run": 0,
+      "answer": "No. Starting with Next.js 15, fetch requests are not cached by default; they default to no-store/uncached behavior unless you explicitly opt in (e.g., with cache: 'force-cache' or next.revalidate).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2220.747834
+      ],
+      "errors": [],
+      "why": "Sources confirm uncached default and opt-in caching."
+    },
+    {
+      "provider": "parallel",
+      "task": "s-next16-proxy",
+      "kind": "docs",
+      "run": 0,
+      "answer": "proxy.ts",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1294.582167
+      ],
+      "errors": [],
+      "why": "Cited results confirm middleware.ts replaced by proxy.ts."
+    },
+    {
+      "provider": "parallel",
+      "task": "s-expo-api",
+      "kind": "docs",
+      "run": 0,
+      "answer": "+api.ts",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2461.463167
+      ],
+      "errors": [],
+      "why": "Candidate matches docs; +api.ts is documented extension."
+    },
+    {
+      "provider": "parallel",
+      "task": "s-bun-pw",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Argon2id",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1207.857
+      ],
+      "errors": [],
+      "why": "Same algorithm, case differs; sources confirm Argon2id default."
+    },
+    {
+      "provider": "parallel",
+      "task": "s-bun-lock",
+      "kind": "docs",
+      "run": 0,
+      "answer": "bun.lock",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1230.547584
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources state bun.lock."
+    },
+    {
+      "provider": "parallel",
+      "task": "s-rn-newarch",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.76",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        929.8119159999997
+      ],
+      "errors": [],
+      "why": "Sources state 0.76 enables New Architecture by default."
+    },
+    {
+      "provider": "parallel",
+      "task": "s-rn-legacy",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.82",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1153.7120000000004
+      ],
+      "errors": [],
+      "why": "Cited results explicitly state React Native 0.82 removed legacy option."
+    },
+    {
+      "provider": "parallel",
+      "task": "s-tq-gctime",
+      "kind": "docs",
+      "run": 0,
+      "answer": "gcTime",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1168.895958000001
+      ],
+      "errors": [],
+      "why": "Cited docs state cacheTime renamed to gcTime."
+    },
+    {
+      "provider": "parallel",
+      "task": "s-zustand5",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React 18",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1007.8151249999992
+      ],
+      "errors": [],
+      "why": "Both say React 18; sources confirm minimum."
+    },
+    {
+      "provider": "parallel",
+      "task": "s-tw4-theme",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@theme",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1337.2216250000001
+      ],
+      "errors": [],
+      "why": "Answer matches gold and is directly supported by cited results."
+    },
+    {
+      "provider": "parallel",
+      "task": "s-rq-default-stale",
+      "kind": "docs",
+      "run": 0,
+      "answer": "0 milliseconds",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1324.3377499999988
+      ],
+      "errors": [],
+      "why": "Matches default staleTime of 0 milliseconds."
+    },
+    {
+      "provider": "parallel",
+      "task": "s-expo-sdk-rn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.88",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        916.0662920000013
+      ],
+      "errors": [],
+      "why": "Changelog and docs state SDK 58 uses React Native 0.88."
+    },
+    {
+      "provider": "parallel",
+      "task": "k-kti",
+      "kind": "fact",
+      "run": 0,
+      "answer": "KTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1131.9399159999994
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited sources explicitly state KTI."
+    },
+    {
+      "provider": "parallel",
+      "task": "k-sai",
+      "kind": "fact",
+      "run": 0,
+      "answer": "SAI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1254.6107499999998
+      ],
+      "errors": [],
+      "why": "Both answer and cited results state SAI."
+    },
+    {
+      "provider": "parallel",
+      "task": "k-sai-builder",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "China's Yunnan Investment Holdings Ltd. (Yunnan Provincial Investment Holding Group Co., Ltd.), through its affiliate Angkor International Airport Investment (Cambodia) Co., Ltd.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1170.4566659999982
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Xinhua states Yunnan Investment Holdings affiliate."
+    },
+    {
+      "provider": "parallel",
+      "task": "k-funan",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Approximately 180 kilometres (some reports later cite a scaled-back length of about 151.6 km).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1124.782041999999
+      ],
+      "errors": [],
+      "why": "States approximately 180 km, supported by cited sources."
+    },
+    {
+      "provider": "parallel",
+      "task": "k-airline",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Air Cambodia",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1193.0302499999998
+      ],
+      "errors": [],
+      "why": "Sources state rebranded to Air Cambodia."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "s-next-fetch",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Starting with Next.js 15, fetch requests are not cached by default. The default is uncached, equivalent to `cache: 'no-store'`; caching is opt-in via `cache: 'force-cache'`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1222.186166
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs confirm."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "s-next16-proxy",
+      "kind": "docs",
+      "run": 0,
+      "answer": "proxy.ts",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1979.379083
+      ],
+      "errors": [],
+      "why": "Search results explicitly say middleware.ts renamed to proxy.ts"
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "s-expo-api",
+      "kind": "docs",
+      "run": 0,
+      "answer": "+api.ts (or +api.js); generally the +api suffix",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3285.091583
+      ],
+      "errors": [],
+      "why": "Candidate matches +api suffix; sources cite +api.ts/+api.js."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "s-bun-pw",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Argon2id",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1152.717541
+      ],
+      "errors": [],
+      "why": "Same algorithm; cited docs explicitly state Argon2id."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "s-bun-lock",
+      "kind": "docs",
+      "run": 0,
+      "answer": "bun.lock",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1428.5032500000007
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "s-rn-newarch",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.76",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1070.2022079999997
+      ],
+      "errors": [],
+      "why": "Cited sources confirm React Native 0.76 enabled it by default."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "s-rn-legacy",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.82",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1414.6159169999992
+      ],
+      "errors": [],
+      "why": "Sources state 0.82 is New Architecture only."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "s-tq-gctime",
+      "kind": "docs",
+      "run": 0,
+      "answer": "gcTime",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1075.3494579999988
+      ],
+      "errors": [],
+      "why": "Sources explicitly state cacheTime renamed to gcTime."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "s-zustand5",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React 18",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1077.1085000000003
+      ],
+      "errors": [],
+      "why": "Both match; sources state React 18 minimum."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "s-tw4-theme",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@theme",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1017.5908749999999
+      ],
+      "errors": [],
+      "why": "Cited docs confirm @theme defines design tokens."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "s-rq-default-stale",
+      "kind": "docs",
+      "run": 0,
+      "answer": "0 milliseconds",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1037.7189999999991
+      ],
+      "errors": [],
+      "why": "0 milliseconds matches default staleTime 0."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "s-expo-sdk-rn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.88",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1499.029708
+      ],
+      "errors": [],
+      "why": "Sources explicitly state SDK 58 includes React Native 0.88."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "k-kti",
+      "kind": "fact",
+      "run": 0,
+      "answer": "KTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        959.1920420000006
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and sources confirm KTI."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "k-sai",
+      "kind": "fact",
+      "run": 0,
+      "answer": "SAI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1375.3177920000016
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited sources confirm SAI."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "k-sai-builder",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "China's Yunnan Investment Holdings Ltd.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1025.7601250000007
+      ],
+      "errors": [],
+      "why": "Candidate names same parent company via alias."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "k-funan",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Approximately 180 km, though some reports state the planned length was scaled back to about 151.6 km.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1131.1527089999981
+      ],
+      "errors": [],
+      "why": "Cites 180 km and scaled-back 151.6 km reports"
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "k-airline",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Air Cambodia",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1026.2988750000004
+      ],
+      "errors": [],
+      "why": "Both answer and sources say Air Cambodia."
+    },
+    {
+      "provider": "tavily",
+      "task": "s-next-fetch",
+      "kind": "docs",
+      "run": 0,
+      "answer": "No. Starting with Next.js 15, fetch requests are not cached by default; the default is dynamic/uncached behavior (`cache: 'no-store'`), and caching must be explicitly opted into (e.g., with `cache: 'f",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3256.3365
+      ],
+      "errors": [],
+      "why": "Cited sources confirm fetch uncached by default in Next.js 15."
+    },
+    {
+      "provider": "tavily",
+      "task": "s-next16-proxy",
+      "kind": "docs",
+      "run": 0,
+      "answer": "proxy.ts",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3139.886666
+      ],
+      "errors": [],
+      "why": "Sources state proxy.ts replaced middleware.ts."
+    },
+    {
+      "provider": "tavily",
+      "task": "s-expo-api",
+      "kind": "docs",
+      "run": 0,
+      "answer": "+api.ts",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3648.493084
+      ],
+      "errors": [],
+      "why": "Docs confirm files use +api.ts suffix."
+    },
+    {
+      "provider": "tavily",
+      "task": "s-bun-pw",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Argon2id",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2977.5698330000005
+      ],
+      "errors": [],
+      "why": "Case differs only; sources confirm Argon2id default."
+    },
+    {
+      "provider": "tavily",
+      "task": "s-bun-lock",
+      "kind": "docs",
+      "run": 0,
+      "answer": "bun.lock",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2220.4793329999993
+      ],
+      "errors": [],
+      "why": "Both match; sources confirm bun.lock default."
+    },
+    {
+      "provider": "tavily",
+      "task": "s-rn-newarch",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.76",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3221.6247919999996
+      ],
+      "errors": [],
+      "why": "Cited sources state React Native 0.76 enabled it by default."
+    },
+    {
+      "provider": "tavily",
+      "task": "s-rn-legacy",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.82",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2241.2391669999997
+      ],
+      "errors": [],
+      "why": "Sources state React Native 0.82 removed legacy architecture option."
+    },
+    {
+      "provider": "tavily",
+      "task": "s-tq-gctime",
+      "kind": "docs",
+      "run": 0,
+      "answer": "gcTime",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2132.9147909999992
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and is supported by cited results."
+    },
+    {
+      "provider": "tavily",
+      "task": "s-zustand5",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React 18",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2588.0713750000014
+      ],
+      "errors": [],
+      "why": "Both state React 18; sources confirm it."
+    },
+    {
+      "provider": "tavily",
+      "task": "s-tw4-theme",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@theme",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2577.9624159999985
+      ],
+      "errors": [],
+      "why": "Search results explicitly state @theme defines design tokens."
+    },
+    {
+      "provider": "tavily",
+      "task": "s-rq-default-stale",
+      "kind": "docs",
+      "run": 0,
+      "answer": "0ms (data is immediately stale)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2113.8017919999984
+      ],
+      "errors": [],
+      "why": "Same default staleTime value and meaning."
+    },
+    {
+      "provider": "tavily",
+      "task": "s-expo-sdk-rn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.88",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3103.9542919999985
+      ],
+      "errors": [],
+      "why": "Both match; sources state React Native 0.88."
+    },
+    {
+      "provider": "tavily",
+      "task": "k-kti",
+      "kind": "fact",
+      "run": 0,
+      "answer": "KTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1927.229625
+      ],
+      "errors": [],
+      "why": "Sources state IATA code KTI."
+    },
+    {
+      "provider": "tavily",
+      "task": "k-sai",
+      "kind": "fact",
+      "run": 0,
+      "answer": "SAI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4239.788708
+      ],
+      "errors": [],
+      "why": "Cited sources explicitly state IATA code SAI."
+    },
+    {
+      "provider": "tavily",
+      "task": "k-sai-builder",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Yunnan Investment Holdings Ltd. (via its affiliate Angkor International Airport Investment (Cambodia) Co., Ltd.)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2394.3457500000004
+      ],
+      "errors": [],
+      "why": "Same company/affiliate; cited NDRC source confirms."
+    },
+    {
+      "provider": "tavily",
+      "task": "k-funan",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Approximately 180 km (about 110 miles) long.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3298.0577919999996
+      ],
+      "errors": [],
+      "why": "Cited sources state 180 km (110 miles)."
+    },
+    {
+      "provider": "tavily",
+      "task": "k-airline",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Air Cambodia",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        261.4102920000005
+      ],
+      "errors": [],
+      "why": "Both match; sources confirm rebrand to Air Cambodia."
+    },
+    {
+      "provider": "valyu",
+      "task": "s-next-fetch",
+      "kind": "docs",
+      "run": 0,
+      "answer": "No. Starting with Next.js 15, fetch requests are not cached by default; the default cache behavior is no-store, meaning a fresh request is made every time. Caching must be opted into explicitly, e.g. ",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4654.625709
+      ],
+      "errors": [],
+      "why": "Matches gold and cited sources confirm no-store default"
+    },
+    {
+      "provider": "valyu",
+      "task": "s-next16-proxy",
+      "kind": "docs",
+      "run": 0,
+      "answer": "proxy.ts (the exported function is renamed from middleware to proxy)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        9876.874958
+      ],
+      "errors": [],
+      "why": "Sources confirm proxy.ts and function rename."
+    },
+    {
+      "provider": "valyu",
+      "task": "s-expo-api",
+      "kind": "docs",
+      "run": 0,
+      "answer": "+api.ts",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4462.379292
+      ],
+      "errors": [],
+      "why": "Docs cite +api.ts suffix as API route marker."
+    },
+    {
+      "provider": "valyu",
+      "task": "s-bun-pw",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Argon2id",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1783.4529579999999
+      ],
+      "errors": [],
+      "why": "Same algorithm, differing only in capitalization."
+    },
+    {
+      "provider": "valyu",
+      "task": "s-bun-lock",
+      "kind": "docs",
+      "run": 0,
+      "answer": "bun.lock",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2017.5417499999994
+      ],
+      "errors": [],
+      "why": "Both match; cited docs state bun.lock."
+    },
+    {
+      "provider": "valyu",
+      "task": "s-rn-newarch",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.76",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7221.503958999998
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources explicitly state 0.76."
+    },
+    {
+      "provider": "valyu",
+      "task": "s-rn-legacy",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.82",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2435.731916999999
+      ],
+      "errors": [],
+      "why": "Sources confirm RN 0.82 removed legacy option."
+    },
+    {
+      "provider": "valyu",
+      "task": "s-tq-gctime",
+      "kind": "docs",
+      "run": 0,
+      "answer": "UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        2375.2193329999973
+      ],
+      "errors": [],
+      "why": "UNKNOWN is not correct; gcTime is the answer."
+    },
+    {
+      "provider": "valyu",
+      "task": "s-zustand5",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React 18",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7085.715667
+      ],
+      "errors": [],
+      "why": "Both state React 18 minimum; sources confirm."
+    },
+    {
+      "provider": "valyu",
+      "task": "s-tw4-theme",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@theme",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2027.6207080000022
+      ],
+      "errors": [],
+      "why": "Both answer @theme; sources confirm directive."
+    },
+    {
+      "provider": "valyu",
+      "task": "s-rq-default-stale",
+      "kind": "docs",
+      "run": 0,
+      "answer": "UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        2249.687082999997
+      ],
+      "errors": [],
+      "why": "UNKNOWN is not correct; no cited support."
+    },
+    {
+      "provider": "valyu",
+      "task": "s-expo-sdk-rn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.88",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3466.3200830000023
+      ],
+      "errors": [],
+      "why": "Both match; cited sources state React Native 0.88."
+    },
+    {
+      "provider": "valyu",
+      "task": "k-kti",
+      "kind": "fact",
+      "run": 0,
+      "answer": "KTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2495.4899159999986
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources state IATA KTI."
+    },
+    {
+      "provider": "valyu",
+      "task": "k-sai",
+      "kind": "fact",
+      "run": 0,
+      "answer": "SAI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1761.6871250000004
+      ],
+      "errors": [],
+      "why": "Cited sources confirm IATA code SAI."
+    },
+    {
+      "provider": "valyu",
+      "task": "k-sai-builder",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Yunnan Investment Holdings Ltd. (through its affiliate Angkor International Airport Investment (Cambodia) Co., Ltd.)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2754.6082499999975
+      ],
+      "errors": [],
+      "why": "Same entity and subsidiary; sources support."
+    },
+    {
+      "provider": "valyu",
+      "task": "k-funan",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Approximately 180 km (110 miles).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2017.729124999998
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources state 180 km."
+    },
+    {
+      "provider": "valyu",
+      "task": "k-airline",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Air Cambodia",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1878.8038329999981
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources confirm Air Cambodia."
+    },
+    {
+      "provider": "context",
+      "task": "s-next-fetch",
+      "kind": "docs",
+      "run": 0,
+      "answer": "No. Starting with Next.js 15, fetch requests are not cached by default; the default behavior is `cache: 'no-store'`, so data is fetched fresh on every request unless caching is explicitly enabled (for",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7509.571749999999
+      ],
+      "errors": [],
+      "why": "Matches gold; sources state uncached no-store default"
+    },
+    {
+      "provider": "context",
+      "task": "s-next16-proxy",
+      "kind": "docs",
+      "run": 0,
+      "answer": "proxy.ts",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6471.785708000001
+      ],
+      "errors": [],
+      "why": "Sources state middleware.ts renamed to proxy.ts"
+    },
+    {
+      "provider": "context",
+      "task": "s-expo-api",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The `+api` suffix (for example, `hello+api.ts`).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3855.222582999999
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs confirm +api suffix."
+    },
+    {
+      "provider": "context",
+      "task": "s-bun-pw",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Argon2id",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4781.561417000001
+      ],
+      "errors": [],
+      "why": "Argon2id matches default; docs state it."
+    },
+    {
+      "provider": "context",
+      "task": "s-bun-lock",
+      "kind": "docs",
+      "run": 0,
+      "answer": "bun.lock",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2237.2610829999976
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs confirm it."
+    },
+    {
+      "provider": "context",
+      "task": "s-rn-newarch",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.76",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6188.729708999999
+      ],
+      "errors": [],
+      "why": "Sources state React Native 0.76 enabled New Architecture by default."
+    },
+    {
+      "provider": "context",
+      "task": "s-rn-legacy",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.82",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3392.4123340000006
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources confirm 0.82 New Architecture only."
+    },
+    {
+      "provider": "context",
+      "task": "s-tq-gctime",
+      "kind": "docs",
+      "run": 0,
+      "answer": "gcTime",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3113.678083999999
+      ],
+      "errors": [],
+      "why": "Search results explicitly state cacheTime renamed to gcTime."
+    },
+    {
+      "provider": "context",
+      "task": "s-zustand5",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React 18 (18.0.0 or later)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7789.199416999996
+      ],
+      "errors": [],
+      "why": "Candidate matches React 18 minimum, cited sources support it"
+    },
+    {
+      "provider": "context",
+      "task": "s-tw4-theme",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@theme",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7284.162915999987
+      ],
+      "errors": [],
+      "why": "Cited sources confirm @theme defines design tokens."
+    },
+    {
+      "provider": "context",
+      "task": "s-rq-default-stale",
+      "kind": "docs",
+      "run": 0,
+      "answer": "0ms",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6872.450209000002
+      ],
+      "errors": [],
+      "why": "Sources state default staleTime is 0ms"
+    },
+    {
+      "provider": "context",
+      "task": "s-expo-sdk-rn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "React Native 0.88",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6547.455166
+      ],
+      "errors": [],
+      "why": "Both state React Native 0.88; cited results confirm."
+    },
+    {
+      "provider": "context",
+      "task": "k-kti",
+      "kind": "fact",
+      "run": 0,
+      "answer": "KTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6474.829666999998
+      ],
+      "errors": [],
+      "why": "Both match; sources state IATA KTI."
+    },
+    {
+      "provider": "context",
+      "task": "k-sai",
+      "kind": "fact",
+      "run": 0,
+      "answer": "SAI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6527.975458000001
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited sources confirm SAI."
+    },
+    {
+      "provider": "context",
+      "task": "k-sai-builder",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Yunnan Investment Holdings Ltd.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7010.994709000006
+      ],
+      "errors": [],
+      "why": "Cited sources explicitly name Yunnan Investment Holdings Ltd."
+    },
+    {
+      "provider": "context",
+      "task": "k-funan",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Approximately 180 kilometers (about 110 miles).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6627.1535
+      ],
+      "errors": [],
+      "why": "Both state about 180 km; sources confirm."
+    },
+    {
+      "provider": "context",
+      "task": "k-airline",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Air Cambodia",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6440.026375000016
+      ],
+      "errors": [],
+      "why": "Cited sources confirm rebranding to Air Cambodia."
+    }
+  ],
+  "summary": [
+    {
+      "provider": "exa",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 229,
+      "searches": 18,
+      "errors": 0,
+      "docs": "12/12",
+      "fact": "5/5",
+      "multihop": "1/1"
+    },
+    {
+      "provider": "parallel-advanced",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 1153,
+      "searches": 18,
+      "errors": 0,
+      "docs": "12/12",
+      "fact": "5/5",
+      "multihop": "1/1"
+    },
+    {
+      "provider": "tavily",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 2588,
+      "searches": 18,
+      "errors": 0,
+      "docs": "12/12",
+      "fact": "5/5",
+      "multihop": "1/1"
+    },
+    {
+      "provider": "exa-deep",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 3609,
+      "searches": 18,
+      "errors": 0,
+      "docs": "12/12",
+      "fact": "5/5",
+      "multihop": "1/1"
+    },
+    {
+      "provider": "context",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 6475,
+      "searches": 18,
+      "errors": 0,
+      "docs": "12/12",
+      "fact": "5/5",
+      "multihop": "1/1"
+    },
+    {
+      "provider": "parallel",
+      "score": 94.4,
+      "correct": 94.4,
+      "p50ms": 1208,
+      "searches": 18,
+      "errors": 0,
+      "docs": "12/12",
+      "fact": "4/5",
+      "multihop": "1/1"
+    },
+    {
+      "provider": "valyu",
+      "score": 83.3,
+      "correct": 83.3,
+      "p50ms": 2436,
+      "searches": 18,
+      "errors": 0,
+      "docs": "10/12",
+      "fact": "4/5",
+      "multihop": "1/1"
+    }
+  ]
+}

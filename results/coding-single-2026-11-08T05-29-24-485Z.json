@@ -1,0 +1,7044 @@
+{
+  "roundName": "coding",
+  "mode": "single",
+  "runs": 1,
+  "reader": "deepseek-v4.1",
+  "grader": "deepseek-v4.1",
+  "rows": [
+    {
+      "provider": "exa",
+      "task": "c-next-params",
+      "kind": "docs",
+      "run": 0,
+      "answer": "`params` is a `Promise` (e.g. `Promise<{ slug: string }>`). You must `await` it before reading its fields; in a Client Component, unwrap it with `React.use()`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        782.401291
+      ],
+      "errors": [],
+      "why": "Matches Promise and await/use requirement."
+    },
+    {
+      "provider": "exa",
+      "task": "c-next-cachecomp",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Set `cacheComponents: true` in next.config.ts (the docs also recommend explicitly setting `partialPrefetching: true` alongside it).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3042.2674580000003
+      ],
+      "errors": [],
+      "why": "Candidate gives cacheComponents true plus correct recommended detail."
+    },
+    {
+      "provider": "exa",
+      "task": "c-next-bundler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Turbopack",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1689.8515
+      ],
+      "errors": [],
+      "why": "Results explicitly state Turbopack is default"
+    },
+    {
+      "provider": "exa",
+      "task": "c-next-dynamic",
+      "kind": "docs",
+      "run": 0,
+      "answer": "`export const dynamic = 'force-dynamic'`",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1561.947333
+      ],
+      "errors": [],
+      "why": "Matches documented force-dynamic route segment config."
+    },
+    {
+      "provider": "exa",
+      "task": "c-react-actionstate",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useActionState (React.useActionState)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1207.858083
+      ],
+      "errors": [],
+      "why": "Citation states useActionState replaced useFormState."
+    },
+    {
+      "provider": "exa",
+      "task": "c-react-compiler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "babel-plugin-react-compiler",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1352.9341250000007
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results."
+    },
+    {
+      "provider": "exa",
+      "task": "c-rn-fabric",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Fabric (the new renderer) and TurboModules (the new native module system)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        530.2545840000002
+      ],
+      "errors": [],
+      "why": "Both names match gold and cited sources."
+    },
+    {
+      "provider": "exa",
+      "task": "c-expo-fingerprint",
+      "kind": "docs",
+      "run": 0,
+      "answer": "fingerprint",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        528.6963340000002
+      ],
+      "errors": [],
+      "why": "Sources state fingerprint policy hashes native characteristics."
+    },
+    {
+      "provider": "exa",
+      "task": "c-expo-html",
+      "kind": "docs",
+      "run": 0,
+      "answer": "+html.tsx",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1817.1951250000002
+      ],
+      "errors": [],
+      "why": "Candidate matches documented +html.tsx filename."
+    },
+    {
+      "provider": "exa",
+      "task": "c-expo-video",
+      "kind": "docs",
+      "run": 0,
+      "answer": "expo-video",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1088.5266659999998
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited Expo sources confirm expo-video replaces expo-av."
+    },
+    {
+      "provider": "exa",
+      "task": "c-bun-routes",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The `routes` option",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1184.2471670000014
+      ],
+      "errors": [],
+      "why": "Cited docs state Bun.serve() has a routes option."
+    },
+    {
+      "provider": "exa",
+      "task": "c-bun-sql",
+      "kind": "docs",
+      "run": 0,
+      "answer": "`import { sql } from \"bun\";` (the docs also show `import { sql, SQL } from \"bun\";`)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1035.0293329999986
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs show import."
+    },
+    {
+      "provider": "exa",
+      "task": "c-ts-erasable",
+      "kind": "docs",
+      "run": 0,
+      "answer": "erasableSyntaxOnly",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        535.7737500000003
+      ],
+      "errors": [],
+      "why": "Cited docs name erasableSyntaxOnly for enums/namespaces."
+    },
+    {
+      "provider": "exa",
+      "task": "c-node-strip",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js v22.18.0 and v23.6.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1246.6786659999998
+      ],
+      "errors": [],
+      "why": "Docs list both versions as default-enabled."
+    },
+    {
+      "provider": "exa",
+      "task": "c-node-envfile",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js 20.6.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3143.8873329999988
+      ],
+      "errors": [],
+      "why": "Candidate matches gold version; sources confirm v20.6.0."
+    },
+    {
+      "provider": "exa",
+      "task": "c-node-sqlite",
+      "kind": "docs",
+      "run": 0,
+      "answer": "node:sqlite",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1440.729000000003
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited docs state node:sqlite."
+    },
+    {
+      "provider": "exa",
+      "task": "c-pg18-uuid",
+      "kind": "docs",
+      "run": 0,
+      "answer": "uuidv7()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1153.073708
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited docs state uuidv7()."
+    },
+    {
+      "provider": "exa",
+      "task": "c-pg18-io",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The parameter is `io_method`, and its default value is `worker`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        537.5097080000014
+      ],
+      "errors": [],
+      "why": "Both parameter and default match cited docs."
+    },
+    {
+      "provider": "exa",
+      "task": "c-drizzle-gen",
+      "kind": "docs",
+      "run": 0,
+      "answer": "drizzle-kit generate",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1155.2694580000025
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and sources confirm command."
+    },
+    {
+      "provider": "exa",
+      "task": "c-zod-email",
+      "kind": "docs",
+      "run": 0,
+      "answer": "z.email()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1663.9794159999983
+      ],
+      "errors": [],
+      "why": "Docs explicitly state z.email() replaces deprecated method."
+    },
+    {
+      "provider": "exa",
+      "task": "c-tw4-import",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@import \"tailwindcss\";",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        548.0955830000021
+      ],
+      "errors": [],
+      "why": "Exact match; official docs confirm single import line."
+    },
+    {
+      "provider": "exa",
+      "task": "c-tq-pending",
+      "kind": "docs",
+      "run": 0,
+      "answer": "pending",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1153.547458000001
+      ],
+      "errors": [],
+      "why": "Search results state status loading renamed to pending."
+    },
+    {
+      "provider": "exa",
+      "task": "c-zustand-shallow",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useShallow",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        541.971125
+      ],
+      "errors": [],
+      "why": "Cited docs name useShallow for unstable object/array selectors."
+    },
+    {
+      "provider": "exa",
+      "task": "c-pnpm-scripts",
+      "kind": "docs",
+      "run": 0,
+      "answer": "By default, pnpm 10 does not execute dependencies' lifecycle scripts (such as postinstall) during installation. They must be explicitly allowed, e.g. via pnpm.onlyBuiltDependencies/allowBuilds or pnpm",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1175.4615410000006
+      ],
+      "errors": [],
+      "why": "Matches gold and cited sources confirm default blocking."
+    },
+    {
+      "provider": "exa",
+      "task": "c-vite7-node",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js 20.19+ and 22.12+",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        946.0788749999992
+      ],
+      "errors": [],
+      "why": "States both required minimum version lines."
+    },
+    {
+      "provider": "exa",
+      "task": "c-gha-timeout",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 hours (360 minutes)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1228.8678749999963
+      ],
+      "errors": [],
+      "why": "Sources confirm GitHub-hosted job max is 6 hours."
+    },
+    {
+      "provider": "exa",
+      "task": "c-gha-matrix",
+      "kind": "docs",
+      "run": 0,
+      "answer": "256 jobs per workflow run",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1637.6162919999988
+      ],
+      "errors": [],
+      "why": "Both state max 256 jobs per workflow run."
+    },
+    {
+      "provider": "exa",
+      "task": "c-git-rerere",
+      "kind": "docs",
+      "run": 0,
+      "answer": "rerere.enabled",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1267.7530410000036
+      ],
+      "errors": [],
+      "why": "Sources explicitly identify rerere.enabled as the config setting."
+    },
+    {
+      "provider": "exa",
+      "task": "c-uv-pep",
+      "kind": "docs",
+      "run": 0,
+      "answer": "PEP 723",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1248.2842919999966
+      ],
+      "errors": [],
+      "why": "PEP 723 is explicitly cited as defining inline script metadata."
+    },
+    {
+      "provider": "exa",
+      "task": "c-rust-2024",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Rust 1.85.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1245.2185409999947
+      ],
+      "errors": [],
+      "why": "Cited results confirm Rust 1.85.0 stabilized 2024 edition."
+    },
+    {
+      "provider": "exa",
+      "task": "c-go-iter",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Go 1.23",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1152.8965420000022
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources confirm Go 1.23."
+    },
+    {
+      "provider": "exa",
+      "task": "c-fresh-rn",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "0.88.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2692.449042
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited npm versions confirm 0.88.1."
+    },
+    {
+      "provider": "exa",
+      "task": "c-fresh-vite",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "8.3.6",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        530.2194579999996
+      ],
+      "errors": [],
+      "why": "Cited results show latest stable 8.3.6."
+    },
+    {
+      "provider": "exa",
+      "task": "c-fresh-eslint",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "10.14.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1716.0328749999971
+      ],
+      "errors": [],
+      "why": "Cited sources confirm latest stable ESLint is 10.14.0."
+    },
+    {
+      "provider": "exa",
+      "task": "c-fresh-zod",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "4.6.7",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        586.681666000004
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited sources confirm latest 4.6.7."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-next-params",
+      "kind": "docs",
+      "run": 0,
+      "answer": "`params` is a `Promise` that resolves to an object of dynamic route parameters. You must `await` it before reading its fields (or use `React.use()` to unwrap it in a Client Component).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3502.676125
+      ],
+      "errors": [],
+      "why": "Matches Promise and await/use() requirement"
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-next-cachecomp",
+      "kind": "docs",
+      "run": 0,
+      "answer": "cacheComponents: true",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4613.578917000001
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs confirm."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-next-bundler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Turbopack",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7018.921416
+      ],
+      "errors": [],
+      "why": "Sources state Turbopack is default for dev and build."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-next-dynamic",
+      "kind": "docs",
+      "run": 0,
+      "answer": "`export const dynamic = 'force-dynamic'`",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4483.255875
+      ],
+      "errors": [],
+      "why": "Cited docs confirm force-dynamic renders each request"
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-react-actionstate",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useActionState",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2562.7689579999997
+      ],
+      "errors": [],
+      "why": "React 19 renamed useFormState to useActionState."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-react-compiler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "babel-plugin-react-compiler",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2188.6425420000014
+      ],
+      "errors": [],
+      "why": "Exact package name matches gold and cited npm page."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-rn-fabric",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The new renderer is Fabric, and the new native module system is Turbo Modules (TurboModules).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2628.2478329999994
+      ],
+      "errors": [],
+      "why": "Both names match cited sources."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-expo-fingerprint",
+      "kind": "docs",
+      "run": 0,
+      "answer": "fingerprint",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4572.885416000001
+      ],
+      "errors": [],
+      "why": "Cited sources confirm fingerprint policy hashes native characteristics."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-expo-html",
+      "kind": "docs",
+      "run": 0,
+      "answer": "src/app/+html.tsx (or app/+html.tsx)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2298.5690829999985
+      ],
+      "errors": [],
+      "why": "Both paths cited as +html.tsx locations."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-expo-video",
+      "kind": "docs",
+      "run": 0,
+      "answer": "expo-video",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3613.8139169999995
+      ],
+      "errors": [],
+      "why": "Sources state expo-video replaces expo-av video playback."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-bun-routes",
+      "kind": "docs",
+      "run": 0,
+      "answer": "routes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6188.7617500000015
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources specify routes option."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-bun-sql",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Use `import { sql } from \"bun\";` (or `import { sql, SQL } from \"bun\";`) and query with a tagged template such as `await sql`SELECT * FROM users``. `sql` is Bun's default SQL client; PostgreSQL is the ",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4331.331042000002
+      ],
+      "errors": [],
+      "why": "Matches import from bun; sources confirm"
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-ts-erasable",
+      "kind": "docs",
+      "run": 0,
+      "answer": "erasableSyntaxOnly (--erasableSyntaxOnly)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3183.0753330000007
+      ],
+      "errors": [],
+      "why": "Search results directly state erasableSyntaxOnly option."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-node-strip",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js 22.18.0 (and 23.6.0)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4147.177708999996
+      ],
+      "errors": [],
+      "why": "Both versions cited as enabling default type stripping."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-node-envfile",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js 20.6.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3102.5225420000024
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited sources confirm v20.6.0."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-node-sqlite",
+      "kind": "docs",
+      "run": 0,
+      "answer": "node:sqlite",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3550.9160420000007
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs state node:sqlite."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-pg18-uuid",
+      "kind": "docs",
+      "run": 0,
+      "answer": "uuidv7()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2241.5844579999975
+      ],
+      "errors": [],
+      "why": "Docs explicitly state uuidv7() generates time-ordered UUIDs."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-pg18-io",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The configuration parameter is `io_method`, and its default value is `worker`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2481.5020829999994
+      ],
+      "errors": [],
+      "why": "Both io_method and default worker correctly stated."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-drizzle-gen",
+      "kind": "docs",
+      "run": 0,
+      "answer": "drizzle-kit generate",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3059.461833000001
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited docs confirm."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-zod-email",
+      "kind": "docs",
+      "run": 0,
+      "answer": "z.email()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3259.1322500000024
+      ],
+      "errors": [],
+      "why": "Both match; sources explicitly show z.email()."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-tw4-import",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@import \"tailwindcss\";",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2766.748959000004
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs confirm it."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-tq-pending",
+      "kind": "docs",
+      "run": 0,
+      "answer": "pending",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2571.7530839999963
+      ],
+      "errors": [],
+      "why": "Candidate matches pending status rename."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-zustand-shallow",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useShallow",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3544.2321659999943
+      ],
+      "errors": [],
+      "why": "useShallow is the specified hook"
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-pnpm-scripts",
+      "kind": "docs",
+      "run": 0,
+      "answer": "By default, pnpm 10 does not execute dependencies' lifecycle scripts (such as preinstall, install, and postinstall) during installation. This is a security-focused breaking change; scripts run only fo",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4134.465292000001
+      ],
+      "errors": [],
+      "why": "Cited docs confirm default blocking and explicit allowlist."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-vite7-node",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Vite 7 requires Node.js 20.19+ or 22.12+.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3444.6741660000043
+      ],
+      "errors": [],
+      "why": "Cited sources state Node.js 20.19+ and 22.12+."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-gha-timeout",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 hours",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3285.6794999999984
+      ],
+      "errors": [],
+      "why": "Search results state 6-hour max for GitHub-hosted jobs."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-gha-matrix",
+      "kind": "docs",
+      "run": 0,
+      "answer": "256 jobs per workflow run",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3178.033166000001
+      ],
+      "errors": [],
+      "why": "Matches gold and cited limits."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-git-rerere",
+      "kind": "docs",
+      "run": 0,
+      "answer": "rerere.enabled (e.g., `git config --global rerere.enabled true`)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7380.787584000005
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results support it."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-uv-pep",
+      "kind": "docs",
+      "run": 0,
+      "answer": "PEP 723",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6858.5975830000025
+      ],
+      "errors": [],
+      "why": "PEP 723 cited as inline script metadata."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-rust-2024",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Rust 1.85.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3230.2067499999976
+      ],
+      "errors": [],
+      "why": "Cited sources confirm 1.85.0 stabilized Rust 2024."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-go-iter",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Go 1.23",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2486.2966250000027
+      ],
+      "errors": [],
+      "why": "Sources state range-over-function iterators arrived in Go 1.23."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-fresh-rn",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "0.88.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2964.708791000012
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited results confirm 0.88.1."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-fresh-vite",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "8.3.6",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2854.237666999994
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited npm registry."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-fresh-eslint",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "10.14.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3385.0172909999965
+      ],
+      "errors": [],
+      "why": "Candidate matches latest stable ESLint version 10.14.0."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-fresh-zod",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "4.6.7",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2983.670041000005
+      ],
+      "errors": [],
+      "why": "Correct and directly supported by cited npm/version sources."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-next-params",
+      "kind": "docs",
+      "run": 0,
+      "answer": "In Next.js 15+, `params` is a `Promise` (e.g. `Promise<{ slug: string }>`). You must `await` it (or unwrap it with React’s `use` function) before reading its fields.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1764.208208
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs support it."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-next-cachecomp",
+      "kind": "docs",
+      "run": 0,
+      "answer": "cacheComponents: true",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2021.681792
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs confirm option."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-next-bundler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Turbopack",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1861.287417
+      ],
+      "errors": [],
+      "why": "Cited sources state Turbopack is default for dev and build."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-next-dynamic",
+      "kind": "docs",
+      "run": 0,
+      "answer": "export const dynamic = 'force-dynamic'",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1531.1846249999999
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; docs confirm force-dynamic behavior."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-react-actionstate",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useActionState",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1504.351458
+      ],
+      "errors": [],
+      "why": "Search results explicitly state useActionState replaced useFormState."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-react-compiler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "babel-plugin-react-compiler",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1637.7891250000002
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited npm package."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-rn-fabric",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The new renderer is Fabric, and the new native module system is TurboModules (also called Turbo Native Modules).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1646.2534579999992
+      ],
+      "errors": [],
+      "why": "Sources name Fabric renderer and TurboModules/Turbo Native Modules."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-expo-fingerprint",
+      "kind": "docs",
+      "run": 0,
+      "answer": "fingerprint",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1538.1651249999995
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources confirm fingerprint hashes native project inputs."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-expo-html",
+      "kind": "docs",
+      "run": 0,
+      "answer": "src/app/+html.tsx",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1653.3868330000005
+      ],
+      "errors": [],
+      "why": "Cited docs state src/app/+html.tsx customizes root HTML."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-expo-video",
+      "kind": "docs",
+      "run": 0,
+      "answer": "expo-video",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1325.9111670000002
+      ],
+      "errors": [],
+      "why": "Results explicitly say expo-video replaced expo-av video."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-bun-routes",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The `routes` option on Bun.serve()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1466.1680840000008
+      ],
+      "errors": [],
+      "why": "Citations confirm routes option added in Bun 1.2.3"
+    },
+    {
+      "provider": "parallel",
+      "task": "c-bun-sql",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Import `sql` from \"bun\" — `import { sql } from \"bun\";` — then use it as a tagged template literal, e.g. `await sql`SELECT * FROM users``. (You can also `import { SQL } from \"bun\"` and create a client ",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1933.970292
+      ],
+      "errors": [],
+      "why": "Cited docs show import { sql } from \"bun\" and SQL class."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-ts-erasable",
+      "kind": "docs",
+      "run": 0,
+      "answer": "--erasableSyntaxOnly (erasableSyntaxOnly)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1393.2115840000006
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited sources confirm flag."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-node-strip",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js 23.6.0 and 22.18.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1456.0552499999976
+      ],
+      "errors": [],
+      "why": "Cited docs confirm both versions enabled by default"
+    },
+    {
+      "provider": "parallel",
+      "task": "c-node-envfile",
+      "kind": "docs",
+      "run": 0,
+      "answer": "v20.6.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1625.1558339999974
+      ],
+      "errors": [],
+      "why": "Sources state --env-file added in v20.6.0."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-node-sqlite",
+      "kind": "docs",
+      "run": 0,
+      "answer": "node:sqlite",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1416.537207999998
+      ],
+      "errors": [],
+      "why": "Both match and sources state node:sqlite."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-pg18-uuid",
+      "kind": "docs",
+      "run": 0,
+      "answer": "uuidv7()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1527.9700000000012
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources explicitly cite uuidv7()."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-pg18-io",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The configuration parameter is `io_method`, and its default value is `worker`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1445.689875
+      ],
+      "errors": [],
+      "why": "Cited sources confirm io_method defaults to worker"
+    },
+    {
+      "provider": "parallel",
+      "task": "c-drizzle-gen",
+      "kind": "docs",
+      "run": 0,
+      "answer": "drizzle-kit generate",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1870.2030000000013
+      ],
+      "errors": [],
+      "why": "Search results explicitly state drizzle-kit generate creates SQL migration files."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-zod-email",
+      "kind": "docs",
+      "run": 0,
+      "answer": "z.email()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1635.252540999998
+      ],
+      "errors": [],
+      "why": "Exact match and cited results explicitly state z.email()."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-tw4-import",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@import \"tailwindcss\";",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1567.9013750000013
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs confirm."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-tq-pending",
+      "kind": "docs",
+      "run": 0,
+      "answer": "pending",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1600.3001669999976
+      ],
+      "errors": [],
+      "why": "Docs state loading status renamed to pending."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-zustand-shallow",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useShallow (imported from 'zustand/react/shallow' or 'zustand/shallow')",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1951.2663330000032
+      ],
+      "errors": [],
+      "why": "Candidate names useShallow; cited docs confirm both import paths."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-pnpm-scripts",
+      "kind": "docs",
+      "run": 0,
+      "answer": "By default, dependencies' lifecycle scripts (preinstall, install, postinstall, prepare, etc.) are not executed during installation — a breaking security change. Scripts are only run for dependencies e",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2699.5031669999953
+      ],
+      "errors": [],
+      "why": "Cited release confirms scripts blocked and allowlist required"
+    },
+    {
+      "provider": "parallel",
+      "task": "c-vite7-node",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js 20.19+ or 22.12+",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1512.8067080000037
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources state both versions."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-gha-timeout",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 hours",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1405.453791
+      ],
+      "errors": [],
+      "why": "Both state 6-hour GitHub-hosted job limit; cited source confirms."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-gha-matrix",
+      "kind": "docs",
+      "run": 0,
+      "answer": "256 jobs per workflow run",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1499.0865419999973
+      ],
+      "errors": [],
+      "why": "Citation explicitly states 256 jobs per workflow run."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-git-rerere",
+      "kind": "docs",
+      "run": 0,
+      "answer": "rerere.enabled (set to true)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1450.8442080000023
+      ],
+      "errors": [],
+      "why": "Candidate matches setting; sources confirm enabling rerere.enabled true."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-uv-pep",
+      "kind": "docs",
+      "run": 0,
+      "answer": "PEP 723",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1487.2898330000025
+      ],
+      "errors": [],
+      "why": "PEP 723 defines inline script metadata read by uv."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-rust-2024",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Rust 1.85.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1468.5623750000013
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources confirm Rust 1.85.0 stabilized 2024 edition."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-go-iter",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Go 1.23",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1806.1389580000032
+      ],
+      "errors": [],
+      "why": "Exact match; sources state Go 1.23."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-fresh-rn",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "0.88.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1431.870041000002
+      ],
+      "errors": [],
+      "why": "Sources show npm latest version 0.88.1"
+    },
+    {
+      "provider": "parallel",
+      "task": "c-fresh-vite",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "8.3.6",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2188.474915999999
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited result confirms 8.3.6."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-fresh-eslint",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "10.14.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1492.2529170000053
+      ],
+      "errors": [],
+      "why": "Cited sources confirm ESLint 10.14.0 as latest stable release."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-fresh-zod",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "4.6.7",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1528.6730840000018
+      ],
+      "errors": [],
+      "why": "Sources state 4.6.7 latest, published October 12, 2026."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-next-params",
+      "kind": "docs",
+      "run": 0,
+      "answer": "`params` is a Promise that resolves to an object containing the dynamic route parameters. Before reading its fields, you must unwrap it with `await` (in an async Server Component) or React's `use()` f",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2350.4711660000003
+      ],
+      "errors": [],
+      "why": "Consistent with docs on Promise params and await/use."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-next-cachecomp",
+      "kind": "docs",
+      "run": 0,
+      "answer": "cacheComponents: true",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4784.6585000000005
+      ],
+      "errors": [],
+      "why": "Docs explicitly state cacheComponents: true enables it."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-next-bundler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Turbopack",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2511.153875
+      ],
+      "errors": [],
+      "why": "Cited results confirm Turbopack is default for dev and build."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-next-dynamic",
+      "kind": "docs",
+      "run": 0,
+      "answer": "export const dynamic = 'force-dynamic'",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2589.522417
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs support it."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-react-actionstate",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useActionState",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3044.777333
+      ],
+      "errors": [],
+      "why": "Search results explicitly state useActionState replaced useFormState."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-react-compiler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "babel-plugin-react-compiler",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2473.786542
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and is supported by cited npm page."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-rn-fabric",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Fabric (new renderer) and TurboModules (new native module system)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2234.4051249999993
+      ],
+      "errors": [],
+      "why": "Both sources explicitly name Fabric and TurboModules."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-expo-fingerprint",
+      "kind": "docs",
+      "run": 0,
+      "answer": "fingerprint",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2263.6790839999994
+      ],
+      "errors": [],
+      "why": "Search results confirm fingerprint policy hashes native inputs."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-expo-html",
+      "kind": "docs",
+      "run": 0,
+      "answer": "src/app/+html.tsx",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2746.587124999998
+      ],
+      "errors": [],
+      "why": "Docs cite src/app/+html.tsx as root HTML file."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-expo-video",
+      "kind": "docs",
+      "run": 0,
+      "answer": "expo-video",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2413.4534170000006
+      ],
+      "errors": [],
+      "why": "expo-video replaces expo-av video playback"
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-bun-routes",
+      "kind": "docs",
+      "run": 0,
+      "answer": "`routes`",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2085.436417000001
+      ],
+      "errors": [],
+      "why": "Docs state routes option requires Bun 1.2.3+."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-bun-sql",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Use `import { sql } from \"bun\";` (or `import { sql, SQL } from \"bun\";`).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2810.1849999999977
+      ],
+      "errors": [],
+      "why": "Cited docs show both import forms."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-ts-erasable",
+      "kind": "docs",
+      "run": 0,
+      "answer": "erasableSyntaxOnly",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2761.910667
+      ],
+      "errors": [],
+      "why": "Cited docs explicitly name erasableSyntaxOnly as TypeScript 5.8 option."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-node-strip",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js 23.6.0 and 22.18.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2675.7577920000003
+      ],
+      "errors": [],
+      "why": "Both cited releases state type stripping enabled by default."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-node-envfile",
+      "kind": "docs",
+      "run": 0,
+      "answer": "v20.6.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2277.9871669999993
+      ],
+      "errors": [],
+      "why": "Both match; sources state added in v20.6.0."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-node-sqlite",
+      "kind": "docs",
+      "run": 0,
+      "answer": "node:sqlite",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1793.7661249999983
+      ],
+      "errors": [],
+      "why": "Exact match; sources explicitly state node:sqlite."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-pg18-uuid",
+      "kind": "docs",
+      "run": 0,
+      "answer": "uuidv7()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2509.548917
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-pg18-io",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The parameter is `io_method`; its default value is `worker`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2013.3644590000004
+      ],
+      "errors": [],
+      "why": "Cited docs state io_method default worker."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-drizzle-gen",
+      "kind": "docs",
+      "run": 0,
+      "answer": "drizzle-kit generate",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2329.2165840000016
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources confirm generate creates SQL migrations."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-zod-email",
+      "kind": "docs",
+      "run": 0,
+      "answer": "z.email()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2187.3954169999997
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results state z.email()."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-tw4-import",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@import \"tailwindcss\";",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2262.0226669999975
+      ],
+      "errors": [],
+      "why": "Both match; sources explicitly show single import."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-tq-pending",
+      "kind": "docs",
+      "run": 0,
+      "answer": "pending",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2000.950208000002
+      ],
+      "errors": [],
+      "why": "Sources state loading status renamed to pending."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-zustand-shallow",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useShallow",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3260.2006249999977
+      ],
+      "errors": [],
+      "why": "Candidate matches useShallow hook; sources confirm it."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-pnpm-scripts",
+      "kind": "docs",
+      "run": 0,
+      "answer": "By default, dependencies' lifecycle scripts (such as preinstall, install, and postinstall) are not executed during installation. They must be explicitly allowed, e.g., via pnpm.onlyBuiltDependencies i",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2250.863166999996
+      ],
+      "errors": [],
+      "why": "Matches default blocking and explicit allowlist."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-vite7-node",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Vite 7 requires Node.js 20.19+ and 22.12+.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1987.5175830000007
+      ],
+      "errors": [],
+      "why": "Cited docs state Node.js 20.19+ and 22.12+."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-gha-timeout",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 hours",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2002.9844159999993
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited docs state 6 hours."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-gha-matrix",
+      "kind": "docs",
+      "run": 0,
+      "answer": "256 jobs per workflow run",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3034.834833000001
+      ],
+      "errors": [],
+      "why": "Docs state matrix max 256 jobs per workflow run."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-git-rerere",
+      "kind": "docs",
+      "run": 0,
+      "answer": "rerere.enabled (set to true)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2284.2181249999994
+      ],
+      "errors": [],
+      "why": "Matches gold and cited docs."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-uv-pep",
+      "kind": "docs",
+      "run": 0,
+      "answer": "PEP 723",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2983.5664999999935
+      ],
+      "errors": [],
+      "why": "Cited results state PEP 723 defines inline script metadata."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-rust-2024",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Rust 1.85.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2237.8364169999986
+      ],
+      "errors": [],
+      "why": "1.85.0 is equivalent to 1.85 and cited sources confirm"
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-go-iter",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Go 1.23",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3968.4513339999976
+      ],
+      "errors": [],
+      "why": "Go 1.23 released range-over-function iterators; sources confirm."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-fresh-rn",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "0.88.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2186.001833000002
+      ],
+      "errors": [],
+      "why": "Both match; sources show latest 0.88.1"
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-fresh-vite",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "8.3.6",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2479.7022920000018
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources confirm latest stable 8.3.6."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-fresh-eslint",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "10.14.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2891.6020409999983
+      ],
+      "errors": [],
+      "why": "Cited results state ESLint 10.14.0 released Oct 30."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-fresh-zod",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "4.6.7",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2167.808833000003
+      ],
+      "errors": [],
+      "why": "Cited npm/result pages list 4.6.7 as latest stable."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-next-params",
+      "kind": "docs",
+      "run": 0,
+      "answer": "`params` is a Promise that resolves to an object containing the dynamic route parameters. Before reading its fields, you must use `async/await` or React’s `use` function to resolve/access the promise ",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3330.755916
+      ],
+      "errors": [],
+      "why": "Both say params is a Promise requiring await or use()"
+    },
+    {
+      "provider": "tavily",
+      "task": "c-next-cachecomp",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The `cacheComponents` option (set `cacheComponents: true` in next.config.ts/js) enables Cache Components and the 'use cache' directive.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3577.163666
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and is supported by cited Next.js docs."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-next-bundler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Turbopack",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4363.991
+      ],
+      "errors": [],
+      "why": "Cited results confirm Turbopack is default for dev and build."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-next-dynamic",
+      "kind": "docs",
+      "run": 0,
+      "answer": "`export const dynamic = 'force-dynamic'`",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4426.132625
+      ],
+      "errors": [],
+      "why": "Exact export matches gold and cited sources."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-react-actionstate",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useActionState",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2384.7244170000004
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources confirm useActionState replacement."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-react-compiler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "babel-plugin-react-compiler",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2240.0728750000007
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results explicitly name package."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-rn-fabric",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Fabric (new renderer) and TurboModules (new native module system)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3870.086083
+      ],
+      "errors": [],
+      "why": "Both names match the gold and cited results."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-expo-fingerprint",
+      "kind": "docs",
+      "run": 0,
+      "answer": "fingerprint",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2124.220207999999
+      ],
+      "errors": [],
+      "why": "Search results identify fingerprint as hashing native configuration."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-expo-html",
+      "kind": "docs",
+      "run": 0,
+      "answer": "src/app/+html.tsx",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2459.085416
+      ],
+      "errors": [],
+      "why": "Same +html.tsx filename; src/app variant is documented."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-expo-video",
+      "kind": "docs",
+      "run": 0,
+      "answer": "expo-video",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3881.815458000001
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources confirm expo-video replacement."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-bun-routes",
+      "kind": "docs",
+      "run": 0,
+      "answer": "routes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3378.318874999997
+      ],
+      "errors": [],
+      "why": "Docs cite routes option requiring Bun 1.2.3+"
+    },
+    {
+      "provider": "tavily",
+      "task": "c-bun-sql",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Use `import { sql } from \"bun\";` and query with `await sql`...`;` or import the `SQL` class with `import { SQL } from \"bun\";` and instantiate it for a specific PostgreSQL connection.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2544.0955840000024
+      ],
+      "errors": [],
+      "why": "Matches gold import and cited docs."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-ts-erasable",
+      "kind": "docs",
+      "run": 0,
+      "answer": "--erasableSyntaxOnly",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3114.457875
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-node-strip",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js v23.6.0 enabled type stripping by default (and it was backported to v22.18.0 LTS).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2435.274333000001
+      ],
+      "errors": [],
+      "why": "Both versions match cited Node.js documentation."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-node-envfile",
+      "kind": "docs",
+      "run": 0,
+      "answer": "v20.6.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3373.785708000003
+      ],
+      "errors": [],
+      "why": "Cited docs state --env-file added in v20.6.0."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-node-sqlite",
+      "kind": "docs",
+      "run": 0,
+      "answer": "node:sqlite",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2324.8482079999994
+      ],
+      "errors": [],
+      "why": "Exact match; cited Node docs state node:sqlite"
+    },
+    {
+      "provider": "tavily",
+      "task": "c-pg18-uuid",
+      "kind": "docs",
+      "run": 0,
+      "answer": "uuidv7()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2763.670416999994
+      ],
+      "errors": [],
+      "why": "Matches gold and cited sources confirm uuidv7()."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-pg18-io",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The parameter is `io_method`, and its default value is `worker`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2868.9785830000037
+      ],
+      "errors": [],
+      "why": "Sources state io_method defaults to worker."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-drizzle-gen",
+      "kind": "docs",
+      "run": 0,
+      "answer": "drizzle-kit generate",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2116.0079999999944
+      ],
+      "errors": [],
+      "why": "Docs confirm drizzle-kit generate creates SQL migrations."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-zod-email",
+      "kind": "docs",
+      "run": 0,
+      "answer": "z.email()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2810.861499999999
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited sources confirm z.email()."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-tw4-import",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@import \"tailwindcss\";",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2872.197165999998
+      ],
+      "errors": [],
+      "why": "Exact match; cited docs confirm import line."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-tq-pending",
+      "kind": "docs",
+      "run": 0,
+      "answer": "pending",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2098.0212910000046
+      ],
+      "errors": [],
+      "why": "Cited docs say loading renamed to pending."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-zustand-shallow",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useShallow (import { useShallow } from 'zustand/react/shallow')",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2382.376250000001
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results confirm useShallow import."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-pnpm-scripts",
+      "kind": "docs",
+      "run": 0,
+      "answer": "By default, pnpm 10 no longer runs dependencies' lifecycle scripts such as preinstall, install, and postinstall during installation. They must be explicitly allowed, e.g. by listing trusted packages i",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3017.193750000006
+      ],
+      "errors": [],
+      "why": "Same rule; allowBuilds is cited source."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-vite7-node",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Vite 7 requires Node.js 20.19+ or 22.12+.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2539.0112910000025
+      ],
+      "errors": [],
+      "why": "Cited sources state same version requirement."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-gha-timeout",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 hours",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2406.628208000002
+      ],
+      "errors": [],
+      "why": "Cited docs state GitHub-hosted job limit is 6 hours."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-gha-matrix",
+      "kind": "docs",
+      "run": 0,
+      "answer": "256 jobs per workflow run",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2401.5575420000023
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; GitHub docs confirm 256 jobs per run."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-git-rerere",
+      "kind": "docs",
+      "run": 0,
+      "answer": "rerere.enabled (true)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2365.3814589999965
+      ],
+      "errors": [],
+      "why": "Matches rerere.enabled true; docs confirm recording and reuse."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-uv-pep",
+      "kind": "docs",
+      "run": 0,
+      "answer": "PEP 723",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2237.965000000004
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited sources confirm PEP 723."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-rust-2024",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Rust 1.85.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4391.245874999993
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources confirm Rust 1.85.0 stabilization."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-go-iter",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Go 1.23",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2574.668375000001
+      ],
+      "errors": [],
+      "why": "Citations confirm Go 1.23 range-over-function iterators."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-fresh-rn",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "0.88.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2317.9777079999985
+      ],
+      "errors": [],
+      "why": "npm list shows 0.88.1 as highest stable version"
+    },
+    {
+      "provider": "tavily",
+      "task": "c-fresh-vite",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "8.3.5",
+      "correct": false,
+      "grounded": true,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        1826.323083000003
+      ],
+      "errors": [],
+      "why": "Candidate says 8.3.5, but gold is 8.3.6."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-fresh-eslint",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "v10.13.0",
+      "correct": false,
+      "grounded": true,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        2384.1167920000007
+      ],
+      "errors": [],
+      "why": "Candidate is outdated; v10.14.0 superseded it."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-fresh-zod",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "4.6.7",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2302.1846249999944
+      ],
+      "errors": [],
+      "why": "Cited text lists Zod 4.6.7 as latest."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-next-params",
+      "kind": "docs",
+      "run": 0,
+      "answer": "In Next.js 15+, `params` is a `Promise` (e.g., `Promise<{ id: string }>`) and must be awaited before reading its fields, such as `const { id } = await params`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        9202.526915999999
+      ],
+      "errors": [],
+      "why": "Candidate states Promise and await before access."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-next-cachecomp",
+      "kind": "docs",
+      "run": 0,
+      "answer": "`cacheComponents: true` in `next.config.ts` (often set together with `partialPrefetching: true`).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6267.929709
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-next-bundler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Turbopack",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        9019.289459
+      ],
+      "errors": [],
+      "why": "Sources state Turbopack is default for both."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-next-dynamic",
+      "kind": "docs",
+      "run": 0,
+      "answer": "export const dynamic = 'force-dynamic'",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6411.246874999999
+      ],
+      "errors": [],
+      "why": "Exact match; cited docs show force-dynamic example."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-react-actionstate",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useActionState",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5211.539000000001
+      ],
+      "errors": [],
+      "why": "Cited sources state useActionState replaces useFormState."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-react-compiler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "babel-plugin-react-compiler",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3966.1431250000005
+      ],
+      "errors": [],
+      "why": "Cited npm pages confirm exact package name."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-rn-fabric",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Fabric (the new renderer) and TurboModules (the new native module system).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4298.198042
+      ],
+      "errors": [],
+      "why": "Both names match gold and are cited."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-expo-fingerprint",
+      "kind": "docs",
+      "run": 0,
+      "answer": "fingerprint",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3676.5231660000027
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited results state fingerprint policy."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-expo-html",
+      "kind": "docs",
+      "run": 0,
+      "answer": "UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        5180.8891250000015
+      ],
+      "errors": [],
+      "why": "Candidate is UNKNOWN, not the required filename."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-expo-video",
+      "kind": "docs",
+      "run": 0,
+      "answer": "expo-video",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4060.019625000001
+      ],
+      "errors": [],
+      "why": "Cited results explicitly state expo-video replaces expo-av video."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-bun-routes",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The `routes` option",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6655.827375000004
+      ],
+      "errors": [],
+      "why": "Docs confirm Bun.serve routes option added in 1.2.3."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-bun-sql",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Import it from \"bun\": `import { sql } from \"bun\";` then use it as a tagged template, e.g. `await sql`SELECT * FROM users``.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6321.738999999994
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-ts-erasable",
+      "kind": "docs",
+      "run": 0,
+      "answer": "erasableSyntaxOnly",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2877.9462090000015
+      ],
+      "errors": [],
+      "why": "Candidate matches gold option; sources confirm erasableSyntaxOnly."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-node-strip",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js v23.6.0 (backported to v22.18.0)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2755.6972499999974
+      ],
+      "errors": [],
+      "why": "Cited docs confirm v23.6.0 and v22.18.0 defaults."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-node-envfile",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js v20.6.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3111.8882499999963
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and sources confirm v20.6.0."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-node-sqlite",
+      "kind": "docs",
+      "run": 0,
+      "answer": "node:sqlite",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3801.3413750000036
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources state node:sqlite."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-pg18-uuid",
+      "kind": "docs",
+      "run": 0,
+      "answer": "uuidv7()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2471.3269999999975
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and sources confirm uuidv7()."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-pg18-io",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The parameter is `io_method`, and its default value is `worker`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6533.648999999998
+      ],
+      "errors": [],
+      "why": "Both parameter and default match sources."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-drizzle-gen",
+      "kind": "docs",
+      "run": 0,
+      "answer": "drizzle-kit generate",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6437.427000000003
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited docs confirm command."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-zod-email",
+      "kind": "docs",
+      "run": 0,
+      "answer": "z.email()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6563.641708999996
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited sources support z.email()."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-tw4-import",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@import \"tailwindcss\";",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2682.3340409999946
+      ],
+      "errors": [],
+      "why": "Exact match; cited results show same import line."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-tq-pending",
+      "kind": "docs",
+      "run": 0,
+      "answer": "pending",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3677.085583
+      ],
+      "errors": [],
+      "why": "Cited results explicitly confirm loading renamed to pending."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-zustand-shallow",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useShallow",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6256.110292000005
+      ],
+      "errors": [],
+      "why": "Candidate names useShallow, matching gold and cited docs"
+    },
+    {
+      "provider": "valyu",
+      "task": "c-pnpm-scripts",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Starting with pnpm 10, dependencies' lifecycle scripts (preinstall, install, postinstall) are not executed during installation by default — they are blocked unless explicitly approved/allowed, e.g. vi",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4513.346499999992
+      ],
+      "errors": [],
+      "why": "Both state scripts blocked by default unless explicitly allowed."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-vite7-node",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js 20.19+ or 22.12+",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5201.098167000004
+      ],
+      "errors": [],
+      "why": "Matches gold and cited sources state same versions"
+    },
+    {
+      "provider": "valyu",
+      "task": "c-gha-timeout",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 hours (360 minutes)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4183.3524590000015
+      ],
+      "errors": [],
+      "why": "Both match; cited results state 6 hours."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-gha-matrix",
+      "kind": "docs",
+      "run": 0,
+      "answer": "256 jobs per workflow run",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2969.37999999999
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited docs confirm 256 jobs per run."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-git-rerere",
+      "kind": "docs",
+      "run": 0,
+      "answer": "rerere.enabled",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4029.06408299999
+      ],
+      "errors": [],
+      "why": "Setting matches cited docs."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-uv-pep",
+      "kind": "docs",
+      "run": 0,
+      "answer": "PEP 723",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3765.5339999999997
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources cite PEP 723 inline metadata."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-rust-2024",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Rust 1.85 (Rust 1.85.0)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5695.927292000008
+      ],
+      "errors": [],
+      "why": "Cited sources state Rust 1.85 stabilized Rust 2024."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-go-iter",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Go 1.23",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2969.951457999996
+      ],
+      "errors": [],
+      "why": "Sources confirm Go 1.23 added range-over-function iterators."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-fresh-rn",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "0.88.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6506.332083000001
+      ],
+      "errors": [],
+      "why": "Cited results state latest is 0.88.1"
+    },
+    {
+      "provider": "valyu",
+      "task": "c-fresh-vite",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "8.3.6",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3982.613666999998
+      ],
+      "errors": [],
+      "why": "Sources show Vite 8.3.6 as latest."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-fresh-eslint",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "10.14.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4324.842333000008
+      ],
+      "errors": [],
+      "why": "Both state ESLint version 10.14.0"
+    },
+    {
+      "provider": "valyu",
+      "task": "c-fresh-zod",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "4.6.7",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3322.4918330000073
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources show latest 4.6.7."
+    },
+    {
+      "provider": "context",
+      "task": "c-next-params",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The `params` prop is a Promise that resolves to an object of route parameters. Before reading its fields, you must await it (using `async`/`await`) or unwrap it with React's `use` function.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7595.1560420000005
+      ],
+      "errors": [],
+      "why": "Both say params is a Promise; await or use()"
+    },
+    {
+      "provider": "context",
+      "task": "c-next-cachecomp",
+      "kind": "docs",
+      "run": 0,
+      "answer": "cacheComponents: true in next.config.ts",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5581.785624999999
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and is supported by citations."
+    },
+    {
+      "provider": "context",
+      "task": "c-next-bundler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Turbopack",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5685.375541000001
+      ],
+      "errors": [],
+      "why": "Sources confirm Turbopack is default."
+    },
+    {
+      "provider": "context",
+      "task": "c-next-dynamic",
+      "kind": "docs",
+      "run": 0,
+      "answer": "export const dynamic = 'force-dynamic'",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6335.413292000001
+      ],
+      "errors": [],
+      "why": "Exact match; cited docs confirm force-dynamic behavior."
+    },
+    {
+      "provider": "context",
+      "task": "c-react-actionstate",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useActionState",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6593.176916000004
+      ],
+      "errors": [],
+      "why": "Sources state useActionState replaced useFormState."
+    },
+    {
+      "provider": "context",
+      "task": "c-react-compiler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "babel-plugin-react-compiler",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6499.616457999997
+      ],
+      "errors": [],
+      "why": "Exact match and sources cite same npm package."
+    },
+    {
+      "provider": "context",
+      "task": "c-rn-fabric",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The new renderer is Fabric, and the new native module system is TurboModules.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6731.490292000002
+      ],
+      "errors": [],
+      "why": "Both names match cited sources."
+    },
+    {
+      "provider": "context",
+      "task": "c-expo-fingerprint",
+      "kind": "docs",
+      "run": 0,
+      "answer": "fingerprint",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5944.338541999998
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources confirm fingerprint hashes native characteristics."
+    },
+    {
+      "provider": "context",
+      "task": "c-expo-html",
+      "kind": "docs",
+      "run": 0,
+      "answer": "+html.tsx",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4834.992166999989
+      ],
+      "errors": [],
+      "why": "Cited results explicitly state app/+html.tsx or +html.tsx."
+    },
+    {
+      "provider": "context",
+      "task": "c-expo-video",
+      "kind": "docs",
+      "run": 0,
+      "answer": "expo-video",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6897.656833000001
+      ],
+      "errors": [],
+      "why": "Citations confirm expo-video replaced expo-av video."
+    },
+    {
+      "provider": "context",
+      "task": "c-bun-routes",
+      "kind": "docs",
+      "run": 0,
+      "answer": "routes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6125.793417000008
+      ],
+      "errors": [],
+      "why": "Sources state Bun.serve() routes option added in 1.2.3."
+    },
+    {
+      "provider": "context",
+      "task": "c-bun-sql",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Import it with `import { sql } from \"bun\";` and use it as a tagged template, e.g. `await sql`SELECT ...`;`. PostgreSQL is the default when using `sql`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6818.746958999996
+      ],
+      "errors": [],
+      "why": "Matches gold import and Bun docs support."
+    },
+    {
+      "provider": "context",
+      "task": "c-ts-erasable",
+      "kind": "docs",
+      "run": 0,
+      "answer": "erasableSyntaxOnly",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6486.362792
+      ],
+      "errors": [],
+      "why": "Sources confirm TypeScript 5.8 erasableSyntaxOnly option."
+    },
+    {
+      "provider": "context",
+      "task": "c-node-strip",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js v23.6.0 (backported to v22.18.0)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6431.534375000003
+      ],
+      "errors": [],
+      "why": "Sources confirm v23.6.0 and backport v22.18.0."
+    },
+    {
+      "provider": "context",
+      "task": "c-node-envfile",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js 20.6.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5562.902417000005
+      ],
+      "errors": [],
+      "why": "Same version; cited sources confirm v20.6.0."
+    },
+    {
+      "provider": "context",
+      "task": "c-node-sqlite",
+      "kind": "docs",
+      "run": 0,
+      "answer": "node:sqlite",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7471.550916999986
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs state node:sqlite."
+    },
+    {
+      "provider": "context",
+      "task": "c-pg18-uuid",
+      "kind": "docs",
+      "run": 0,
+      "answer": "uuidv7()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4932.585208999983
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources confirm uuidv7() built-in."
+    },
+    {
+      "provider": "context",
+      "task": "c-pg18-io",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The parameter is `io_method`, and its default value is `worker`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5315.932874999999
+      ],
+      "errors": [],
+      "why": "Matches gold and cited sources."
+    },
+    {
+      "provider": "context",
+      "task": "c-drizzle-gen",
+      "kind": "docs",
+      "run": 0,
+      "answer": "drizzle-kit generate",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5273.052750000003
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs confirm command."
+    },
+    {
+      "provider": "context",
+      "task": "c-zod-email",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Use the top-level `z.email()` function; `z.string().email()` is deprecated but still works.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5815.413625000016
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited sources support extra detail."
+    },
+    {
+      "provider": "context",
+      "task": "c-tw4-import",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@import \"tailwindcss\";",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        9182.971541999985
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited sources."
+    },
+    {
+      "provider": "context",
+      "task": "c-tq-pending",
+      "kind": "docs",
+      "run": 0,
+      "answer": "pending",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5751.927291
+      ],
+      "errors": [],
+      "why": "Cited sources state loading status renamed to pending."
+    },
+    {
+      "provider": "context",
+      "task": "c-zustand-shallow",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useShallow",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6002.558916999988
+      ],
+      "errors": [],
+      "why": "useShallow matches gold hook."
+    },
+    {
+      "provider": "context",
+      "task": "c-pnpm-scripts",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Starting with pnpm 10, dependencies' lifecycle scripts (preinstall, install, postinstall, prepare, etc.) are no longer executed during installation by default; they must be explicitly allowed, e.g. by",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6652.135999999999
+      ],
+      "errors": [],
+      "why": "Matches gold and cited sources confirm."
+    },
+    {
+      "provider": "context",
+      "task": "c-vite7-node",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Vite 7 requires Node.js 20.19+ or 22.12+.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6490.971541999985
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited sources."
+    },
+    {
+      "provider": "context",
+      "task": "c-gha-timeout",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 hours",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6273.883666000009
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources state 6-hour limit."
+    },
+    {
+      "provider": "context",
+      "task": "c-gha-matrix",
+      "kind": "docs",
+      "run": 0,
+      "answer": "256 jobs per workflow run",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6169.2591660000035
+      ],
+      "errors": [],
+      "why": "Sources state matrix max 256 jobs per workflow run."
+    },
+    {
+      "provider": "context",
+      "task": "c-git-rerere",
+      "kind": "docs",
+      "run": 0,
+      "answer": "git config --global rerere.enabled true (or repo-local rerere.enabled true)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6161.4527920000255
+      ],
+      "errors": [],
+      "why": "Same setting; command and scope examples match sources."
+    },
+    {
+      "provider": "context",
+      "task": "c-uv-pep",
+      "kind": "docs",
+      "run": 0,
+      "answer": "PEP 723",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5855.906750000024
+      ],
+      "errors": [],
+      "why": "Both answer PEP 723; sources confirm uv reads it."
+    },
+    {
+      "provider": "context",
+      "task": "c-rust-2024",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Rust 1.85.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        9853.852041999984
+      ],
+      "errors": [],
+      "why": "Official blog confirms 1.85.0 stabilized Rust 2024."
+    },
+    {
+      "provider": "context",
+      "task": "c-go-iter",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Go 1.23",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6598.28579200001
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources confirm Go 1.23."
+    },
+    {
+      "provider": "context",
+      "task": "c-fresh-rn",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "0.88.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6425.425250000029
+      ],
+      "errors": [],
+      "why": "npm result states latest version 0.88.1"
+    },
+    {
+      "provider": "context",
+      "task": "c-fresh-vite",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "8.3.6",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6515.571915999986
+      ],
+      "errors": [],
+      "why": "Cited results state Vite 8.3.6 is latest."
+    },
+    {
+      "provider": "context",
+      "task": "c-fresh-eslint",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "v10.14.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6075.212791000027
+      ],
+      "errors": [],
+      "why": "Cited results show v10.14.0 as latest release."
+    },
+    {
+      "provider": "context",
+      "task": "c-fresh-zod",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "4.6.7",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6492.098832999996
+      ],
+      "errors": [],
+      "why": "Sources show zod 4.6.7 as latest version."
+    },
+    {
+      "provider": "you",
+      "task": "c-next-params",
+      "kind": "docs",
+      "run": 0,
+      "answer": "In Next.js 15 and later, `params` is a Promise, so you must `await` it before accessing its fields (e.g., `const { slug } = await params`).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1913.8418749999998
+      ],
+      "errors": [],
+      "why": "Matches Promise and await requirement."
+    },
+    {
+      "provider": "you",
+      "task": "c-next-cachecomp",
+      "kind": "docs",
+      "run": 0,
+      "answer": "cacheComponents: true — set `cacheComponents: true` in next.config.ts to enable Cache Components and the 'use cache' directive.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1632.951916
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results confirm flag."
+    },
+    {
+      "provider": "you",
+      "task": "c-next-bundler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Turbopack",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1519.869208
+      ],
+      "errors": [],
+      "why": "Turbopack is stated as default for both commands."
+    },
+    {
+      "provider": "you",
+      "task": "c-next-dynamic",
+      "kind": "docs",
+      "run": 0,
+      "answer": "export const dynamic = 'force-dynamic'",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        998.1429159999998
+      ],
+      "errors": [],
+      "why": "Exact match and cited docs support it."
+    },
+    {
+      "provider": "you",
+      "task": "c-react-actionstate",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useActionState",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        970.5752089999996
+      ],
+      "errors": [],
+      "why": "Sources state useActionState replaced useFormState."
+    },
+    {
+      "provider": "you",
+      "task": "c-react-compiler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "babel-plugin-react-compiler",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        890.550416
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and npm page confirms."
+    },
+    {
+      "provider": "you",
+      "task": "c-rn-fabric",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The new renderer is Fabric, and the new native module system is TurboModules.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        982.347917
+      ],
+      "errors": [],
+      "why": "Candidate matches Fabric and TurboModules exactly."
+    },
+    {
+      "provider": "you",
+      "task": "c-expo-fingerprint",
+      "kind": "docs",
+      "run": 0,
+      "answer": "fingerprint",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        966.7119580000017
+      ],
+      "errors": [],
+      "why": "fingerprint policy hashes native characteristics"
+    },
+    {
+      "provider": "you",
+      "task": "c-expo-html",
+      "kind": "docs",
+      "run": 0,
+      "answer": "+html.tsx",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1018.4264160000002
+      ],
+      "errors": [],
+      "why": "Cited results name +html.tsx for root HTML."
+    },
+    {
+      "provider": "you",
+      "task": "c-expo-video",
+      "kind": "docs",
+      "run": 0,
+      "answer": "expo-video",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1023.4683750000004
+      ],
+      "errors": [],
+      "why": "Sources state expo-video replaces expo-av video."
+    },
+    {
+      "provider": "you",
+      "task": "c-bun-routes",
+      "kind": "docs",
+      "run": 0,
+      "answer": "routes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        868.1534169999995
+      ],
+      "errors": [],
+      "why": "Docs confirm routes option requires Bun v1.2.3+"
+    },
+    {
+      "provider": "you",
+      "task": "c-bun-sql",
+      "kind": "docs",
+      "run": 0,
+      "answer": "import { sql } from \"bun\";",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1192.7809580000012
+      ],
+      "errors": [],
+      "why": "Cited source shows exact import statement."
+    },
+    {
+      "provider": "you",
+      "task": "c-ts-erasable",
+      "kind": "docs",
+      "run": 0,
+      "answer": "--erasableSyntaxOnly",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1277.3732920000002
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited docs confirm flag."
+    },
+    {
+      "provider": "you",
+      "task": "c-node-strip",
+      "kind": "docs",
+      "run": 0,
+      "answer": "v23.6.0 (also backported/enabled by default in v22.18.0)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1215.3467920000003
+      ],
+      "errors": [],
+      "why": "Sources confirm v23.6.0 and v22.18.0 default type stripping."
+    },
+    {
+      "provider": "you",
+      "task": "c-node-envfile",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js 20.6.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1181.8069170000017
+      ],
+      "errors": [],
+      "why": "Candidate matches gold version; sources state Node 20.6.0."
+    },
+    {
+      "provider": "you",
+      "task": "c-node-sqlite",
+      "kind": "docs",
+      "run": 0,
+      "answer": "node:sqlite",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        896.9019169999992
+      ],
+      "errors": [],
+      "why": "Both match; cited results explicitly state node:sqlite."
+    },
+    {
+      "provider": "you",
+      "task": "c-pg18-uuid",
+      "kind": "docs",
+      "run": 0,
+      "answer": "uuidv7()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1290.2341659999984
+      ],
+      "errors": [],
+      "why": "Cited sources explicitly state PostgreSQL 18 added uuidv7()."
+    },
+    {
+      "provider": "you",
+      "task": "c-pg18-io",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The parameter is io_method, and its default value is worker.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        918.3468330000032
+      ],
+      "errors": [],
+      "why": "Both parameter and default match sources."
+    },
+    {
+      "provider": "you",
+      "task": "c-drizzle-gen",
+      "kind": "docs",
+      "run": 0,
+      "answer": "drizzle-kit generate",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        959.9989999999998
+      ],
+      "errors": [],
+      "why": "Search results explicitly confirm drizzle-kit generate generates SQL migrations."
+    },
+    {
+      "provider": "you",
+      "task": "c-zod-email",
+      "kind": "docs",
+      "run": 0,
+      "answer": "z.email()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1064.1178340000006
+      ],
+      "errors": [],
+      "why": "Sources state z.email() replaces deprecated z.string().email()."
+    },
+    {
+      "provider": "you",
+      "task": "c-tw4-import",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@import \"tailwindcss\";",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        997.1146249999983
+      ],
+      "errors": [],
+      "why": "Exact answer matches gold and cited sources."
+    },
+    {
+      "provider": "you",
+      "task": "c-tq-pending",
+      "kind": "docs",
+      "run": 0,
+      "answer": "pending",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1304.6484579999997
+      ],
+      "errors": [],
+      "why": "Sources state loading status renamed to pending."
+    },
+    {
+      "provider": "you",
+      "task": "c-zustand-shallow",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useShallow",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        943.0347500000025
+      ],
+      "errors": [],
+      "why": "useShallow matches hook; import detail omitted"
+    },
+    {
+      "provider": "you",
+      "task": "c-pnpm-scripts",
+      "kind": "docs",
+      "run": 0,
+      "answer": "By default, pnpm 10 does not execute dependencies' lifecycle scripts (preinstall, install, postinstall, etc.) during installation. They must be explicitly allowed, e.g., by listing packages in pnpm.on",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        935.3006249999999
+      ],
+      "errors": [],
+      "why": "Matches gold and cited results explicitly support it."
+    },
+    {
+      "provider": "you",
+      "task": "c-vite7-node",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Vite 7 requires Node.js 20.19+ or 22.12+.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        916.1918329999971
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited sources confirm versions."
+    },
+    {
+      "provider": "you",
+      "task": "c-gha-timeout",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 hours (360 minutes)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        806.7427499999976
+      ],
+      "errors": [],
+      "why": "Both match; sources confirm 6 hours/360 minutes."
+    },
+    {
+      "provider": "you",
+      "task": "c-gha-matrix",
+      "kind": "docs",
+      "run": 0,
+      "answer": "256 jobs per workflow run",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        938.9694159999999
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources state 256 per workflow run."
+    },
+    {
+      "provider": "you",
+      "task": "c-git-rerere",
+      "kind": "docs",
+      "run": 0,
+      "answer": "git config rerere.enabled true (rerere.enabled)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        824.2832079999935
+      ],
+      "errors": [],
+      "why": "Candidate matches rerere.enabled and exact config command."
+    },
+    {
+      "provider": "you",
+      "task": "c-uv-pep",
+      "kind": "docs",
+      "run": 0,
+      "answer": "PEP 723",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1147.5533330000035
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited sources confirm."
+    },
+    {
+      "provider": "you",
+      "task": "c-rust-2024",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Rust 1.85.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        953.9965000000011
+      ],
+      "errors": [],
+      "why": "Cited results state Rust 1.85.0 stabilized Rust 2024."
+    },
+    {
+      "provider": "you",
+      "task": "c-go-iter",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Go 1.23",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        984.2939999999944
+      ],
+      "errors": [],
+      "why": "Both answer and sources confirm Go 1.23."
+    },
+    {
+      "provider": "you",
+      "task": "c-fresh-rn",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "0.88.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        865.6261670000022
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; npm result shows latest 0.88.1."
+    },
+    {
+      "provider": "you",
+      "task": "c-fresh-vite",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "8.3.6",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        877.0297920000012
+      ],
+      "errors": [],
+      "why": "Both state Vite 8.3.6 as latest."
+    },
+    {
+      "provider": "you",
+      "task": "c-fresh-eslint",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "v10.14.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        881.7478330000013
+      ],
+      "errors": [],
+      "why": "v10.14.0 matches gold version"
+    },
+    {
+      "provider": "you",
+      "task": "c-fresh-zod",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "4.6.7",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1209.2975000000006
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited results state latest 4.6.7."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-next-params",
+      "kind": "docs",
+      "run": 0,
+      "answer": "`params` is a Promise that resolves to an object containing the dynamic route parameters. You must `await` it (or use React's `use` function) before reading its fields.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1856.927417
+      ],
+      "errors": [],
+      "why": "Both state params is a Promise requiring await or use()."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-next-cachecomp",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The `cacheComponents: true` option in next.config (e.g., next.config.ts/js) enables Cache Components and the 'use cache' directive; it replaces the old experimental.ppr flag.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2761.70175
+      ],
+      "errors": [],
+      "why": "Cited results explicitly confirm cacheComponents: true enables use cache."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-next-bundler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Turbopack",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3302.6594999999998
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources confirm Turbopack default."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-next-dynamic",
+      "kind": "docs",
+      "run": 0,
+      "answer": "export const dynamic = 'force-dynamic'",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1545.1219579999997
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results confirm it."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-react-actionstate",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useActionState",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1534.0307080000002
+      ],
+      "errors": [],
+      "why": "Sources state useActionState replaced useFormState"
+    },
+    {
+      "provider": "linkup",
+      "task": "c-react-compiler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "babel-plugin-react-compiler",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1486.1113340000002
+      ],
+      "errors": [],
+      "why": "Cited results explicitly name babel-plugin-react-compiler."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-rn-fabric",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The new renderer is Fabric, and the new native module system is TurboModules.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2584.8332499999997
+      ],
+      "errors": [],
+      "why": "Both names match sources and gold."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-expo-fingerprint",
+      "kind": "docs",
+      "run": 0,
+      "answer": "fingerprint",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1391.1282499999998
+      ],
+      "errors": [],
+      "why": "Search results explicitly name fingerprint policy hashing native characteristics."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-expo-html",
+      "kind": "docs",
+      "run": 0,
+      "answer": "app/+html.tsx (or src/app/+html.tsx when using a src directory)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1917.880792
+      ],
+      "errors": [],
+      "why": "Matches app/+html.tsx and src alternative cited."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-expo-video",
+      "kind": "docs",
+      "run": 0,
+      "answer": "expo-video",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1518.929916000001
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources confirm expo-video replacement."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-bun-routes",
+      "kind": "docs",
+      "run": 0,
+      "answer": "routes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1492.5171669999982
+      ],
+      "errors": [],
+      "why": "Docs state routes option added in Bun 1.2.3"
+    },
+    {
+      "provider": "linkup",
+      "task": "c-bun-sql",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Use `import { sql } from \"bun\";` and call it as a tagged template, e.g. `await sql`SELECT ...``.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2449.281417
+      ],
+      "errors": [],
+      "why": "Matches gold and cited docs."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-ts-erasable",
+      "kind": "docs",
+      "run": 0,
+      "answer": "erasableSyntaxOnly",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1899.0118339999972
+      ],
+      "errors": [],
+      "why": "Cited results explicitly name erasableSyntaxOnly for TypeScript 5.8."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-node-strip",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js 23.6.0 and 22.18.0 enabled type stripping by default without a flag.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1433.1161250000005
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited Node history."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-node-envfile",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js 20.6.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1530.8974170000001
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and is supported by sources."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-node-sqlite",
+      "kind": "docs",
+      "run": 0,
+      "answer": "node:sqlite",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1506.0423330000012
+      ],
+      "errors": [],
+      "why": "Results explicitly name node:sqlite module."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-pg18-uuid",
+      "kind": "docs",
+      "run": 0,
+      "answer": "uuidv7()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1941.3162909999992
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results confirm uuidv7()."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-pg18-io",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The configuration parameter is `io_method`; its default value is `worker`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2419.269875000002
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources confirm io_method defaults to worker."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-drizzle-gen",
+      "kind": "docs",
+      "run": 0,
+      "answer": "drizzle-kit generate (older docs/versions: drizzle-kit generate:pg)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1464.4986250000002
+      ],
+      "errors": [],
+      "why": "Both commands are cited as generating migrations."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-zod-email",
+      "kind": "docs",
+      "run": 0,
+      "answer": "z.email() — a top-level function (z.email() replaces z.string().email(), which is deprecated but still works)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1489.1132919999982
+      ],
+      "errors": [],
+      "why": "Both confirm z.email() as Zod 4 top-level API"
+    },
+    {
+      "provider": "linkup",
+      "task": "c-tw4-import",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@import \"tailwindcss\";",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2440.3756250000006
+      ],
+      "errors": [],
+      "why": "Exact match; sources state single @import line."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-tq-pending",
+      "kind": "docs",
+      "run": 0,
+      "answer": "pending",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1716.2493750000067
+      ],
+      "errors": [],
+      "why": "Search results explicitly state loading was renamed to pending."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-zustand-shallow",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useShallow",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1649.4614580000052
+      ],
+      "errors": [],
+      "why": "useShallow matches gold and cited docs."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-pnpm-scripts",
+      "kind": "docs",
+      "run": 0,
+      "answer": "By default, pnpm 10 does not execute dependencies' lifecycle scripts (preinstall/install/postinstall, etc.) during installation — they are blocked/ignored unless the packages are explicitly allowliste",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1561.634791999997
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources confirm default blocking."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-vite7-node",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js 20.19+ or 22.12+",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1531.866624999995
+      ],
+      "errors": [],
+      "why": "Exact match; sources confirm both versions."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-gha-timeout",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 hours",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1603.9909999999945
+      ],
+      "errors": [],
+      "why": "Gold matches candidate; docs state 6 hours."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-gha-matrix",
+      "kind": "docs",
+      "run": 0,
+      "answer": "256 jobs per workflow run",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1476.1930839999986
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-git-rerere",
+      "kind": "docs",
+      "run": 0,
+      "answer": "rerere.enabled true",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1468.8106670000052
+      ],
+      "errors": [],
+      "why": "Exact setting confirmed by cited results"
+    },
+    {
+      "provider": "linkup",
+      "task": "c-uv-pep",
+      "kind": "docs",
+      "run": 0,
+      "answer": "PEP 723",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1478.7044170000008
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources cite PEP 723."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-rust-2024",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Rust 1.85.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1519.4640419999996
+      ],
+      "errors": [],
+      "why": "Cited sources state Rust 1.85.0 stabilized the 2024 edition."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-go-iter",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Go 1.23",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1541.4795419999937
+      ],
+      "errors": [],
+      "why": "Sources state Go 1.23 added range-over-function."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-fresh-rn",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "0.88.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1547.1474999999991
+      ],
+      "errors": [],
+      "why": "Matches latest version and cited result."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-fresh-vite",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "8.3.6",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1840.5102499999994
+      ],
+      "errors": [],
+      "why": "Both cite Vite 8.3.6 as latest."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-fresh-eslint",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "10.12.0",
+      "correct": false,
+      "grounded": true,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        2542.915000000001
+      ],
+      "errors": [],
+      "why": "Candidate version differs from gold; cited results support candidate."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-fresh-zod",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "4.6.7",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1505.5643340000024
+      ],
+      "errors": [],
+      "why": "npm and release table show latest stable 4.6.7"
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-next-params",
+      "kind": "docs",
+      "run": 0,
+      "answer": "`params` is a `Promise` (e.g. `Promise<{ slug: string }>`); you must `await` it (or unwrap it with React’s `use()` in Client Components) before reading its fields.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1820.158208
+      ],
+      "errors": [],
+      "why": "Both say params is Promise and must be awaited/use() unwrapped"
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-next-cachecomp",
+      "kind": "docs",
+      "run": 0,
+      "answer": "cacheComponents: true",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2018.7404159999999
+      ],
+      "errors": [],
+      "why": "Cited docs explicitly show cacheComponents: true."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-next-bundler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Turbopack",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        876.6185000000005
+      ],
+      "errors": [],
+      "why": "Turbopack is default for dev and build"
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-next-dynamic",
+      "kind": "docs",
+      "run": 0,
+      "answer": "export const dynamic = 'force-dynamic'",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        964.4001250000001
+      ],
+      "errors": [],
+      "why": "Exact match and cited results explicitly support it."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-react-actionstate",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useActionState",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        763.948292000001
+      ],
+      "errors": [],
+      "why": "Cited results state useActionState replaced useFormState."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-react-compiler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "babel-plugin-react-compiler",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        847.4357909999999
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and is cited in results."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-rn-fabric",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The new renderer is Fabric, and the new native module system is TurboModules (Turbo Native Modules).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        771.4904999999999
+      ],
+      "errors": [],
+      "why": "Both Fabric and TurboModules are correctly identified."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-expo-fingerprint",
+      "kind": "docs",
+      "run": 0,
+      "answer": "fingerprint",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        788.6239590000005
+      ],
+      "errors": [],
+      "why": "Fingerprint policy hashes native configuration, matching answer."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-expo-html",
+      "kind": "docs",
+      "run": 0,
+      "answer": "src/app/+html.tsx",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1030.8218339999985
+      ],
+      "errors": [],
+      "why": "Candidate matches +html.tsx; cited docs show src/app path."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-expo-video",
+      "kind": "docs",
+      "run": 0,
+      "answer": "expo-video",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        758.669334000002
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources explicitly state expo-video replacement."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-bun-routes",
+      "kind": "docs",
+      "run": 0,
+      "answer": "routes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        48643.94570899999
+      ],
+      "errors": [],
+      "why": "Docs show routes option requires Bun v1.2.3+"
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-bun-sql",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Use `import { sql, SQL } from \"bun\";` (or `import { sql } from \"bun\";` / `import { SQL } from \"bun\";`), then use it as a tagged template: `await sql`SELECT ...``.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        48742.660583000004
+      ],
+      "errors": [],
+      "why": "Both imports shown in cited docs"
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-ts-erasable",
+      "kind": "docs",
+      "run": 0,
+      "answer": "--erasableSyntaxOnly",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        951.9847500000033
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited sources."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-node-strip",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Type stripping became enabled by default in Node.js v23.6.0 and v22.18.0.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        809.2472909999924
+      ],
+      "errors": [],
+      "why": "Cited docs confirm both versions enabled default."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-node-envfile",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js 20.6.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        816.260666000002
+      ],
+      "errors": [],
+      "why": "Cited results state v20.6.0 added built-in .env support"
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-node-sqlite",
+      "kind": "docs",
+      "run": 0,
+      "answer": "node:sqlite",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        846.3395829999936
+      ],
+      "errors": [],
+      "why": "Exact match; cited results confirm node:sqlite."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-pg18-uuid",
+      "kind": "docs",
+      "run": 0,
+      "answer": "uuidv7()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        787.5497920000053
+      ],
+      "errors": [],
+      "why": "Both match; sources confirm uuidv7() generates time-ordered UUIDs."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-pg18-io",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The parameter is `io_method`, and its default value is `worker`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        934.1723330000095
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited results confirm."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-drizzle-gen",
+      "kind": "docs",
+      "run": 0,
+      "answer": "drizzle-kit generate",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        806.7851659999869
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and is supported by docs."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-zod-email",
+      "kind": "docs",
+      "run": 0,
+      "answer": "z.email()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1481.4803339999926
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources show z.email()."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-tw4-import",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@import \"tailwindcss\";",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        48687.78441600001
+      ],
+      "errors": [],
+      "why": "Exact match and cited sources confirm."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-tq-pending",
+      "kind": "docs",
+      "run": 0,
+      "answer": "pending",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        48661.88579100001
+      ],
+      "errors": [],
+      "why": "Cited results state loading status renamed to pending."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-zustand-shallow",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useShallow (imported from 'zustand/react/shallow')",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        848.8878329999861
+      ],
+      "errors": [],
+      "why": "Matches gold and cited docs show same import."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-pnpm-scripts",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Starting with pnpm 10, dependencies' lifecycle scripts (such as preinstall, install, and postinstall) are not executed during installation by default; they are blocked unless explicitly allowed, e.g. ",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        841.4446250000037
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and is directly supported."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-vite7-node",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js 20.19+ or 22.12+",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        729.5467919999792
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited sources."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-gha-timeout",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 hours",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1123.2947920000006
+      ],
+      "errors": [],
+      "why": "Both state 6 hours; cited docs confirm."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-gha-matrix",
+      "kind": "docs",
+      "run": 0,
+      "answer": "256 jobs per workflow run",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        948.6435840000049
+      ],
+      "errors": [],
+      "why": "Candidate matches documented limit."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-git-rerere",
+      "kind": "docs",
+      "run": 0,
+      "answer": "rerere.enabled true",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        849.7847500000207
+      ],
+      "errors": [],
+      "why": "Candidate matches setting and value; sources confirm it."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-uv-pep",
+      "kind": "docs",
+      "run": 0,
+      "answer": "PEP 723",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        765.0969590000168
+      ],
+      "errors": [],
+      "why": "Both answer PEP 723; sources confirm it."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-rust-2024",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Rust 1.85.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        48636.409125000006
+      ],
+      "errors": [],
+      "why": "1.85.0 matches gold and cited official result confirms."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-go-iter",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Go 1.23",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        48695.35725
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; sources state Go 1.23."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-fresh-rn",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "0.88.0",
+      "correct": false,
+      "grounded": true,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        1553.640458000009
+      ],
+      "errors": [],
+      "why": "0.88.0 differs from gold 0.88.1; cited table supports 0.88.0."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-fresh-vite",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "8.3.6",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        860.3635409999988
+      ],
+      "errors": [],
+      "why": "Both sources state latest version 8.3.6."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-fresh-eslint",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "v10.14.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1015.1993339999754
+      ],
+      "errors": [],
+      "why": "Matches latest version cited"
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-fresh-zod",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        972.7843749999884
+      ],
+      "errors": [],
+      "why": "UNKNOWN is never correct and not grounded"
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-next-params",
+      "kind": "docs",
+      "run": 0,
+      "answer": "In Next.js 15+, `params` is passed as a Promise; you must `await` it before reading its fields.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2215.985667
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited result supports it."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-next-cachecomp",
+      "kind": "docs",
+      "run": 0,
+      "answer": "cacheComponents",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2753.833542
+      ],
+      "errors": [],
+      "why": "Option name matches; true value implied."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-next-bundler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Turbopack",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2985.9924579999997
+      ],
+      "errors": [],
+      "why": "Both match; cited results confirm Turbopack default."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-next-dynamic",
+      "kind": "docs",
+      "run": 0,
+      "answer": "export const dynamic = \"force-dynamic\"",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4422.022875000001
+      ],
+      "errors": [],
+      "why": "Same export; cited result directly shows it."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-react-actionstate",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useActionState",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2152.806042
+      ],
+      "errors": [],
+      "why": "Matches gold and cited sources confirm replacement"
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-react-compiler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "babel-plugin-react-compiler",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3461.4071250000006
+      ],
+      "errors": [],
+      "why": "Exact match; npm result confirms package name."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-rn-fabric",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Fabric (new renderer) and TurboModules (new native module system)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1769.544749999999
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results mention Fabric and TurboModules."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-expo-fingerprint",
+      "kind": "docs",
+      "run": 0,
+      "answer": "fingerprint",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1809.0192499999994
+      ],
+      "errors": [],
+      "why": "Cited result directly names fingerprint policy."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-expo-html",
+      "kind": "docs",
+      "run": 0,
+      "answer": "src/app/+html.tsx",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2419.92325
+      ],
+      "errors": [],
+      "why": "Same +html.tsx filename; cited source supports src/app path"
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-expo-video",
+      "kind": "docs",
+      "run": 0,
+      "answer": "expo-video",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1782.3483330000017
+      ],
+      "errors": [],
+      "why": "Sources state expo-video replaces expo-av video playback."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-bun-routes",
+      "kind": "docs",
+      "run": 0,
+      "answer": "routes",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3785.4379169999993
+      ],
+      "errors": [],
+      "why": "Cited results state routes option/property."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-bun-sql",
+      "kind": "docs",
+      "run": 0,
+      "answer": "import { sql } from \"bun\";",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2512.4682500000017
+      ],
+      "errors": [],
+      "why": "Matches gold and cited result."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-ts-erasable",
+      "kind": "docs",
+      "run": 0,
+      "answer": "--erasableSyntaxOnly",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3466.2659170000006
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited results confirm flag."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-node-strip",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js v23.6.0 (later also enabled by default in v22.18.0 LTS)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2793.314040999998
+      ],
+      "errors": [],
+      "why": "Cited sources confirm both versions' unflagged default."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-node-envfile",
+      "kind": "docs",
+      "run": 0,
+      "answer": "20.6.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2305.1926249999997
+      ],
+      "errors": [],
+      "why": "Cited results state Node.js 20.6.0 added .env support."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-node-sqlite",
+      "kind": "docs",
+      "run": 0,
+      "answer": "node:sqlite",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3287.5328329999975
+      ],
+      "errors": [],
+      "why": "Exact match; sources state node:sqlite module."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-pg18-uuid",
+      "kind": "docs",
+      "run": 0,
+      "answer": "uuidv7()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2484.790457999996
+      ],
+      "errors": [],
+      "why": "Exact match; sources cite uuidv7()."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-pg18-io",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The configuration parameter is io_method; its default value is not stated in the search results.",
+      "correct": false,
+      "grounded": true,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        2044.2224590000005
+      ],
+      "errors": [],
+      "why": "Missing required default value 'worker'."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-drizzle-gen",
+      "kind": "docs",
+      "run": 0,
+      "answer": "drizzle-kit generate",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1894.9617920000019
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; citation confirms command."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-zod-email",
+      "kind": "docs",
+      "run": 0,
+      "answer": "z.email()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1329.9648749999978
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results confirm z.email()."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-tw4-import",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@import \"tailwindcss\";",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2815.7597079999978
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results support it."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-tq-pending",
+      "kind": "docs",
+      "run": 0,
+      "answer": "pending",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1544.354167000005
+      ],
+      "errors": [],
+      "why": "Search results state loading was renamed to pending."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-zustand-shallow",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useShallow",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2623.9086250000037
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs mention useShallow."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-pnpm-scripts",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Dependency lifecycle scripts (e.g., postinstall) are not executed during installation by default; they must be explicitly allowed, for example via pnpm.onlyBuiltDependencies.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4130.061417000004
+      ],
+      "errors": [],
+      "why": "Matches gold and cited sources."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-vite7-node",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Vite 7 requires Node.js 20.19+ or 22.12+.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2209.2768339999966
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited result states it."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-gha-timeout",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 hours",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1866.5638330000002
+      ],
+      "errors": [],
+      "why": "Docs confirm jobs can run up to 6 hours."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-gha-matrix",
+      "kind": "docs",
+      "run": 0,
+      "answer": "256 jobs per workflow run",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2274.1937499999985
+      ],
+      "errors": [],
+      "why": "Cited results state 256 jobs per workflow run."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-git-rerere",
+      "kind": "docs",
+      "run": 0,
+      "answer": "rerere.enabled (git config --global rerere.enabled true)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1884.2641249999942
+      ],
+      "errors": [],
+      "why": "Same setting and command; cited result confirms it."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-uv-pep",
+      "kind": "docs",
+      "run": 0,
+      "answer": "PEP 723",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2024.5896670000002
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and citations confirm PEP 723."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-rust-2024",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Rust 1.85.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4476.686416999997
+      ],
+      "errors": [],
+      "why": "Same release; cited results explicitly confirm."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-go-iter",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Go 1.23",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1882.9358750000029
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and sources confirm Go 1.23."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-fresh-rn",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "0.88.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1833.935375000001
+      ],
+      "errors": [],
+      "why": "Cited npm states latest version 0.88.1"
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-fresh-vite",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "8.3.6",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2327.9222909999953
+      ],
+      "errors": [],
+      "why": "Matches gold and cited npm result."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-fresh-eslint",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "10.14.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1305.8928330000053
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited results confirm version 10.14.0."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-fresh-zod",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "4.6.5",
+      "correct": false,
+      "grounded": true,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        1518.8006250000035
+      ],
+      "errors": [],
+      "why": "Candidate matches cited date, but gold is newer."
+    },
+    {
+      "provider": "jina",
+      "task": "c-next-params",
+      "kind": "docs",
+      "run": 0,
+      "answer": "`params` is a Promise; you must await it before reading its fields.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        20098.533584
+      ],
+      "errors": [],
+      "why": "Matches Promise and await requirement."
+    },
+    {
+      "provider": "jina",
+      "task": "c-next-cachecomp",
+      "kind": "docs",
+      "run": 0,
+      "answer": "cacheComponents",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        14185.035624999999
+      ],
+      "errors": [],
+      "why": "Candidate names the correct next.config option; docs confirm it."
+    },
+    {
+      "provider": "jina",
+      "task": "c-next-bundler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Turbopack",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        22437.444
+      ],
+      "errors": [],
+      "why": "Cited source confirms Turbopack is default bundler."
+    },
+    {
+      "provider": "jina",
+      "task": "c-next-dynamic",
+      "kind": "docs",
+      "run": 0,
+      "answer": "export const dynamic = 'force-dynamic'",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        20301.964292000004
+      ],
+      "errors": [],
+      "why": "Answer matches gold and cited results confirm it."
+    },
+    {
+      "provider": "jina",
+      "task": "c-react-actionstate",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useActionState",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        23419.436916000002
+      ],
+      "errors": [],
+      "why": "Search result states useActionState replaces useFormState."
+    },
+    {
+      "provider": "jina",
+      "task": "c-react-compiler",
+      "kind": "docs",
+      "run": 0,
+      "answer": "babel-plugin-react-compiler",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        12787.392542000001
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited docs show package name."
+    },
+    {
+      "provider": "jina",
+      "task": "c-rn-fabric",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The new renderer is Fabric, and the new native module system is TurboModules (also called Turbo Native Modules).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        19813.292583000002
+      ],
+      "errors": [],
+      "why": "Candidate matches Fabric and TurboModules; sources confirm both."
+    },
+    {
+      "provider": "jina",
+      "task": "c-expo-fingerprint",
+      "kind": "docs",
+      "run": 0,
+      "answer": "fingerprint",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        12402.658875000001
+      ],
+      "errors": [],
+      "why": "Search result mentions fingerprint-based runtime versions."
+    },
+    {
+      "provider": "jina",
+      "task": "c-expo-html",
+      "kind": "docs",
+      "run": 0,
+      "answer": "UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        18970.313625000003
+      ],
+      "errors": [],
+      "why": "UNKNOWN is not correct or supported"
+    },
+    {
+      "provider": "jina",
+      "task": "c-expo-video",
+      "kind": "docs",
+      "run": 0,
+      "answer": "expo-video",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        18157.216499999995
+      ],
+      "errors": [],
+      "why": "Both answers match; sources state expo-video replaces expo-av."
+    },
+    {
+      "provider": "jina",
+      "task": "c-bun-routes",
+      "kind": "docs",
+      "run": 0,
+      "answer": "`routes`",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        17075.977249999996
+      ],
+      "errors": [],
+      "why": "Cited example shows Bun.serve routes option and v1.2.3 note."
+    },
+    {
+      "provider": "jina",
+      "task": "c-bun-sql",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Import it from `\"bun\"`: `import { sql, SQL } from \"bun\";` Then use the `sql` tagged template for PostgreSQL by default, e.g. `await sql`SELECT * FROM users``.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        17285.158959000008
+      ],
+      "errors": [],
+      "why": "Matches import and default PostgreSQL usage."
+    },
+    {
+      "provider": "jina",
+      "task": "c-ts-erasable",
+      "kind": "docs",
+      "run": 0,
+      "answer": "erasableSyntaxOnly",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        19851.779209
+      ],
+      "errors": [],
+      "why": "Cited results identify erasableSyntaxOnly flag and its effect"
+    },
+    {
+      "provider": "jina",
+      "task": "c-node-strip",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Node.js v23.6.0 (and v22.18.0)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        24314.602834000005
+      ],
+      "errors": [],
+      "why": "Docs table confirms both versions."
+    },
+    {
+      "provider": "jina",
+      "task": "c-node-envfile",
+      "kind": "docs",
+      "run": 0,
+      "answer": "20.6.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        10044.465499999991
+      ],
+      "errors": [],
+      "why": "Same version; cited results identify v20.6.0."
+    },
+    {
+      "provider": "jina",
+      "task": "c-node-sqlite",
+      "kind": "docs",
+      "run": 0,
+      "answer": "node:sqlite",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        19661.51275000001
+      ],
+      "errors": [],
+      "why": "Cited Node.js docs state the module is node:sqlite."
+    },
+    {
+      "provider": "jina",
+      "task": "c-pg18-uuid",
+      "kind": "docs",
+      "run": 0,
+      "answer": "uuidv7()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        25459.995417
+      ],
+      "errors": [],
+      "why": "Docs state uuidv7 generates time-ordered UUIDs."
+    },
+    {
+      "provider": "jina",
+      "task": "c-pg18-io",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The I/O method is selected by `io_method`; its default value is `worker`.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        17528.821542000005
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results confirm both."
+    },
+    {
+      "provider": "jina",
+      "task": "c-drizzle-gen",
+      "kind": "docs",
+      "run": 0,
+      "answer": "drizzle-kit generate",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        20012.230500000005
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited docs confirm generate command."
+    },
+    {
+      "provider": "jina",
+      "task": "c-zod-email",
+      "kind": "docs",
+      "run": 0,
+      "answer": "z.email()",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        8975.529249999992
+      ],
+      "errors": [],
+      "why": "Cited results confirm z.email() replaces z.string().email()."
+    },
+    {
+      "provider": "jina",
+      "task": "c-tw4-import",
+      "kind": "docs",
+      "run": 0,
+      "answer": "@import \"tailwindcss\";",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        20103.559624999994
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results confirm it."
+    },
+    {
+      "provider": "jina",
+      "task": "c-tq-pending",
+      "kind": "docs",
+      "run": 0,
+      "answer": "pending",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6114.22104199999
+      ],
+      "errors": [],
+      "why": "Cited text confirms loading renamed to pending."
+    },
+    {
+      "provider": "jina",
+      "task": "c-zustand-shallow",
+      "kind": "docs",
+      "run": 0,
+      "answer": "useShallow",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        26203.995208999986
+      ],
+      "errors": [],
+      "why": "Cited docs recommend useShallow for shallow equality."
+    },
+    {
+      "provider": "jina",
+      "task": "c-pnpm-scripts",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Starting with pnpm 10, dependencies' lifecycle scripts (such as preinstall, install, and postinstall) are blocked/not run by default. They only run if explicitly allowed, e.g. via an allowlist or buil",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        19397.87491699998
+      ],
+      "errors": [],
+      "why": "Both state scripts blocked by default, require approval."
+    },
+    {
+      "provider": "jina",
+      "task": "c-vite7-node",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Vite 7 requires Node.js 18.17.1+ or Node 20+ (Node.js 18 or newer; Node 20+ recommended).",
+      "correct": false,
+      "grounded": true,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        8681.208332999988
+      ],
+      "errors": [],
+      "why": "Candidate conflicts with gold Vite 7 requirements."
+    },
+    {
+      "provider": "jina",
+      "task": "c-gha-timeout",
+      "kind": "docs",
+      "run": 0,
+      "answer": "UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        7572.596958999988
+      ],
+      "errors": [],
+      "why": "UNKNOWN is not the answer and not stated."
+    },
+    {
+      "provider": "jina",
+      "task": "c-gha-matrix",
+      "kind": "docs",
+      "run": 0,
+      "answer": "256 jobs per workflow run",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        11162.085208000004
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited results state 256 jobs per workflow run."
+    },
+    {
+      "provider": "jina",
+      "task": "c-docker-cache",
+      "kind": "docs",
+      "run": 0,
+      "answer": "RUN --mount=type=cache,target=<path>",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        18506.544083999994
+      ],
+      "errors": [],
+      "why": "Matches gold and cited examples show cache mount syntax."
+    },
+    {
+      "provider": "jina",
+      "task": "c-git-rerere",
+      "kind": "docs",
+      "run": 0,
+      "answer": "rerere.enabled true",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        25337.359750000003
+      ],
+      "errors": [],
+      "why": "Search result shows git config rerere.enabled true."
+    },
+    {
+      "provider": "jina",
+      "task": "c-uv-pep",
+      "kind": "docs",
+      "run": 0,
+      "answer": "PEP 723",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        17509.08254199999
+      ],
+      "errors": [],
+      "why": "PEP 723 matches gold and cited sources."
+    },
+    {
+      "provider": "jina",
+      "task": "c-rust-2024",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Rust 1.85.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        17521.58712499999
+      ],
+      "errors": [],
+      "why": "Cited blog states 1.85.0 stabilizes 2024 edition."
+    },
+    {
+      "provider": "jina",
+      "task": "c-go-iter",
+      "kind": "docs",
+      "run": 0,
+      "answer": "Go 1.23",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        13588.374958
+      ],
+      "errors": [],
+      "why": "Sources state range-over-function iterators arrived in Go 1.23."
+    },
+    {
+      "provider": "jina",
+      "task": "c-fresh-rn",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "0.88.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        8960.587040999992
+      ],
+      "errors": [],
+      "why": "Search result states latest version 0.88.1"
+    },
+    {
+      "provider": "jina",
+      "task": "c-fresh-vite",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "8.3.6",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        10141.61037499999
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited result states Latest version 8.3.6."
+    },
+    {
+      "provider": "jina",
+      "task": "c-fresh-eslint",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "10.14.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        16955.965375
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited source."
+    },
+    {
+      "provider": "jina",
+      "task": "c-fresh-zod",
+      "kind": "fresh",
+      "run": 0,
+      "answer": "4.6.7",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        8055.985167000006
+      ],
+      "errors": [],
+      "why": "Candidate version matches gold and is cited."
+    },
+    {
+      "provider": "exa",
+      "task": "c-docker-cache",
+      "kind": "docs",
+      "run": 0,
+      "answer": "RUN --mount=type=cache,target=<path>",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        382.169209
+      ],
+      "errors": [],
+      "why": "Candidate matches cache mount syntax shown in sources."
+    },
+    {
+      "provider": "exa-deep",
+      "task": "c-docker-cache",
+      "kind": "docs",
+      "run": 0,
+      "answer": "RUN --mount=type=cache (e.g., RUN --mount=type=cache,target=/var/cache/apt ...)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4141.932375
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited docs."
+    },
+    {
+      "provider": "parallel",
+      "task": "c-docker-cache",
+      "kind": "docs",
+      "run": 0,
+      "answer": "RUN --mount=type=cache",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1271.709583
+      ],
+      "errors": [],
+      "why": "Search results confirm RUN --mount=type=cache for persistent cache."
+    },
+    {
+      "provider": "parallel-advanced",
+      "task": "c-docker-cache",
+      "kind": "docs",
+      "run": 0,
+      "answer": "--mount=type=cache",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1188.399917
+      ],
+      "errors": [],
+      "why": "Docs confirm --mount=type=cache is the cache flag."
+    },
+    {
+      "provider": "tavily",
+      "task": "c-docker-cache",
+      "kind": "docs",
+      "run": 0,
+      "answer": "RUN --mount=type=cache (e.g., RUN --mount=type=cache,target=/root/.cache/pip)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1081.3717920000001
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results support it."
+    },
+    {
+      "provider": "valyu",
+      "task": "c-docker-cache",
+      "kind": "docs",
+      "run": 0,
+      "answer": "RUN --mount=type=cache",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2321.113167
+      ],
+      "errors": [],
+      "why": "Candidate matches gold; cited sources state it."
+    },
+    {
+      "provider": "context",
+      "task": "c-docker-cache",
+      "kind": "docs",
+      "run": 0,
+      "answer": "RUN --mount=type=cache (with a target= path, e.g. RUN --mount=type=cache,target=/root/.cache/pip)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4744.457542
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results."
+    },
+    {
+      "provider": "you",
+      "task": "c-docker-cache",
+      "kind": "docs",
+      "run": 0,
+      "answer": "RUN --mount=type=cache (e.g. RUN --mount=type=cache,target=/root/.npm ...)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        777.690625
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited results support it."
+    },
+    {
+      "provider": "linkup",
+      "task": "c-docker-cache",
+      "kind": "docs",
+      "run": 0,
+      "answer": "RUN --mount=type=cache,target=<path>",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1125.721417
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited syntax."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "c-docker-cache",
+      "kind": "docs",
+      "run": 0,
+      "answer": "RUN --mount=type=cache",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1128.768417
+      ],
+      "errors": [],
+      "why": "Candidate matches gold and cited result explicitly states it."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "c-docker-cache",
+      "kind": "docs",
+      "run": 0,
+      "answer": "RUN --mount=type=cache",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        799.632
+      ],
+      "errors": [],
+      "why": "Matches gold and cited source confirms flag."
+    }
+  ],
+  "summary": [
+    {
+      "provider": "exa",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 1208,
+      "searches": 36,
+      "errors": 0,
+      "docs": "32/32",
+      "fresh": "4/4"
+    },
+    {
+      "provider": "you",
+      "score": 97.2,
+      "correct": 97.2,
+      "p50ms": 982,
+      "searches": 36,
+      "errors": 0,
+      "docs": "31/32",
+      "fresh": "4/4"
+    },
+    {
+      "provider": "parallel",
+      "score": 97.2,
+      "correct": 97.2,
+      "p50ms": 1538,
+      "searches": 36,
+      "errors": 0,
+      "docs": "31/32",
+      "fresh": "4/4"
+    },
+    {
+      "provider": "linkup",
+      "score": 97.2,
+      "correct": 97.2,
+      "p50ms": 1545,
+      "searches": 36,
+      "errors": 0,
+      "docs": "32/32",
+      "fresh": "3/4"
+    },
+    {
+      "provider": "parallel-advanced",
+      "score": 97.2,
+      "correct": 97.2,
+      "p50ms": 2350,
+      "searches": 36,
+      "errors": 0,
+      "docs": "31/32",
+      "fresh": "4/4"
+    },
+    {
+      "provider": "exa-deep",
+      "score": 97.2,
+      "correct": 97.2,
+      "p50ms": 3286,
+      "searches": 36,
+      "errors": 0,
+      "docs": "31/32",
+      "fresh": "4/4"
+    },
+    {
+      "provider": "context",
+      "score": 97.2,
+      "correct": 97.2,
+      "p50ms": 6335,
+      "searches": 36,
+      "errors": 0,
+      "docs": "31/32",
+      "fresh": "4/4"
+    },
+    {
+      "provider": "firecrawl",
+      "score": 94.4,
+      "correct": 94.4,
+      "p50ms": 934,
+      "searches": 36,
+      "errors": 0,
+      "docs": "32/32",
+      "fresh": "2/4"
+    },
+    {
+      "provider": "tavily",
+      "score": 94.4,
+      "correct": 94.4,
+      "p50ms": 2544,
+      "searches": 36,
+      "errors": 0,
+      "docs": "32/32",
+      "fresh": "2/4"
+    },
+    {
+      "provider": "valyu",
+      "score": 94.4,
+      "correct": 94.4,
+      "p50ms": 4325,
+      "searches": 36,
+      "errors": 0,
+      "docs": "30/32",
+      "fresh": "4/4"
+    },
+    {
+      "provider": "tinyfish",
+      "score": 91.7,
+      "correct": 91.7,
+      "p50ms": 2274,
+      "searches": 36,
+      "errors": 0,
+      "docs": "30/32",
+      "fresh": "3/4"
+    },
+    {
+      "provider": "jina",
+      "score": 91.7,
+      "correct": 91.7,
+      "p50ms": 17529,
+      "searches": 36,
+      "errors": 0,
+      "docs": "29/32",
+      "fresh": "4/4"
+    }
+  ],
+  "note": "c-docker-cache rerun 2026-11-08T05:36Z after gold fix (target=<path> was over-specified); jina keeps its original row (balance exhausted)"
+}

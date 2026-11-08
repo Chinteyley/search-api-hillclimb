@@ -1,0 +1,3963 @@
+{
+  "roundName": "round1",
+  "mode": "single",
+  "runs": 1,
+  "reader": "gpt-5.6-sol",
+  "grader": "gpt-6.1-sol",
+  "rows": [
+    {
+      "provider": "exa",
+      "task": "sqlite-vars",
+      "kind": "docs",
+      "run": 0,
+      "answer": "32766",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        313.534167
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly stated in cited documentation."
+    },
+    {
+      "provider": "exa",
+      "task": "kv-size",
+      "kind": "docs",
+      "run": 0,
+      "answer": "25 MiB (26,214,400 bytes) per value.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        312.038709
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation confirms limit and byte equivalent."
+    },
+    {
+      "provider": "exa",
+      "task": "redis-listpack",
+      "kind": "docs",
+      "run": 0,
+      "answer": "512",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        329.579709
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Redis configurations explicitly state 512."
+    },
+    {
+      "provider": "exa",
+      "task": "node-maxbuffer",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1 MiB (1024 * 1024 bytes).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        244.78720800000065
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated default in cited documentation."
+    },
+    {
+      "provider": "exa",
+      "task": "mysql-maxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "151 connections.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        234.50179200000002
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 151 connections."
+    },
+    {
+      "provider": "exa",
+      "task": "git-gcauto",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6700",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        225.13487500000065
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation explicitly states 6700."
+    },
+    {
+      "provider": "exa",
+      "task": "somaxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4096",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        218.95958400000018
+      ],
+      "errors": [],
+      "why": "Matches gold; both sources explicitly state 4096."
+    },
+    {
+      "provider": "exa",
+      "task": "lambda-payload",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 MB for both the request and response payload of a synchronous AWS Lambda invocation.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        227.60312499999964
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources confirm both payload limits."
+    },
+    {
+      "provider": "exa",
+      "task": "pg-rpc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        210.57225000000108
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state default is 4.0."
+    },
+    {
+      "provider": "exa",
+      "task": "k8s-grace",
+      "kind": "docs",
+      "run": 0,
+      "answer": "30 seconds",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        226.4912919999988
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Kubernetes documentation explicitly confirms 30 seconds."
+    },
+    {
+      "provider": "exa",
+      "task": "icpc-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Astana, Kazakhstan",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        232.85679199999868
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly supported by cited sources."
+    },
+    {
+      "provider": "exa",
+      "task": "zsf-year",
+      "kind": "fact",
+      "run": 0,
+      "answer": "2020",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        220.43954200000007
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state founded in 2020."
+    },
+    {
+      "provider": "exa",
+      "task": "bun-1.0",
+      "kind": "fact",
+      "run": 0,
+      "answer": "September 8, 2023",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        234.56670799999847
+      ],
+      "errors": [],
+      "why": "Exact match; multiple cited sources confirm the release date."
+    },
+    {
+      "provider": "exa",
+      "task": "bun-acq",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Anthropic",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        233.92612500000178
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Anthropic as acquirer."
+    },
+    {
+      "provider": "exa",
+      "task": "astral-ty",
+      "kind": "fact",
+      "run": 0,
+      "answer": "ty",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        608.9752079999998
+      ],
+      "errors": [],
+      "why": "Matches gold name and is explicitly supported by citations."
+    },
+    {
+      "provider": "exa",
+      "task": "kakeya",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Hong Wang",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        229.64104099999895
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources identify Hong Wang as Zahl’s collaborator."
+    },
+    {
+      "provider": "exa",
+      "task": "android16",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Baklava",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        229.65879199999836
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Baklava."
+    },
+    {
+      "provider": "exa",
+      "task": "rust-kernel",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Linux kernel 6.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        220.89958399999887
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm version 6.1."
+    },
+    {
+      "provider": "exa",
+      "task": "willow",
+      "kind": "fact",
+      "run": 0,
+      "answer": "105 qubits",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        224.12991700000202
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Google sources explicitly state 105 qubits."
+    },
+    {
+      "provider": "exa",
+      "task": "redis8-license",
+      "kind": "fact",
+      "run": 0,
+      "answer": "GNU Affero General Public License v3 (AGPLv3)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        316.114540999999
+      ],
+      "errors": [],
+      "why": "Exact license match, explicitly supported by cited Redis sources."
+    },
+    {
+      "provider": "exa",
+      "task": "pingora",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Pingora",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        211.64929199999824
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Pingora."
+    },
+    {
+      "provider": "exa",
+      "task": "nystrom",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Dart",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        265.49433300000237
+      ],
+      "errors": [],
+      "why": "Dart matches gold and is explicitly stated in sources."
+    },
+    {
+      "provider": "exa",
+      "task": "hipp-vcs",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Fossil",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        214.22862500000338
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Fossil."
+    },
+    {
+      "provider": "exa",
+      "task": "techo-icao",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        231.19004100000166
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify ICAO code VDTI."
+    },
+    {
+      "provider": "parallel",
+      "task": "sqlite-vars",
+      "kind": "docs",
+      "run": 0,
+      "answer": "32766",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1227.229542
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly stated in SQLite documentation."
+    },
+    {
+      "provider": "parallel",
+      "task": "kv-size",
+      "kind": "docs",
+      "run": 0,
+      "answer": "25 MiB per value.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1244.025542
+      ],
+      "errors": [],
+      "why": "Matches gold; cited limits explicitly state 25 MiB per value."
+    },
+    {
+      "provider": "parallel",
+      "task": "redis-listpack",
+      "kind": "docs",
+      "run": 0,
+      "answer": "512",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1229.3180419999999
+      ],
+      "errors": [],
+      "why": "Matches gold; Redis documentation explicitly lists default as 512."
+    },
+    {
+      "provider": "parallel",
+      "task": "node-maxbuffer",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The current default is 1024 * 1024 bytes (1 MiB) for stdout or stderr. Older Node.js versions used 200 * 1024 bytes (200 KiB).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1015.9562500000002
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation supports current and historical defaults."
+    },
+    {
+      "provider": "parallel",
+      "task": "mysql-maxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "151",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1197.935625
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly state default is 151."
+    },
+    {
+      "provider": "parallel",
+      "task": "git-gcauto",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6700",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1206.875833
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation explicitly states 6700."
+    },
+    {
+      "provider": "parallel",
+      "task": "somaxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4096",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1327.680124999999
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation confirms 4096 since Linux 5.4."
+    },
+    {
+      "provider": "parallel",
+      "task": "lambda-payload",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 MB each for the request and response in a synchronous invocation. Streamed synchronous responses can be up to 200 MB.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1674.3665839999994
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation supports both limits."
+    },
+    {
+      "provider": "parallel",
+      "task": "pg-rpc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1489.2586250000004
+      ],
+      "errors": [],
+      "why": "Matches gold and documented default of 4.0."
+    },
+    {
+      "provider": "parallel",
+      "task": "k8s-grace",
+      "kind": "docs",
+      "run": 0,
+      "answer": "30 seconds",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1300.3712500000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation explicitly states 30 seconds."
+    },
+    {
+      "provider": "parallel",
+      "task": "icpc-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Astana, Kazakhstan",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        917.9987909999982
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly identify Astana, Kazakhstan."
+    },
+    {
+      "provider": "parallel",
+      "task": "zsf-year",
+      "kind": "fact",
+      "run": 0,
+      "answer": "2020",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1478.236249999998
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state founded in 2020."
+    },
+    {
+      "provider": "parallel",
+      "task": "bun-1.0",
+      "kind": "fact",
+      "run": 0,
+      "answer": "September 8, 2023",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1357.5967500000006
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly confirm the date."
+    },
+    {
+      "provider": "parallel",
+      "task": "bun-acq",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Anthropic",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1238.6510830000007
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Anthropic as acquirer."
+    },
+    {
+      "provider": "parallel",
+      "task": "astral-ty",
+      "kind": "fact",
+      "run": 0,
+      "answer": "ty",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1779.8267919999998
+      ],
+      "errors": [],
+      "why": "ty matches gold and is explicitly named in cited sources."
+    },
+    {
+      "provider": "parallel",
+      "task": "kakeya",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Hong Wang",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1265.6844579999997
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Hong Wang."
+    },
+    {
+      "provider": "parallel",
+      "task": "android16",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Baklava",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1566.1607920000024
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Baklava."
+    },
+    {
+      "provider": "parallel",
+      "task": "rust-kernel",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Linux 6.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1141.8632500000022
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Linux 6.1."
+    },
+    {
+      "provider": "parallel",
+      "task": "willow",
+      "kind": "fact",
+      "run": 0,
+      "answer": "105 qubits",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1232.8115000000034
+      ],
+      "errors": [],
+      "why": "Matches gold; Google's specifications explicitly state 105 qubits."
+    },
+    {
+      "provider": "parallel",
+      "task": "redis8-license",
+      "kind": "fact",
+      "run": 0,
+      "answer": "GNU Affero General Public License v3 (AGPLv3)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1327.2500419999997
+      ],
+      "errors": [],
+      "why": "Exact license match; Redis sources explicitly confirm AGPLv3."
+    },
+    {
+      "provider": "parallel",
+      "task": "pingora",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Pingora",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1447.6550420000058
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources identify the framework as Pingora."
+    },
+    {
+      "provider": "parallel",
+      "task": "nystrom",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Dart",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1567.0373749999999
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Dart."
+    },
+    {
+      "provider": "parallel",
+      "task": "hipp-vcs",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Fossil",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1952.3342090000006
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources identify Fossil as Hipp's creation."
+    },
+    {
+      "provider": "parallel",
+      "task": "techo-icao",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1497.6353330000056
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify ICAO code VDTI."
+    },
+    {
+      "provider": "tavily",
+      "task": "sqlite-vars",
+      "kind": "docs",
+      "run": 0,
+      "answer": "32766",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1049.3537090000002
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly stated in SQLite documentation."
+    },
+    {
+      "provider": "tavily",
+      "task": "kv-size",
+      "kind": "docs",
+      "run": 0,
+      "answer": "25 MiB per value.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1065.893917
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation explicitly states 25 MiB maximum."
+    },
+    {
+      "provider": "tavily",
+      "task": "redis-listpack",
+      "kind": "docs",
+      "run": 0,
+      "answer": "512",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1081.714292
+      ],
+      "errors": [],
+      "why": "Matches gold and Redis documentation explicitly states 512."
+    },
+    {
+      "provider": "tavily",
+      "task": "node-maxbuffer",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1 MiB (1024 × 1024 bytes) in current Node.js versions. Older versions used 200 × 1024 bytes (about 200 KiB).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        274.1404169999996
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation and issue support both defaults."
+    },
+    {
+      "provider": "tavily",
+      "task": "mysql-maxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "151",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        264.56595899999957
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state default is 151."
+    },
+    {
+      "provider": "tavily",
+      "task": "git-gcauto",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6700",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        270.717208
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation explicitly states default is 6700."
+    },
+    {
+      "provider": "tavily",
+      "task": "somaxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4096",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        262.81837500000074
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly confirm 4096 since Linux 5.4."
+    },
+    {
+      "provider": "tavily",
+      "task": "lambda-payload",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 MB each for the request and response of a synchronous invocation. Streamed synchronous responses can be up to 200 MB.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        262.9499589999996
+      ],
+      "errors": [],
+      "why": "Matches gold; cited quotas explicitly support both stated limits."
+    },
+    {
+      "provider": "tavily",
+      "task": "pg-rpc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        269.1519160000007
+      ],
+      "errors": [],
+      "why": "Matches gold; both cited sources explicitly state 4.0."
+    },
+    {
+      "provider": "tavily",
+      "task": "k8s-grace",
+      "kind": "docs",
+      "run": 0,
+      "answer": "30 seconds.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        265.02208300000166
+      ],
+      "errors": [],
+      "why": "Matches gold; both cited sources explicitly state 30 seconds."
+    },
+    {
+      "provider": "tavily",
+      "task": "icpc-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Astana, Kazakhstan",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        264.73099999999977
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm Astana, Kazakhstan."
+    },
+    {
+      "provider": "tavily",
+      "task": "zsf-year",
+      "kind": "fact",
+      "run": 0,
+      "answer": "2020",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        282.0339589999985
+      ],
+      "errors": [],
+      "why": "Matches gold; cited text explicitly states founded in 2020."
+    },
+    {
+      "provider": "tavily",
+      "task": "bun-1.0",
+      "kind": "fact",
+      "run": 0,
+      "answer": "September 8, 2023",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        273.8868340000008
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources explicitly confirm the release date."
+    },
+    {
+      "provider": "tavily",
+      "task": "bun-acq",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Anthropic",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        276.8757079999996
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Anthropic as acquirer."
+    },
+    {
+      "provider": "tavily",
+      "task": "astral-ty",
+      "kind": "fact",
+      "run": 0,
+      "answer": "ty",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        267.6196659999987
+      ],
+      "errors": [],
+      "why": "Matches gold name and is explicitly supported by citations."
+    },
+    {
+      "provider": "tavily",
+      "task": "kakeya",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Hong Wang",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        282.6902919999993
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Hong Wang."
+    },
+    {
+      "provider": "tavily",
+      "task": "android16",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Baklava",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        273.2698750000018
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly confirm Baklava."
+    },
+    {
+      "provider": "tavily",
+      "task": "rust-kernel",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Linux kernel 6.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        269.49012500000026
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Linux 6.1."
+    },
+    {
+      "provider": "tavily",
+      "task": "willow",
+      "kind": "fact",
+      "run": 0,
+      "answer": "105 qubits",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        270.0907079999997
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 105 qubits."
+    },
+    {
+      "provider": "tavily",
+      "task": "redis8-license",
+      "kind": "fact",
+      "run": 0,
+      "answer": "GNU Affero General Public License v3 (AGPLv3)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        264.8156250000029
+      ],
+      "errors": [],
+      "why": "Exact license match, explicitly supported by cited Redis sources."
+    },
+    {
+      "provider": "tavily",
+      "task": "pingora",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Pingora",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        265.36754199999996
+      ],
+      "errors": [],
+      "why": "Pingora matches the gold and is explicitly named in sources."
+    },
+    {
+      "provider": "tavily",
+      "task": "nystrom",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Dart",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        267.38270800000464
+      ],
+      "errors": [],
+      "why": "Matches gold; cited author biography explicitly states Dart."
+    },
+    {
+      "provider": "tavily",
+      "task": "hipp-vcs",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Fossil, a distributed version control system.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        265.48037500000646
+      ],
+      "errors": [],
+      "why": "Fossil matches gold and is explicitly supported by citations."
+    },
+    {
+      "provider": "tavily",
+      "task": "techo-icao",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        262.8231250000026
+      ],
+      "errors": [],
+      "why": "Matches gold and ICAO code explicitly stated in sources."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "sqlite-vars",
+      "kind": "docs",
+      "run": 0,
+      "answer": "32766",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1328.060625
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly supported by cited results."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "kv-size",
+      "kind": "docs",
+      "run": 0,
+      "answer": "25 MiB",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1010.647417
+      ],
+      "errors": [],
+      "why": "Matches gold and cited Workers KV value size limit."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "redis-listpack",
+      "kind": "docs",
+      "run": 0,
+      "answer": "512",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        784.5248339999998
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated Redis 7 default."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "node-maxbuffer",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1 MiB (1024 * 1024 bytes) in Node.js v26.13.0.",
+      "correct": true,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        450.85520799999995
+      ],
+      "errors": [],
+      "why": "Default matches; cited text does not support the version."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "mysql-maxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "151",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        724.2207500000004
+      ],
+      "errors": [],
+      "why": "Matches gold; both cited results explicitly state 151."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "git-gcauto",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6700",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        434.43104200000016
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results state the default is 6700."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "somaxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4096",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        435.54575000000114
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 4096 since Linux 5.4."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "lambda-payload",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 MB each for the request and response of a synchronous AWS Lambda invocation. Streamed synchronous responses can be up to 200 MB.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        436.8614170000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited quotas support both limits."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "pg-rpc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        425.04070800000045
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated in cited results."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "k8s-grace",
+      "kind": "docs",
+      "run": 0,
+      "answer": "30 seconds",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        50399.993540999996
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated in Kubernetes documentation."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "icpc-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Astana, Kazakhstan",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        48660.739333000005
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm Astana, Kazakhstan."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "zsf-year",
+      "kind": "fact",
+      "run": 0,
+      "answer": "2020",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        928.044000000009
+      ],
+      "errors": [],
+      "why": "Matches gold; both cited sources explicitly state 2020."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "bun-1.0",
+      "kind": "fact",
+      "run": 0,
+      "answer": "September 8, 2023",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        770.6936659999919
+      ],
+      "errors": [],
+      "why": "Exact match; both cited sources confirm the release date."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "bun-acq",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Anthropic",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1220.2924170000042
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Anthropic as acquirer."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "astral-ty",
+      "kind": "fact",
+      "run": 0,
+      "answer": "ty",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        962.4165829999984
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources identify Astral's type checker as ty."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "kakeya",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Hong Wang",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1262.9711670000106
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Hong Wang."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "android16",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Baklava",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1211.736625000005
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Baklava."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "rust-kernel",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Linux kernel 6.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        991.8992500000022
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly identify Linux kernel 6.1."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "willow",
+      "kind": "fact",
+      "run": 0,
+      "answer": "105 qubits",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        885.6580419999955
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 105 qubits."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "redis8-license",
+      "kind": "fact",
+      "run": 0,
+      "answer": "GNU Affero General Public License v3 (AGPLv3)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        48844.879166
+      ],
+      "errors": [],
+      "why": "Exact license match, explicitly supported by Redis sources."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "pingora",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Pingora",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        48623.64499999999
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources identify Pingora as Cloudflare's framework."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "nystrom",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Dart",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        928.5635839999886
+      ],
+      "errors": [],
+      "why": "Dart matches gold and is explicitly supported by citations."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "hipp-vcs",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Fossil",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3013.9389580000134
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Hipp interview identifies Fossil as his system."
+    },
+    {
+      "provider": "firecrawl",
+      "task": "techo-icao",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1041.2909999999974
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state ICAO code VDTI."
+    },
+    {
+      "provider": "linkup",
+      "task": "sqlite-vars",
+      "kind": "docs",
+      "run": 0,
+      "answer": "32766",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1977.05875
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly stated in cited results."
+    },
+    {
+      "provider": "linkup",
+      "task": "kv-size",
+      "kind": "docs",
+      "run": 0,
+      "answer": "25 MiB",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1082.160333
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Cloudflare documentation explicitly states 25 MiB."
+    },
+    {
+      "provider": "linkup",
+      "task": "redis-listpack",
+      "kind": "docs",
+      "run": 0,
+      "answer": "512",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        976.906292
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly state default is 512."
+    },
+    {
+      "provider": "linkup",
+      "task": "node-maxbuffer",
+      "kind": "docs",
+      "run": 0,
+      "answer": "In current Node.js, the default maxBuffer is 1024 * 1024 bytes (1 MiB). Older Node.js versions used 200 * 1024 bytes (200 KiB).",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1727.226791
+      ],
+      "errors": [],
+      "why": "Matches gold; citations support current and historical defaults."
+    },
+    {
+      "provider": "linkup",
+      "task": "mysql-maxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "151",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        882.794167
+      ],
+      "errors": [],
+      "why": "Matches gold; both cited sources explicitly state 151."
+    },
+    {
+      "provider": "linkup",
+      "task": "git-gcauto",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6700",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        915.9367500000008
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation explicitly states 6700."
+    },
+    {
+      "provider": "linkup",
+      "task": "somaxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4096",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        865.6303750000006
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly supported by kernel documentation."
+    },
+    {
+      "provider": "linkup",
+      "task": "lambda-payload",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 MB for the request and 6 MB for the response in a synchronous AWS Lambda invocation.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        803.0347919999986
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results confirm 6 MB for each."
+    },
+    {
+      "provider": "linkup",
+      "task": "pg-rpc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        780.5702499999989
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state default is 4.0."
+    },
+    {
+      "provider": "linkup",
+      "task": "k8s-grace",
+      "kind": "docs",
+      "run": 0,
+      "answer": "30 seconds.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        868.5793329999979
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Kubernetes documentation confirms 30 seconds."
+    },
+    {
+      "provider": "linkup",
+      "task": "icpc-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Astana, Kazakhstan",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        772.4567910000005
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Astana, Kazakhstan."
+    },
+    {
+      "provider": "linkup",
+      "task": "zsf-year",
+      "kind": "fact",
+      "run": 0,
+      "answer": "2020",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        757.7857499999991
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state founded in 2020."
+    },
+    {
+      "provider": "linkup",
+      "task": "bun-1.0",
+      "kind": "fact",
+      "run": 0,
+      "answer": "September 8, 2023",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        894.6582499999968
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources confirm the release date."
+    },
+    {
+      "provider": "linkup",
+      "task": "bun-acq",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Anthropic",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        809.4736249999987
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Anthropic as acquirer."
+    },
+    {
+      "provider": "linkup",
+      "task": "astral-ty",
+      "kind": "fact",
+      "run": 0,
+      "answer": "ty",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        783.9350000000013
+      ],
+      "errors": [],
+      "why": "Matches gold; Astral's cited announcement explicitly names ty."
+    },
+    {
+      "provider": "linkup",
+      "task": "kakeya",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Hong Wang",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        982.1678329999995
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly identify Hong Wang."
+    },
+    {
+      "provider": "linkup",
+      "task": "android16",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Baklava",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        849.8501250000008
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Baklava."
+    },
+    {
+      "provider": "linkup",
+      "task": "rust-kernel",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Linux kernel 6.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1614.5445000000036
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm Linux 6.1."
+    },
+    {
+      "provider": "linkup",
+      "task": "willow",
+      "kind": "fact",
+      "run": 0,
+      "answer": "105 qubits",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        869.8396670000002
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 105 qubits."
+    },
+    {
+      "provider": "linkup",
+      "task": "redis8-license",
+      "kind": "fact",
+      "run": 0,
+      "answer": "GNU Affero General Public License v3 (AGPLv3)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1568.7338329999984
+      ],
+      "errors": [],
+      "why": "Exact license match; explicitly supported by cited Redis documentation."
+    },
+    {
+      "provider": "linkup",
+      "task": "pingora",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Pingora",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        985.7618749999965
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources identify Cloudflare's framework as Pingora."
+    },
+    {
+      "provider": "linkup",
+      "task": "nystrom",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Dart",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        851.8482500000027
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Dart."
+    },
+    {
+      "provider": "linkup",
+      "task": "hipp-vcs",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Fossil",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        800.1153330000016
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources identify Hipp as Fossil’s creator."
+    },
+    {
+      "provider": "linkup",
+      "task": "techo-icao",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        830.1550000000061
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly identify ICAO code VDTI."
+    },
+    {
+      "provider": "you",
+      "task": "sqlite-vars",
+      "kind": "docs",
+      "run": 0,
+      "answer": "32766",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        715.2992499999999
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly supported by cited results."
+    },
+    {
+      "provider": "you",
+      "task": "kv-size",
+      "kind": "docs",
+      "run": 0,
+      "answer": "25 MiB per value.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        687.3742080000001
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated value size limit in citations."
+    },
+    {
+      "provider": "you",
+      "task": "redis-listpack",
+      "kind": "docs",
+      "run": 0,
+      "answer": "512",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        713.002292
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Redis documentation explicitly lists 512."
+    },
+    {
+      "provider": "you",
+      "task": "node-maxbuffer",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1 MiB (1,024 × 1,024 bytes) in current Node.js versions; older versions used 200 × 1,024 bytes.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        293.58629199999996
+      ],
+      "errors": [],
+      "why": "Matches gold; citations support current and historical defaults."
+    },
+    {
+      "provider": "you",
+      "task": "mysql-maxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "151",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        290.990417
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state the default is 151."
+    },
+    {
+      "provider": "you",
+      "task": "git-gcauto",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6700",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        306.6317909999998
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Git documentation explicitly states 6700."
+    },
+    {
+      "provider": "you",
+      "task": "somaxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4096",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        292.9226669999989
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly stated in kernel documentation."
+    },
+    {
+      "provider": "you",
+      "task": "lambda-payload",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 MB for the request and 6 MB for the response in a synchronous AWS Lambda invocation.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        291.59400000000096
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results confirm 6 MB for each."
+    },
+    {
+      "provider": "you",
+      "task": "pg-rpc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        258.9215000000004
+      ],
+      "errors": [],
+      "why": "Matches gold; both sources explicitly state default is 4.0."
+    },
+    {
+      "provider": "you",
+      "task": "k8s-grace",
+      "kind": "docs",
+      "run": 0,
+      "answer": "30 seconds",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        314.2798750000002
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 30 seconds."
+    },
+    {
+      "provider": "you",
+      "task": "icpc-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Astana, Kazakhstan",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        254.45258300000023
+      ],
+      "errors": [],
+      "why": "Matches gold; cited official sources confirm Astana, Kazakhstan."
+    },
+    {
+      "provider": "you",
+      "task": "zsf-year",
+      "kind": "fact",
+      "run": 0,
+      "answer": "2020",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        305.75637500000084
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state founded in 2020."
+    },
+    {
+      "provider": "you",
+      "task": "bun-1.0",
+      "kind": "fact",
+      "run": 0,
+      "answer": "September 8, 2023",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        289.5242079999989
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly confirm the date."
+    },
+    {
+      "provider": "you",
+      "task": "bun-acq",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Anthropic",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        287.80712499999936
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Bun announcement explicitly confirms Anthropic acquisition."
+    },
+    {
+      "provider": "you",
+      "task": "astral-ty",
+      "kind": "fact",
+      "run": 0,
+      "answer": "ty",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        294.7955000000002
+      ],
+      "errors": [],
+      "why": "ty matches gold and is explicitly named in sources."
+    },
+    {
+      "provider": "you",
+      "task": "kakeya",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Hong Wang",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        305.8687910000008
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly identify Hong Wang."
+    },
+    {
+      "provider": "you",
+      "task": "android16",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Baklava",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        274.5071250000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly confirm Baklava."
+    },
+    {
+      "provider": "you",
+      "task": "rust-kernel",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Linux kernel 6.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        292.7700420000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Linux 6.1."
+    },
+    {
+      "provider": "you",
+      "task": "willow",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Google's Willow quantum chip has 105 qubits.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        298.2685829999973
+      ],
+      "errors": [],
+      "why": "Matches gold; both cited sources explicitly state 105 qubits."
+    },
+    {
+      "provider": "you",
+      "task": "redis8-license",
+      "kind": "fact",
+      "run": 0,
+      "answer": "GNU Affero General Public License v3 (AGPLv3)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        298.125082999999
+      ],
+      "errors": [],
+      "why": "Exact license match, explicitly supported by Redis’s official licensing page."
+    },
+    {
+      "provider": "you",
+      "task": "pingora",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Pingora",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        300.9132499999978
+      ],
+      "errors": [],
+      "why": "Matches gold; both cited sources explicitly identify Pingora."
+    },
+    {
+      "provider": "you",
+      "task": "nystrom",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Dart",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        294.29299999999785
+      ],
+      "errors": [],
+      "why": "Matches gold; cited author biographies explicitly state Dart."
+    },
+    {
+      "provider": "you",
+      "task": "hipp-vcs",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Fossil",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        298.62837500000023
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Fossil."
+    },
+    {
+      "provider": "you",
+      "task": "techo-icao",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        287.94837499999994
+      ],
+      "errors": [],
+      "why": "VDTI matches gold and is explicitly stated in sources."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "sqlite-vars",
+      "kind": "docs",
+      "run": 0,
+      "answer": "32766",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2722.051042
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly supported by cited results."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "kv-size",
+      "kind": "docs",
+      "run": 0,
+      "answer": "25 MB",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        882.1470419999999
+      ],
+      "errors": [],
+      "why": "Same stated limit; citation explicitly supports 25 MB."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "redis-listpack",
+      "kind": "docs",
+      "run": 0,
+      "answer": "512",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        940.470584
+      ],
+      "errors": [],
+      "why": "Matches gold; both cited results state default is 512."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "node-maxbuffer",
+      "kind": "docs",
+      "run": 0,
+      "answer": "200 × 1024 bytes (about 200 KiB)",
+      "correct": false,
+      "grounded": true,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        294.3469580000001
+      ],
+      "errors": [],
+      "why": "Citations support 200 KiB, but gold specifies 1 MiB."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "mysql-maxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        313.66733399999976
+      ],
+      "errors": [],
+      "why": "UNKNOWN differs from 151; no cited evidence."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "git-gcauto",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6700",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        307.2478749999991
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly stated in cited text."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "somaxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4096",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        321.505208999999
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly state 4096."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "lambda-payload",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 MB each for the request and response in a synchronous invocation. Streamed synchronous responses can be up to 200 MB.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        310.5740420000002
+      ],
+      "errors": [],
+      "why": "Matches gold; cited text supports both payload limits."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "pg-rpc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        304.6320419999993
+      ],
+      "errors": [],
+      "why": "UNKNOWN is incorrect; no cited results support it."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "k8s-grace",
+      "kind": "docs",
+      "run": 0,
+      "answer": "30 seconds",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        341.95024999999987
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Kubernetes documentation confirms 30 seconds."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "icpc-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Astana, Kazakhstan",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        265.6174580000006
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited results explicitly confirm Astana, Kazakhstan."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "zsf-year",
+      "kind": "fact",
+      "run": 0,
+      "answer": "2020",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        319.195208000001
+      ],
+      "errors": [],
+      "why": "Matches gold; both cited sources explicitly state 2020."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "bun-1.0",
+      "kind": "fact",
+      "run": 0,
+      "answer": "September 8, 2023",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        331.62420799999745
+      ],
+      "errors": [],
+      "why": "Exact match; cited text explicitly confirms the release date."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "bun-acq",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Anthropic",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        272.36125000000175
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Anthropic as acquirer."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "astral-ty",
+      "kind": "fact",
+      "run": 0,
+      "answer": "ty",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        276.3688340000008
+      ],
+      "errors": [],
+      "why": "ty matches the gold and is explicitly supported by citations."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "kakeya",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Hong Wang",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        329.9123749999999
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Hong Wang."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "android16",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Baklava",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        304.1623749999999
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly confirm Baklava."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "rust-kernel",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Linux kernel 6.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        281.16191700000127
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly identify Linux 6.1."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "willow",
+      "kind": "fact",
+      "run": 0,
+      "answer": "105 qubits",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        275.59591699999874
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly state 105 qubits."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "redis8-license",
+      "kind": "fact",
+      "run": 0,
+      "answer": "GNU Affero General Public License v3 (AGPLv3)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        318.95820800000365
+      ],
+      "errors": [],
+      "why": "AGPLv3 matches gold and is explicitly supported by citations."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "pingora",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Pingora",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        326.82983299999614
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources identify the framework as Pingora."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "nystrom",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Dart",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        326.77004200000374
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Dart."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "hipp-vcs",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Fossil",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        340.89483300000575
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results identify Fossil as SQLite's version control."
+    },
+    {
+      "provider": "tinyfish",
+      "task": "techo-icao",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        260.7006249999977
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state ICAO code VDTI."
+    },
+    {
+      "provider": "valyu",
+      "task": "sqlite-vars",
+      "kind": "docs",
+      "run": 0,
+      "answer": "32766",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1655.933084
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly supported by cited results."
+    },
+    {
+      "provider": "valyu",
+      "task": "kv-size",
+      "kind": "docs",
+      "run": 0,
+      "answer": "25 MiB per value.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1644.362916
+      ],
+      "errors": [],
+      "why": "Matches gold and cited value size limit of 25 MiB."
+    },
+    {
+      "provider": "valyu",
+      "task": "redis-listpack",
+      "kind": "docs",
+      "run": 0,
+      "answer": "512",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1887.977791
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated Redis 7 default."
+    },
+    {
+      "provider": "valyu",
+      "task": "node-maxbuffer",
+      "kind": "docs",
+      "run": 0,
+      "answer": "1 MiB (1 MB) by default in current Node.js versions; older versions used 200 KiB.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        658.6197499999998
+      ],
+      "errors": [],
+      "why": "Matches 1 MiB default; citations support historical 200 KiB."
+    },
+    {
+      "provider": "valyu",
+      "task": "mysql-maxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "151",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        595.6324170000007
+      ],
+      "errors": [],
+      "why": "Matches gold; both sources explicitly state 151."
+    },
+    {
+      "provider": "valyu",
+      "task": "git-gcauto",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6700",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        366.93033300000025
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation explicitly states default is 6700."
+    },
+    {
+      "provider": "valyu",
+      "task": "somaxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4096",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        601.2240829999992
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 4096 since Linux 5.4."
+    },
+    {
+      "provider": "valyu",
+      "task": "lambda-payload",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 MB maximum for both the request and the response of a synchronous AWS Lambda invocation.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        611.5506669999995
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly confirm both payload limits."
+    },
+    {
+      "provider": "valyu",
+      "task": "pg-rpc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        356.5951249999998
+      ],
+      "errors": [],
+      "why": "Matches gold; both sources explicitly state default 4.0."
+    },
+    {
+      "provider": "valyu",
+      "task": "k8s-grace",
+      "kind": "docs",
+      "run": 0,
+      "answer": "30 seconds",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        472.62724999999955
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 30 seconds."
+    },
+    {
+      "provider": "valyu",
+      "task": "icpc-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Astana, Kazakhstan",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        364.591042
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly confirm Astana, Kazakhstan."
+    },
+    {
+      "provider": "valyu",
+      "task": "zsf-year",
+      "kind": "fact",
+      "run": 0,
+      "answer": "2020",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        353.23520799999824
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state founded in 2020."
+    },
+    {
+      "provider": "valyu",
+      "task": "bun-1.0",
+      "kind": "fact",
+      "run": 0,
+      "answer": "September 8, 2023",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        606.0503329999992
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources explicitly confirm the release date."
+    },
+    {
+      "provider": "valyu",
+      "task": "bun-acq",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Anthropic",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        358.7962499999994
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Anthropic as acquirer."
+    },
+    {
+      "provider": "valyu",
+      "task": "astral-ty",
+      "kind": "fact",
+      "run": 0,
+      "answer": "ty",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        386.62225000000035
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Astral sources explicitly identify ty."
+    },
+    {
+      "provider": "valyu",
+      "task": "kakeya",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Hong Wang",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        362.46929100000125
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly identify Hong Wang."
+    },
+    {
+      "provider": "valyu",
+      "task": "android16",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Baklava",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        360.99104199999783
+      ],
+      "errors": [],
+      "why": "Baklava matches gold and is explicitly confirmed by cited sources."
+    },
+    {
+      "provider": "valyu",
+      "task": "rust-kernel",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Linux kernel 6.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        359.20045799999934
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly identify kernel 6.1."
+    },
+    {
+      "provider": "valyu",
+      "task": "willow",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Google's Willow quantum chip has 105 physical qubits.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        374.6532909999987
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly confirm 105 physical qubits."
+    },
+    {
+      "provider": "valyu",
+      "task": "redis8-license",
+      "kind": "fact",
+      "run": 0,
+      "answer": "GNU Affero General Public License v3 (AGPLv3)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        364.45274999999674
+      ],
+      "errors": [],
+      "why": "Exact license match, explicitly supported by Redis licensing documentation."
+    },
+    {
+      "provider": "valyu",
+      "task": "pingora",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Pingora",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        374.4191659999997
+      ],
+      "errors": [],
+      "why": "Pingora matches gold and is explicitly named in cited sources."
+    },
+    {
+      "provider": "valyu",
+      "task": "nystrom",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Dart",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        354.54475000000093
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Dart."
+    },
+    {
+      "provider": "valyu",
+      "task": "hipp-vcs",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Fossil",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        358.1619590000046
+      ],
+      "errors": [],
+      "why": "Matches gold; sources explicitly identify Fossil as Hipp's creation."
+    },
+    {
+      "provider": "valyu",
+      "task": "techo-icao",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        371.93974999999773
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify ICAO code VDTI."
+    },
+    {
+      "provider": "jina",
+      "task": "sqlite-vars",
+      "kind": "docs",
+      "run": 0,
+      "answer": "32,766",
+      "correct": true,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        3251.17025
+      ],
+      "errors": [],
+      "why": "Equivalent number, but cited excerpt does not state the limit."
+    },
+    {
+      "provider": "jina",
+      "task": "kv-size",
+      "kind": "docs",
+      "run": 0,
+      "answer": "UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        2842.56125
+      ],
+      "errors": [],
+      "why": "UNKNOWN is incorrect; no supporting citations provided."
+    },
+    {
+      "provider": "jina",
+      "task": "redis-listpack",
+      "kind": "docs",
+      "run": 0,
+      "answer": "512",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5553.590292
+      ],
+      "errors": [],
+      "why": "Matches gold; cited configuration explicitly lists 512."
+    },
+    {
+      "provider": "jina",
+      "task": "node-maxbuffer",
+      "kind": "docs",
+      "run": 0,
+      "answer": "UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        51.86204100000032
+      ],
+      "errors": [
+        "Error: HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang"
+      ],
+      "why": "UNKNOWN is incorrect; no cited results support it."
+    },
+    {
+      "provider": "jina",
+      "task": "mysql-maxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        3486.8307910000003
+      ],
+      "errors": [],
+      "why": "UNKNOWN is incorrect; no cited results support it."
+    },
+    {
+      "provider": "jina",
+      "task": "git-gcauto",
+      "kind": "docs",
+      "run": 0,
+      "answer": "UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        2530.5624590000007
+      ],
+      "errors": [],
+      "why": "UNKNOWN is incorrect; no cited results support it."
+    },
+    {
+      "provider": "jina",
+      "task": "somaxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4096",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        1952.856334
+      ],
+      "errors": [],
+      "why": "Matches gold; cited text explicitly states 4096 since Linux 5.4."
+    },
+    {
+      "provider": "jina",
+      "task": "lambda-payload",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 MB for both request and response payloads in a synchronous AWS Lambda invocation.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4100.983292000001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly confirm both payload limits."
+    },
+    {
+      "provider": "jina",
+      "task": "pg-rpc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "PostgreSQL's default random_page_cost is 4.0.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2936.916374999997
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state default is 4.0."
+    },
+    {
+      "provider": "jina",
+      "task": "k8s-grace",
+      "kind": "docs",
+      "run": 0,
+      "answer": "30 seconds",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2877.80775
+      ],
+      "errors": [],
+      "why": "Matches gold; cited text explicitly states 30-second default."
+    },
+    {
+      "provider": "jina",
+      "task": "icpc-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Astana, Kazakhstan",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7855.728541999997
+      ],
+      "errors": [],
+      "why": "Exact gold match; official ICPC history confirms Astana, Kazakhstan."
+    },
+    {
+      "provider": "jina",
+      "task": "zsf-year",
+      "kind": "fact",
+      "run": 0,
+      "answer": "2020",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5102.471667000002
+      ],
+      "errors": [],
+      "why": "Matches gold; foundation announcement is dated July 11, 2020."
+    },
+    {
+      "provider": "jina",
+      "task": "bun-1.0",
+      "kind": "fact",
+      "run": 0,
+      "answer": "September 7, 2023",
+      "correct": false,
+      "grounded": true,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        2834.567167000001
+      ],
+      "errors": [],
+      "why": "Cited announcement supports September 7; gold specifies September 8."
+    },
+    {
+      "provider": "jina",
+      "task": "bun-acq",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Anthropic",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        20148.077917000002
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Anthropic as acquirer."
+    },
+    {
+      "provider": "jina",
+      "task": "astral-ty",
+      "kind": "fact",
+      "run": 0,
+      "answer": "ty",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2948.7792499999996
+      ],
+      "errors": [],
+      "why": "Matches gold name and is explicitly supported by cited results."
+    },
+    {
+      "provider": "jina",
+      "task": "kakeya",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Hong Wang",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4805.833291999996
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources identify Hong Wang."
+    },
+    {
+      "provider": "jina",
+      "task": "android16",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Baklava",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2416.072124999999
+      ],
+      "errors": [],
+      "why": "Baklava matches the gold and is explicitly supported by sources."
+    },
+    {
+      "provider": "jina",
+      "task": "rust-kernel",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Linux kernel 6.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        4062.286291999997
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources confirm initial Rust support in 6.1."
+    },
+    {
+      "provider": "jina",
+      "task": "willow",
+      "kind": "fact",
+      "run": 0,
+      "answer": "105 qubits",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        16977.528124999997
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state 105 qubits."
+    },
+    {
+      "provider": "jina",
+      "task": "redis8-license",
+      "kind": "fact",
+      "run": 0,
+      "answer": "GNU Affero General Public License v3 (AGPLv3)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6513.701291999998
+      ],
+      "errors": [],
+      "why": "Exact license match, explicitly supported by Redis licensing overview."
+    },
+    {
+      "provider": "jina",
+      "task": "pingora",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Pingora",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5063.980666999996
+      ],
+      "errors": [],
+      "why": "Matches gold; Cloudflare explicitly names its Rust framework Pingora."
+    },
+    {
+      "provider": "jina",
+      "task": "nystrom",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "UNKNOWN",
+      "correct": false,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        4121.898958000005
+      ],
+      "errors": [],
+      "why": "UNKNOWN is incorrect; no cited results support it."
+    },
+    {
+      "provider": "jina",
+      "task": "hipp-vcs",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Fossil",
+      "correct": true,
+      "grounded": false,
+      "score": false,
+      "searches": 1,
+      "searchMs": [
+        3528.706999999995
+      ],
+      "errors": [],
+      "why": "Citation states SQLite uses Fossil, not who created it."
+    },
+    {
+      "provider": "jina",
+      "task": "techo-icao",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        10700.121333000003
+      ],
+      "errors": [],
+      "why": "Exact gold match; cited sources explicitly state ICAO VDTI."
+    },
+    {
+      "provider": "context",
+      "task": "sqlite-vars",
+      "kind": "docs",
+      "run": 0,
+      "answer": "32766",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7174.746292000001
+      ],
+      "errors": [],
+      "why": "Matches gold and is explicitly stated in SQLite documentation."
+    },
+    {
+      "provider": "context",
+      "task": "kv-size",
+      "kind": "docs",
+      "run": 0,
+      "answer": "25 MiB per value.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2182.259249999999
+      ],
+      "errors": [],
+      "why": "Matches gold; cited documentation explicitly states 25 MiB maximum."
+    },
+    {
+      "provider": "context",
+      "task": "redis-listpack",
+      "kind": "docs",
+      "run": 0,
+      "answer": "512",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6762.1473750000005
+      ],
+      "errors": [],
+      "why": "Matches gold; Redis documentation explicitly lists default as 512."
+    },
+    {
+      "provider": "context",
+      "task": "node-maxbuffer",
+      "kind": "docs",
+      "run": 0,
+      "answer": "The current default is 1 MiB (1024 * 1024 bytes) for stdout or stderr. Older Node.js versions used 200 * 1024 bytes.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6418.424708999999
+      ],
+      "errors": [],
+      "why": "Matches gold; citations support current and historical defaults."
+    },
+    {
+      "provider": "context",
+      "task": "mysql-maxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "151 connections",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3471.939916000003
+      ],
+      "errors": [],
+      "why": "Matches gold; cited MySQL documentation confirms 151 connections."
+    },
+    {
+      "provider": "context",
+      "task": "git-gcauto",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6700",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2297.415583000002
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated default in cited documentation."
+    },
+    {
+      "provider": "context",
+      "task": "somaxconn",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4096",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6023.087708000006
+      ],
+      "errors": [],
+      "why": "Matches gold and explicitly stated kernel documentation default."
+    },
+    {
+      "provider": "context",
+      "task": "lambda-payload",
+      "kind": "docs",
+      "run": 0,
+      "answer": "6 MB each for the request and response of a synchronous invocation. Streamed synchronous responses can be up to 200 MB.",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6350.494583000007
+      ],
+      "errors": [],
+      "why": "Matches gold; cited quotas support both payload limits."
+    },
+    {
+      "provider": "context",
+      "task": "pg-rpc",
+      "kind": "docs",
+      "run": 0,
+      "answer": "4.0",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6186.510374999998
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state default is 4.0."
+    },
+    {
+      "provider": "context",
+      "task": "k8s-grace",
+      "kind": "docs",
+      "run": 0,
+      "answer": "30 seconds",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6614.692833000008
+      ],
+      "errors": [],
+      "why": "Matches gold; Kubernetes documentation explicitly states 30 seconds."
+    },
+    {
+      "provider": "context",
+      "task": "icpc-2024",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Astana, Kazakhstan",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3373.5884170000063
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm Astana, Kazakhstan."
+    },
+    {
+      "provider": "context",
+      "task": "zsf-year",
+      "kind": "fact",
+      "run": 0,
+      "answer": "2020",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6369.5542499999865
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly state founded in 2020."
+    },
+    {
+      "provider": "context",
+      "task": "bun-1.0",
+      "kind": "fact",
+      "run": 0,
+      "answer": "September 8, 2023",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        3370.7469580000034
+      ],
+      "errors": [],
+      "why": "Exact match; cited sources explicitly confirm the release date."
+    },
+    {
+      "provider": "context",
+      "task": "bun-acq",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Anthropic",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5874.310415999993
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly confirm Anthropic acquired Bun."
+    },
+    {
+      "provider": "context",
+      "task": "astral-ty",
+      "kind": "fact",
+      "run": 0,
+      "answer": "ty",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6609.457834000001
+      ],
+      "errors": [],
+      "why": "Names ty correctly; cited sources explicitly confirm it."
+    },
+    {
+      "provider": "context",
+      "task": "kakeya",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Hong Wang",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6061.986667000019
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Hong Wang."
+    },
+    {
+      "provider": "context",
+      "task": "android16",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Baklava",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        6009.335250000004
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Baklava."
+    },
+    {
+      "provider": "context",
+      "task": "rust-kernel",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Linux 6.1",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        2262.62612500001
+      ],
+      "errors": [],
+      "why": "Matches gold; cited results explicitly identify Linux 6.1."
+    },
+    {
+      "provider": "context",
+      "task": "willow",
+      "kind": "fact",
+      "run": 0,
+      "answer": "105 qubits",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5823.936042000016
+      ],
+      "errors": [],
+      "why": "Matches gold; cited Google sources explicitly state 105 qubits."
+    },
+    {
+      "provider": "context",
+      "task": "redis8-license",
+      "kind": "fact",
+      "run": 0,
+      "answer": "GNU Affero General Public License v3 (AGPLv3)",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        8459.58395900001
+      ],
+      "errors": [],
+      "why": "Matches gold; Redis licensing documentation explicitly confirms AGPLv3."
+    },
+    {
+      "provider": "context",
+      "task": "pingora",
+      "kind": "fact",
+      "run": 0,
+      "answer": "Pingora",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7324.319083000009
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly name Pingora."
+    },
+    {
+      "provider": "context",
+      "task": "nystrom",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Dart",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7012.510666999995
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Dart."
+    },
+    {
+      "provider": "context",
+      "task": "hipp-vcs",
+      "kind": "multihop",
+      "run": 0,
+      "answer": "Fossil",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        5411.655791999976
+      ],
+      "errors": [],
+      "why": "Matches gold; cited sources explicitly identify Fossil."
+    },
+    {
+      "provider": "context",
+      "task": "techo-icao",
+      "kind": "fact",
+      "run": 0,
+      "answer": "VDTI",
+      "correct": true,
+      "grounded": true,
+      "score": true,
+      "searches": 1,
+      "searchMs": [
+        7165.423249999993
+      ],
+      "errors": [],
+      "why": "VDTI matches gold and is explicitly supported by cited results."
+    }
+  ],
+  "summary": [
+    {
+      "provider": "exa",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 231,
+      "searches": 24,
+      "errors": 0,
+      "docs": "10/10",
+      "fact": "12/12",
+      "multihop": "2/2"
+    },
+    {
+      "provider": "tavily",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 269,
+      "searches": 24,
+      "errors": 0,
+      "docs": "10/10",
+      "fact": "12/12",
+      "multihop": "2/2"
+    },
+    {
+      "provider": "you",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 295,
+      "searches": 24,
+      "errors": 0,
+      "docs": "10/10",
+      "fact": "12/12",
+      "multihop": "2/2"
+    },
+    {
+      "provider": "valyu",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 374,
+      "searches": 24,
+      "errors": 0,
+      "docs": "10/10",
+      "fact": "12/12",
+      "multihop": "2/2"
+    },
+    {
+      "provider": "linkup",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 870,
+      "searches": 24,
+      "errors": 0,
+      "docs": "10/10",
+      "fact": "12/12",
+      "multihop": "2/2"
+    },
+    {
+      "provider": "parallel",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 1327,
+      "searches": 24,
+      "errors": 0,
+      "docs": "10/10",
+      "fact": "12/12",
+      "multihop": "2/2"
+    },
+    {
+      "provider": "context",
+      "score": 100,
+      "correct": 100,
+      "p50ms": 6187,
+      "searches": 24,
+      "errors": 0,
+      "docs": "10/10",
+      "fact": "12/12",
+      "multihop": "2/2"
+    },
+    {
+      "provider": "firecrawl",
+      "score": 95.8,
+      "correct": 100,
+      "p50ms": 992,
+      "searches": 24,
+      "errors": 0,
+      "docs": "9/10",
+      "fact": "12/12",
+      "multihop": "2/2"
+    },
+    {
+      "provider": "tinyfish",
+      "score": 87.5,
+      "correct": 87.5,
+      "p50ms": 319,
+      "searches": 24,
+      "errors": 0,
+      "docs": "7/10",
+      "fact": "12/12",
+      "multihop": "2/2"
+    },
+    {
+      "provider": "jina",
+      "score": 66.7,
+      "correct": 75,
+      "p50ms": 4062,
+      "searches": 24,
+      "errors": 1,
+      "docs": "5/10",
+      "fact": "11/12",
+      "multihop": "0/2"
+    }
+  ]
+}
